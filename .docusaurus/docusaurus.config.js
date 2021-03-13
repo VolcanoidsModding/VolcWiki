@@ -1,16 +1,16 @@
 export default {
-  "title": "My Site",
-  "tagline": "The tagline of my site",
+  "title": "Volcanoids Modding Wiki",
+  "tagline": "The Modding Hub for Volcanoids",
   "url": "https://modding.melodicalbuild.me",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "VolcanoidsModding",
-  "projectName": "docusaurus",
+  "projectName": "VolcWiki",
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "Volcanoids Modding Wiki",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
@@ -20,11 +20,6 @@ export default {
           "to": "docs/",
           "activeBasePath": "docs",
           "label": "Docs",
-          "position": "left"
-        },
-        {
-          "to": "blog",
-          "label": "Blog",
           "position": "left"
         },
         {
@@ -82,7 +77,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2021 Volcanoids Modding Wiki"
     },
     "colorMode": {
       "defaultMode": "light",
@@ -110,11 +105,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "D:\\Coding\\VolcWiki\\sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "editUrl": "https://github.com/VolcanoidsModding/VolcWiki"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+          "editUrl": "https://github.com/VolcanoidsModding/VolcWiki"
         },
         "theme": {
           "customCss": "D:\\Coding\\VolcWiki\\src\\css\\custom.css"

@@ -1,17 +1,17 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
+  title: "Volcanoids Modding Wiki",
+  tagline: "The Modding Hub for Volcanoids",
   url: "https://modding.melodicalbuild.me",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "VolcanoidsModding", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  projectName: "VolcWiki", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "My Site",
+      title: "Volcanoids Modding Wiki",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
@@ -23,7 +23,7 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        { to: "blog", label: "Blog", position: "left" },
+        //{ to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
@@ -78,7 +78,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Volcanoids Modding Wiki`,
     },
   },
   presets: [
@@ -89,13 +89,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+            "https://github.com/VolcanoidsModding/VolcWiki",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/VolcanoidsModding/VolcWiki",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
