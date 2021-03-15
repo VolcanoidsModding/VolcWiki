@@ -13,7 +13,7 @@ module.exports = {
     navbar: {
       title: "Volcanoids Modding Wiki",
       logo: {
-        alt: "My Site Logo",
+        alt: "Wiki Logo",
         src: "img/logo.svg",
       },
       items: [
@@ -25,7 +25,7 @@ module.exports = {
         },
         //{ to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/VolcanoidsModding",
           label: "GitHub",
           position: "right",
         },
@@ -52,15 +52,15 @@ module.exports = {
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              href: "https://stackoverflow.com/questions/tagged/volcanoids",
             },
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: "https://discord.gg/volcanoids",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/volcanoids",
             },
           ],
         },
@@ -73,7 +73,7 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/VolcanoidsModding",
             },
           ],
         },

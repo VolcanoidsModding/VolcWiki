@@ -8,32 +8,37 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'For Coders',
+    imageUrl: 'img/undraw_source.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We have docs of information relating to GUIDs and fields that
+        Volcanoids uses for you to base your code off of. There are also
+        a full set of coding guides coming soon!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Who made This',
+    imageUrl: 'img/Combined.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        This combined Wiki of Modding Resources and tools were made by
+        the efforts of the 3 guys above! Top Left is our Coding Expert
+        Greg, Top Right is our Modeling Expert RedDolphin, and the Bottom 
+        is Me, Alex, Who does a lot of the Implementation of Code and Models.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'For Designers',
+    imageUrl: 'img/undraw_sculpting.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        RedDolphin has written some amazing guides for designing that will come soon
+        but for our designers we have ways to retexture anything or change the models
+        of even one part of a module or the drillship so you can design to your hearts
+        content!
       </>
     ),
   },

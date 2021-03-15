@@ -12,7 +12,7 @@ export default {
     "navbar": {
       "title": "Volcanoids Modding Wiki",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Wiki Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -23,7 +23,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/VolcanoidsModding",
           "label": "GitHub",
           "position": "right"
         }
@@ -51,15 +51,15 @@ export default {
           "items": [
             {
               "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "href": "https://stackoverflow.com/questions/tagged/volcanoids"
             },
             {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "href": "https://discord.gg/volcanoids"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "https://twitter.com/volcanoids"
             }
           ]
         },
@@ -72,7 +72,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/VolcanoidsModding"
             }
           ]
         }
