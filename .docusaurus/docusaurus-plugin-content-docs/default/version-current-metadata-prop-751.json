@@ -13,7 +13,7 @@
           {
             "type": "link",
             "label": "Style Guide",
-            "href": "/docs/"
+            "href": "/docs/StyleGuide"
           },
           {
             "type": "link",
@@ -26,25 +26,12 @@
             "href": "/docs/doc3"
           }
         ]
-      },
-      {
-        "collapsed": true,
-        "type": "category",
-        "label": "Features",
-        "items": [
-          {
-            "type": "link",
-            "label": "Powered by MDX",
-            "href": "/docs/mdx"
-          }
-        ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/docs/": "someSidebar",
     "/docs/doc2": "someSidebar",
     "/docs/doc3": "someSidebar",
-    "/docs/mdx": "someSidebar"
+    "/docs/StyleGuide": "someSidebar"
   }
 }

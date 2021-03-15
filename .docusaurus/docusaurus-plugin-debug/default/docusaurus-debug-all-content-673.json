@@ -10,10 +10,10 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebars.js",
-          "docsDirPath": "D:\\Coding\\VolcWiki\\docs",
-          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
-          "mainDocId": "doc1",
+          "sidebarFilePath": "/workspace/VolcWiki/sidebars.js",
+          "docsDirPath": "/workspace/VolcWiki/docs",
+          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "StyleGuide",
           "sidebars": {
             "someSidebar": [
               {
@@ -23,7 +23,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "doc1"
+                    "id": "StyleGuide"
                   },
                   {
                     "type": "doc",
@@ -34,45 +34,15 @@
                     "id": "doc3"
                   }
                 ]
-              },
-              {
-                "collapsed": true,
-                "type": "category",
-                "label": "Features",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "mdx"
-                  }
-                ]
               }
             ]
           },
           "permalinkToSidebar": {
-            "/docs/": "someSidebar",
             "/docs/doc2": "someSidebar",
             "/docs/doc3": "someSidebar",
-            "/docs/mdx": "someSidebar"
+            "/docs/StyleGuide": "someSidebar"
           },
           "docs": [
-            {
-              "unversionedId": "doc1",
-              "id": "doc1",
-              "isDocsHomePage": false,
-              "title": "Style Guide",
-              "description": "You can write content using GitHub-flavored Markdown syntax.",
-              "source": "@site/docs/doc1.md",
-              "slug": "/",
-              "permalink": "/docs/",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/doc1.md",
-              "version": "current",
-              "sidebar_label": "Style Guide",
-              "sidebar": "someSidebar",
-              "next": {
-                "title": "Document Number 2",
-                "permalink": "/docs/doc2"
-              }
-            },
             {
               "unversionedId": "doc2",
               "id": "doc2",
@@ -87,7 +57,7 @@
               "sidebar": "someSidebar",
               "previous": {
                 "title": "Style Guide",
-                "permalink": "/docs/"
+                "permalink": "/docs/StyleGuide"
               },
               "next": {
                 "title": "This is Document Number 3",
@@ -109,27 +79,24 @@
               "previous": {
                 "title": "Document Number 2",
                 "permalink": "/docs/doc2"
-              },
-              "next": {
-                "title": "Powered by MDX",
-                "permalink": "/docs/mdx"
               }
             },
             {
-              "unversionedId": "mdx",
-              "id": "mdx",
+              "unversionedId": "StyleGuide",
+              "id": "StyleGuide",
               "isDocsHomePage": false,
-              "title": "Powered by MDX",
-              "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
-              "source": "@site/docs/interactiveDoc.mdx",
-              "slug": "/mdx",
-              "permalink": "/docs/mdx",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/interactiveDoc.mdx",
+              "title": "Style Guide",
+              "description": "You can write content using GitHub-flavored Markdown syntax.",
+              "source": "@site/docs/StyleGuide.md",
+              "slug": "/StyleGuide",
+              "permalink": "/docs/StyleGuide",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/StyleGuide.md",
               "version": "current",
+              "sidebar_label": "Style Guide",
               "sidebar": "someSidebar",
-              "previous": {
-                "title": "This is Document Number 3",
-                "permalink": "/docs/doc3"
+              "next": {
+                "title": "Document Number 2",
+                "permalink": "/docs/doc2"
               }
             }
           ]
@@ -148,7 +115,7 @@
             "source": "@site/blog/2019-05-30-welcome.md",
             "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
             "date": "2019-05-30T00:00:00.000Z",
-            "formattedDate": "May 29, 2019",
+            "formattedDate": "May 30, 2019",
             "tags": [
               {
                 "label": "facebook",
@@ -180,7 +147,7 @@
             "source": "@site/blog/2019-05-29-hello-world.md",
             "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
             "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
+            "formattedDate": "May 29, 2019",
             "tags": [
               {
                 "label": "hello",
@@ -212,7 +179,7 @@
             "source": "@site/blog/2019-05-28-hola.md",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
             "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 27, 2019",
+            "formattedDate": "May 28, 2019",
             "tags": [
               {
                 "label": "hola",

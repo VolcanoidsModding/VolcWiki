@@ -13,9 +13,5 @@
   "previous": {
     "title": "Document Number 2",
     "permalink": "/docs/doc2"
-  },
-  "next": {
-    "title": "Powered by MDX",
-    "permalink": "/docs/mdx"
   }
 }

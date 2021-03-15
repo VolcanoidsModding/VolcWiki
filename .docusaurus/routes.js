@@ -44,47 +44,47 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','d8f'),
+  component: ComponentCreator('/blog','4b9'),
   exact: true,
 },
 {
   path: '/blog/hello-world',
-  component: ComponentCreator('/blog/hello-world','1d5'),
+  component: ComponentCreator('/blog/hello-world','b8a'),
   exact: true,
 },
 {
   path: '/blog/hola',
-  component: ComponentCreator('/blog/hola','c06'),
+  component: ComponentCreator('/blog/hola','c51'),
   exact: true,
 },
 {
   path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','964'),
+  component: ComponentCreator('/blog/tags','293'),
   exact: true,
 },
 {
   path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','83e'),
+  component: ComponentCreator('/blog/tags/docusaurus','827'),
   exact: true,
 },
 {
   path: '/blog/tags/facebook',
-  component: ComponentCreator('/blog/tags/facebook','378'),
+  component: ComponentCreator('/blog/tags/facebook','aab'),
   exact: true,
 },
 {
   path: '/blog/tags/hello',
-  component: ComponentCreator('/blog/tags/hello','2ea'),
+  component: ComponentCreator('/blog/tags/hello','760'),
   exact: true,
 },
 {
   path: '/blog/tags/hola',
-  component: ComponentCreator('/blog/tags/hola','584'),
+  component: ComponentCreator('/blog/tags/hola','06f'),
   exact: true,
 },
 {
   path: '/blog/welcome',
-  component: ComponentCreator('/blog/welcome','a46'),
+  component: ComponentCreator('/blog/welcome','4de'),
   exact: true,
 },
 {
@@ -94,14 +94,9 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','512'),
+  component: ComponentCreator('/docs','040'),
   
   routes: [
-{
-  path: '/docs/',
-  component: ComponentCreator('/docs/','87d'),
-  exact: true,
-},
 {
   path: '/docs/doc2',
   component: ComponentCreator('/docs/doc2','fd3'),
@@ -113,8 +108,8 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/mdx',
-  component: ComponentCreator('/docs/mdx','398'),
+  path: '/docs/StyleGuide',
+  component: ComponentCreator('/docs/StyleGuide','db2'),
   exact: true,
 },
 ]
