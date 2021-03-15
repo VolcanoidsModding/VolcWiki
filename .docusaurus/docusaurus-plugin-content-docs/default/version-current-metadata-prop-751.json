@@ -92,18 +92,6 @@
             "href": "/docs/QuestOrder"
           }
         ]
-      },
-      {
-        "collapsed": true,
-        "type": "category",
-        "label": "Styling",
-        "items": [
-          {
-            "type": "link",
-            "label": "Style Guide",
-            "href": "/docs/StyleGuide"
-          }
-        ]
       }
     ]
   },
@@ -119,7 +107,6 @@
     "/docs/QuestOrder": "someSidebar",
     "/docs/RecipeIDs": "someSidebar",
     "/docs/RecipeTimes": "someSidebar",
-    "/docs/StationUIText": "someSidebar",
-    "/docs/StyleGuide": "someSidebar"
+    "/docs/StationUIText": "someSidebar"
   }
 }

@@ -72,8 +72,7 @@
             },
             {
               "id": "StyleGuide",
-              "path": "/docs/StyleGuide",
-              "sidebar": "someSidebar"
+              "path": "/docs/StyleGuide"
             }
           ]
         }

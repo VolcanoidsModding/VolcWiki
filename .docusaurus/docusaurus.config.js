@@ -104,7 +104,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/workspace/VolcWiki/sidebars.js",
+          "sidebarPath": "D:\\Coding\\VolcWiki\\sidebars.js",
           "editUrl": "https://github.com/VolcanoidsModding/VolcWiki"
         },
         "blog": {
@@ -112,7 +112,7 @@ export default {
           "editUrl": "https://github.com/VolcanoidsModding/VolcWiki"
         },
         "theme": {
-          "customCss": "/workspace/VolcWiki/src/css/custom.css"
+          "customCss": "D:\\Coding\\VolcWiki\\src\\css\\custom.css"
         }
       }
     ]

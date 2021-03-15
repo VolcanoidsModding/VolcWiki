@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/workspace/VolcWiki/sidebars.js",
-          "docsDirPath": "/workspace/VolcWiki/docs",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebars.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\docs",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "mainDocId": "InstallingMods",
           "sidebars": {
             "someSidebar": [
@@ -91,17 +91,6 @@
                     "id": "QuestOrder"
                   }
                 ]
-              },
-              {
-                "collapsed": true,
-                "type": "category",
-                "label": "Styling",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "StyleGuide"
-                  }
-                ]
               }
             ]
           },
@@ -117,8 +106,7 @@
             "/docs/QuestOrder": "someSidebar",
             "/docs/RecipeIDs": "someSidebar",
             "/docs/RecipeTimes": "someSidebar",
-            "/docs/StationUIText": "someSidebar",
-            "/docs/StyleGuide": "someSidebar"
+            "/docs/StationUIText": "someSidebar"
           },
           "docs": [
             {
@@ -309,10 +297,6 @@
               "previous": {
                 "title": "Recipe Production Times",
                 "permalink": "/docs/RecipeTimes"
-              },
-              "next": {
-                "title": "Style Guide",
-                "permalink": "/docs/StyleGuide"
               }
             },
             {
@@ -392,12 +376,7 @@
               "permalink": "/docs/StyleGuide",
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/StyleGuide.md",
               "version": "current",
-              "sidebar_label": "Style Guide",
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "Quest Order and List",
-                "permalink": "/docs/QuestOrder"
-              }
+              "sidebar_label": "Style Guide"
             }
           ]
         }
@@ -415,7 +394,7 @@
             "source": "@site/blog/2021-03-15-creationGuide.md",
             "description": "Table of Contents are Auto Generated with any field that has at least one # and no more than 3.",
             "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 15, 2021",
+            "formattedDate": "March 14, 2021",
             "tags": [
               {
                 "label": "modding",
@@ -432,7 +411,43 @@
             ],
             "title": "Creation Guide",
             "readingTime": 0.775,
-            "truncated": false
+            "truncated": false,
+            "nextItem": {
+              "title": "Style Guide",
+              "permalink": "/blog/styleguide"
+            }
+          }
+        },
+        {
+          "id": "styleguide",
+          "metadata": {
+            "permalink": "/blog/styleguide",
+            "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blog/2021-03-15-styleGuide.md",
+            "source": "@site/blog/2021-03-15-styleGuide.md",
+            "description": "You can write content using GitHub-flavored Markdown syntax.",
+            "date": "2021-03-15T00:00:00.000Z",
+            "formattedDate": "March 14, 2021",
+            "tags": [
+              {
+                "label": "modding",
+                "permalink": "/blog/tags/modding"
+              },
+              {
+                "label": "styleguide",
+                "permalink": "/blog/tags/styleguide"
+              },
+              {
+                "label": "gearbox",
+                "permalink": "/blog/tags/gearbox"
+              }
+            ],
+            "title": "Style Guide",
+            "readingTime": 3.1,
+            "truncated": false,
+            "prevItem": {
+              "title": "Creation Guide",
+              "permalink": "/blog/creationguide"
+            }
           }
         }
       ],
@@ -443,14 +458,15 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 1,
+            "totalCount": 2,
             "previousPage": null,
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
           "items": [
-            "creationguide"
+            "creationguide",
+            "styleguide"
           ]
         }
       ],
@@ -458,7 +474,8 @@
         "modding": {
           "name": "modding",
           "items": [
-            "creationguide"
+            "creationguide",
+            "styleguide"
           ],
           "permalink": "/blog/tags/modding"
         },
@@ -472,9 +489,17 @@
         "gearbox": {
           "name": "gearbox",
           "items": [
-            "creationguide"
+            "creationguide",
+            "styleguide"
           ],
           "permalink": "/blog/tags/gearbox"
+        },
+        "styleguide": {
+          "name": "styleguide",
+          "items": [
+            "styleguide"
+          ],
+          "permalink": "/blog/tags/styleguide"
         }
       },
       "blogTagsListPath": "/blog/tags"

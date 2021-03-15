@@ -3,7 +3,7 @@
     "allTagsPath": "/blog/tags",
     "slug": "modding",
     "name": "modding",
-    "count": 1,
+    "count": 2,
     "permalink": "/blog/tags/modding"
   },
   "creationguide": {
@@ -17,7 +17,14 @@
     "allTagsPath": "/blog/tags",
     "slug": "gearbox",
     "name": "gearbox",
-    "count": 1,
+    "count": 2,
     "permalink": "/blog/tags/gearbox"
+  },
+  "styleguide": {
+    "allTagsPath": "/blog/tags",
+    "slug": "styleguide",
+    "name": "styleguide",
+    "count": 1,
+    "permalink": "/blog/tags/styleguide"
   }
 }

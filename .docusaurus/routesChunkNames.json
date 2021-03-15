@@ -25,29 +25,37 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-a4a": {
+  "/blog-ee4": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---bloga-7-c-ed2",
+    "sidebar": "sidebar---blog-46-c-a0c",
     "items": [
       {
         "content": "content---blog-390-be7"
+      },
+      {
+        "content": "content---blogcd-5-ed1"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
   },
-  "/blog/creationguide-8fb": {
+  "/blog/creationguide-dc9": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---bloga-7-c-ed2",
-    "content": "content---blog-welcome-915-5fe"
+    "sidebar": "sidebar---blog-46-c-a0c",
+    "content": "content---blog-creationguide-915-cce"
   },
-  "/blog/tags-293": {
+  "/blog/styleguide-1b0": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-46-c-a0c",
+    "content": "content---blog-styleguide-9-de-c1d"
+  },
+  "/blog/tags-964": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "sidebar": "sidebar---bloga-7-c-ed2",
+    "sidebar": "sidebar---blog-46-c-a0c",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/creationguide-217": {
+  "/blog/tags/creationguide-a9a": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---bloga-7-c-ed2",
+    "sidebar": "sidebar---blog-46-c-a0c",
     "items": [
       {
         "content": "content---blog-390-be7"
@@ -55,25 +63,41 @@
     ],
     "metadata": "metadata---blog-tags-creationguideabf-562"
   },
-  "/blog/tags/gearbox-c2d": {
+  "/blog/tags/gearbox-c86": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---bloga-7-c-ed2",
+    "sidebar": "sidebar---blog-46-c-a0c",
     "items": [
       {
         "content": "content---blog-390-be7"
+      },
+      {
+        "content": "content---blogcd-5-ed1"
       }
     ],
     "metadata": "metadata---blog-tags-gearboxd-0-d-1a7"
   },
-  "/blog/tags/modding-6b8": {
+  "/blog/tags/modding-a2a": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---bloga-7-c-ed2",
+    "sidebar": "sidebar---blog-46-c-a0c",
     "items": [
       {
         "content": "content---blog-390-be7"
+      },
+      {
+        "content": "content---blogcd-5-ed1"
       }
     ],
     "metadata": "metadata---blog-tags-moddingc-97-071"
+  },
+  "/blog/tags/styleguide-843": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-46-c-a0c",
+    "items": [
+      {
+        "content": "content---blogcd-5-ed1"
+      }
+    ],
+    "metadata": "metadata---blog-tags-styleguide-90-d-501"
   },
   "/markdown-page-be1": {
     "component": "component---theme-mdx-page-1-f-3-b90",
@@ -125,7 +149,7 @@
   },
   "/docs/RecipeTimes-bc6": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-recipe-production-timesc-63-ce1"
+    "content": "content---docs-recipe-timesc-63-fef"
   },
   "/docs/StationUIText-99c": {
     "component": "component---theme-doc-item-178-a40",
