@@ -21,9 +21,5 @@
   ],
   "title": "Welcome",
   "readingTime": 0.175,
-  "truncated": false,
-  "nextItem": {
-    "title": "Hello",
-    "permalink": "/blog/hello-world"
-  }
+  "truncated": false
 }

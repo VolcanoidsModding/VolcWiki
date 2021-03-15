@@ -1,0 +1,34 @@
+---
+slug: creationguide
+title: Creation Guide
+author: MelodicAlbuild
+author_title: Engine Designer @ Gearbox
+author_url: https://github.com/MelodicAlbuild
+author_image_url: https://avatars3.githubusercontent.com/u/43552157?v=4
+tags: [modding, creationguide, gearbox]
+---
+
+:::info
+Table of Contents are Auto Generated with any field that has at least one # and no more than 3.
+:::
+
+Creating a new Doc is very simple.
+
+## File Creation
+
+- Create a Markdown File for your doc in the docs folder.
+- Paste the Following Header into the markdown file and fill it in:
+```
+---
+id: FILE_ID
+title: DISPLAYED_TITLE
+sidebar_label: DISPLAYED_LABEL
+---
+```
+- In sidebars.js insert your id in single quotes, in the array of the section you want it to display in.
+- Save and push both and your changes will appear in 5-10 minutes on the public site.
+
+## Header Information
+- id, The ID that you paste into the sidebars.js, also the stub in the url after `docs/`
+- title, The Title that appears at the top of your file on the live webpage
+- sidebar_label, The Label that appears in the sidebar of the entire webpage.
