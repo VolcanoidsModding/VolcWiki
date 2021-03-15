@@ -94,17 +94,67 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','040'),
+  component: ComponentCreator('/docs','745'),
   
   routes: [
 {
-  path: '/docs/doc2',
-  component: ComponentCreator('/docs/doc2','fd3'),
+  path: '/docs/',
+  component: ComponentCreator('/docs/','70f'),
   exact: true,
 },
 {
-  path: '/docs/doc3',
-  component: ComponentCreator('/docs/doc3','e02'),
+  path: '/docs/EditingQuests',
+  component: ComponentCreator('/docs/EditingQuests','e09'),
+  exact: true,
+},
+{
+  path: '/docs/GUIDFields',
+  component: ComponentCreator('/docs/GUIDFields','476'),
+  exact: true,
+},
+{
+  path: '/docs/ItemIDs',
+  component: ComponentCreator('/docs/ItemIDs','cf8'),
+  exact: true,
+},
+{
+  path: '/docs/ItemStacks',
+  component: ComponentCreator('/docs/ItemStacks','f8d'),
+  exact: true,
+},
+{
+  path: '/docs/MainDesign',
+  component: ComponentCreator('/docs/MainDesign','cde'),
+  exact: true,
+},
+{
+  path: '/docs/ModList',
+  component: ComponentCreator('/docs/ModList','d95'),
+  exact: true,
+},
+{
+  path: '/docs/ModuleIDs',
+  component: ComponentCreator('/docs/ModuleIDs','47b'),
+  exact: true,
+},
+{
+  path: '/docs/QuestOrder',
+  component: ComponentCreator('/docs/QuestOrder','090'),
+  exact: true,
+},
+{
+  path: '/docs/RecipeIDs',
+  component: ComponentCreator('/docs/RecipeIDs','722'),
+  exact: true,
+},
+{
+  path: '/docs/RecipeTimes',
+  component: ComponentCreator('/docs/RecipeTimes','bc6'),
+  exact: true,
+},
+{
+  path: '/docs/StationUIText',
+  component: ComponentCreator('/docs/StationUIText','99c'),
   exact: true,
 },
 {

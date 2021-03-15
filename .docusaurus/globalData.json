@@ -8,16 +8,66 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "StyleGuide",
+          "mainDocId": "InstallingMods",
           "docs": [
             {
-              "id": "doc2",
-              "path": "/docs/doc2",
+              "id": "EditingQuests",
+              "path": "/docs/EditingQuests",
               "sidebar": "someSidebar"
             },
             {
-              "id": "doc3",
-              "path": "/docs/doc3",
+              "id": "GUIDFields",
+              "path": "/docs/GUIDFields",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "InstallingMods",
+              "path": "/docs/",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "ItemIDs",
+              "path": "/docs/ItemIDs",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "ItemStacks",
+              "path": "/docs/ItemStacks",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "MainDesign",
+              "path": "/docs/MainDesign",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "ModList",
+              "path": "/docs/ModList",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "ModuleIDs",
+              "path": "/docs/ModuleIDs",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "QuestOrder",
+              "path": "/docs/QuestOrder",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "RecipeIDs",
+              "path": "/docs/RecipeIDs",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "RecipeTimes",
+              "path": "/docs/RecipeTimes",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "StationUIText",
+              "path": "/docs/StationUIText",
               "sidebar": "someSidebar"
             },
             {

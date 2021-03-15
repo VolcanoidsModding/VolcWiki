@@ -37,12 +37,16 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Style Guide",
+              "label": "Installing Mods",
               "to": "docs/"
             },
             {
-              "label": "Second Doc",
-              "to": "docs/doc2/"
+              "label": "Coding",
+              "to": "docs/StationUIText/"
+            },
+            {
+              "label": "Designing",
+              "to": "docs/MainDesign/"
             }
           ]
         },

@@ -8,30 +8,118 @@
       {
         "collapsed": true,
         "type": "category",
-        "label": "Docusaurus",
+        "label": "Installation",
+        "items": [
+          {
+            "type": "link",
+            "label": "Installing Mods",
+            "href": "/docs/"
+          },
+          {
+            "type": "link",
+            "label": "Mod List",
+            "href": "/docs/ModList"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Coding",
+        "items": [
+          {
+            "type": "link",
+            "label": "Changing Station UI Text",
+            "href": "/docs/StationUIText"
+          },
+          {
+            "type": "link",
+            "label": "Editing/Creating Quests",
+            "href": "/docs/EditingQuests"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Designers",
+        "items": [
+          {
+            "type": "link",
+            "label": "Artistic Design in Modding",
+            "href": "/docs/MainDesign"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Reference",
+        "items": [
+          {
+            "type": "link",
+            "label": "Item IDs",
+            "href": "/docs/ItemIDs"
+          },
+          {
+            "type": "link",
+            "label": "Module IDs",
+            "href": "/docs/ModuleIDs"
+          },
+          {
+            "type": "link",
+            "label": "Recipe IDs",
+            "href": "/docs/RecipeIDs"
+          },
+          {
+            "type": "link",
+            "label": "GUID Fields (C#)",
+            "href": "/docs/GUIDFields"
+          },
+          {
+            "type": "link",
+            "label": "Item Stack Sizes",
+            "href": "/docs/ItemStacks"
+          },
+          {
+            "type": "link",
+            "label": "Recipe Production Times",
+            "href": "/docs/RecipeTimes"
+          },
+          {
+            "type": "link",
+            "label": "Quest Order and List",
+            "href": "/docs/QuestOrder"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Styling",
         "items": [
           {
             "type": "link",
             "label": "Style Guide",
             "href": "/docs/StyleGuide"
-          },
-          {
-            "type": "link",
-            "label": "Document Number 2",
-            "href": "/docs/doc2"
-          },
-          {
-            "type": "link",
-            "label": "This is Document Number 3",
-            "href": "/docs/doc3"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/docs/doc2": "someSidebar",
-    "/docs/doc3": "someSidebar",
+    "/docs/EditingQuests": "someSidebar",
+    "/docs/GUIDFields": "someSidebar",
+    "/docs/": "someSidebar",
+    "/docs/ItemIDs": "someSidebar",
+    "/docs/ItemStacks": "someSidebar",
+    "/docs/MainDesign": "someSidebar",
+    "/docs/ModList": "someSidebar",
+    "/docs/ModuleIDs": "someSidebar",
+    "/docs/QuestOrder": "someSidebar",
+    "/docs/RecipeIDs": "someSidebar",
+    "/docs/RecipeTimes": "someSidebar",
+    "/docs/StationUIText": "someSidebar",
     "/docs/StyleGuide": "someSidebar"
   }
 }

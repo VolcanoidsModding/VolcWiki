@@ -1,5 +1,9 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['StyleGuide', 'doc2', 'doc3'],
+    Installation: ['InstallingMods', 'ModList'],
+    Coding: ['StationUIText', 'EditingQuests'],
+    Designers: ['MainDesign'],
+    Reference: ['ItemIDs', 'ModuleIDs', 'RecipeIDs', 'GUIDFields', 'ItemStacks', 'RecipeTimes', 'QuestOrder'],
+    Styling: ['StyleGuide'],
   },
 };
