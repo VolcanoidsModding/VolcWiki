@@ -117,11 +117,10 @@ export default {
       {
         "docs": {
           "sidebarPath": "D:\\Coding\\VolcWiki\\sidebars.js",
-          "editUrl": "https://github.com/VolcanoidsModding/VolcWiki"
+          "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/VolcanoidsModding/VolcWiki"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "D:\\Coding\\VolcWiki\\src\\css\\custom.css"
@@ -137,7 +136,7 @@ export default {
         "path": "coding",
         "routeBasePath": "coding",
         "sidebarPath": "D:\\Coding\\VolcWiki\\sidebarsCoding.js",
-        "editUrl": "https://github.com/VolcanoidsModding/VolcWiki"
+        "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main"
       }
     ],
     [
@@ -147,7 +146,7 @@ export default {
         "path": "designing",
         "routeBasePath": "designing",
         "sidebarPath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
-        "editUrl": "https://github.com/VolcanoidsModding/VolcWiki"
+        "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main"
       }
     ]
   ],

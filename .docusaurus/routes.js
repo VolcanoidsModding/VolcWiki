@@ -44,7 +44,7 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','ee4'),
+  component: ComponentCreator('/blog','d1b'),
   exact: true,
 },
 {
@@ -69,12 +69,12 @@ export default [
 },
 {
   path: '/blog/tags/gearbox',
-  component: ComponentCreator('/blog/tags/gearbox','c86'),
+  component: ComponentCreator('/blog/tags/gearbox','0f3'),
   exact: true,
 },
 {
   path: '/blog/tags/modding',
-  component: ComponentCreator('/blog/tags/modding','a2a'),
+  component: ComponentCreator('/blog/tags/modding','bd7'),
   exact: true,
 },
 {

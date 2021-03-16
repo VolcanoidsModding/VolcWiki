@@ -6,8 +6,8 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/docs",
-          "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs",
-          "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs",
+          "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebars.js",
@@ -118,7 +118,7 @@
               "source": "@site/docs/EditingQuests.md",
               "slug": "/EditingQuests",
               "permalink": "/docs/EditingQuests",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/EditingQuests.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/EditingQuests.md",
               "version": "current",
               "sidebar_label": "Editing/Creating Quests",
               "sidebar": "mainSidebar",
@@ -140,7 +140,7 @@
               "source": "@site/docs/GUIDFields.md",
               "slug": "/GUIDFields",
               "permalink": "/docs/GUIDFields",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/GUIDFields.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/GUIDFields.md",
               "version": "current",
               "sidebar_label": "GUID Fields (C#)",
               "sidebar": "mainSidebar",
@@ -162,7 +162,7 @@
               "source": "@site/docs/InstallingMods.md",
               "slug": "/",
               "permalink": "/docs/",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/InstallingMods.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/InstallingMods.md",
               "version": "current",
               "sidebar_label": "Installing Mods",
               "sidebar": "mainSidebar",
@@ -180,7 +180,7 @@
               "source": "@site/docs/ItemIDs.md",
               "slug": "/ItemIDs",
               "permalink": "/docs/ItemIDs",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/ItemIDs.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/ItemIDs.md",
               "version": "current",
               "sidebar_label": "Item IDs",
               "sidebar": "mainSidebar",
@@ -202,7 +202,7 @@
               "source": "@site/docs/ItemStacks.md",
               "slug": "/ItemStacks",
               "permalink": "/docs/ItemStacks",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/ItemStacks.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/ItemStacks.md",
               "version": "current",
               "sidebar_label": "Item Stack Sizes",
               "sidebar": "mainSidebar",
@@ -224,7 +224,7 @@
               "source": "@site/docs/MainDesign.md",
               "slug": "/MainDesign",
               "permalink": "/docs/MainDesign",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/MainDesign.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/MainDesign.md",
               "version": "current",
               "sidebar_label": "Artistic Design in Modding",
               "sidebar": "mainSidebar",
@@ -246,7 +246,7 @@
               "source": "@site/docs/ModList.md",
               "slug": "/ModList",
               "permalink": "/docs/ModList",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/ModList.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/ModList.md",
               "version": "current",
               "sidebar_label": "Mod List",
               "sidebar": "mainSidebar",
@@ -268,7 +268,7 @@
               "source": "@site/docs/ModuleIDs.md",
               "slug": "/ModuleIDs",
               "permalink": "/docs/ModuleIDs",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/ModuleIDs.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/ModuleIDs.md",
               "version": "current",
               "sidebar_label": "Module IDs",
               "sidebar": "mainSidebar",
@@ -290,7 +290,7 @@
               "source": "@site/docs/QuestOrder.md",
               "slug": "/QuestOrder",
               "permalink": "/docs/QuestOrder",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/QuestOrder.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/QuestOrder.md",
               "version": "current",
               "sidebar_label": "Quest Order and List",
               "sidebar": "mainSidebar",
@@ -308,7 +308,7 @@
               "source": "@site/docs/RecipeIDs.md",
               "slug": "/RecipeIDs",
               "permalink": "/docs/RecipeIDs",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/RecipeIDs.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/RecipeIDs.md",
               "version": "current",
               "sidebar_label": "Recipe IDs",
               "sidebar": "mainSidebar",
@@ -330,7 +330,7 @@
               "source": "@site/docs/RecipeProductionTimes.md",
               "slug": "/RecipeTimes",
               "permalink": "/docs/RecipeTimes",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/RecipeProductionTimes.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/RecipeProductionTimes.md",
               "version": "current",
               "sidebar_label": "Recipe Production Times",
               "sidebar": "mainSidebar",
@@ -352,7 +352,7 @@
               "source": "@site/docs/StationUIText.md",
               "slug": "/StationUIText",
               "permalink": "/docs/StationUIText",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/StationUIText.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/StationUIText.md",
               "version": "current",
               "sidebar_label": "Changing Station UI Text",
               "sidebar": "mainSidebar",
@@ -374,7 +374,7 @@
               "source": "@site/docs/StyleGuide.md",
               "slug": "/StyleGuide",
               "permalink": "/docs/StyleGuide",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/StyleGuide.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/StyleGuide.md",
               "version": "current",
               "sidebar_label": "Style Guide"
             }
@@ -388,8 +388,8 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/coding",
-          "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/coding",
-          "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/i18n/en/docusaurus-plugin-content-docs-coding/current",
+          "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding",
+          "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-coding/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsCoding.js",
@@ -422,7 +422,7 @@
               "source": "@site/coding/Master.md",
               "slug": "/",
               "permalink": "/coding/",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/coding/Master.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/Master.md",
               "version": "current",
               "sidebar_label": "Coding Master Page",
               "sidebar": "codingSidebar"
@@ -437,8 +437,8 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/designing",
-          "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/designing",
-          "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/i18n/en/docusaurus-plugin-content-docs-designing/current",
+          "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/designing",
+          "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-designing/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
@@ -471,7 +471,7 @@
               "source": "@site/designing/Master.md",
               "slug": "/",
               "permalink": "/designing/",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/designing/Master.md",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/designing/Master.md",
               "version": "current",
               "sidebar_label": "Designing Master Page",
               "sidebar": "codingSidebar"
@@ -485,42 +485,9 @@
     "default": {
       "blogPosts": [
         {
-          "id": "creationguide",
-          "metadata": {
-            "permalink": "/blog/creationguide",
-            "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blog/2021-03-15-creationGuide.md",
-            "source": "@site/blog/2021-03-15-creationGuide.md",
-            "description": "Table of Contents are Auto Generated with any field that has at least one # and no more than 3.",
-            "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 14, 2021",
-            "tags": [
-              {
-                "label": "modding",
-                "permalink": "/blog/tags/modding"
-              },
-              {
-                "label": "creationguide",
-                "permalink": "/blog/tags/creationguide"
-              },
-              {
-                "label": "gearbox",
-                "permalink": "/blog/tags/gearbox"
-              }
-            ],
-            "title": "Creation Guide",
-            "readingTime": 0.775,
-            "truncated": false,
-            "nextItem": {
-              "title": "Style Guide",
-              "permalink": "/blog/styleguide"
-            }
-          }
-        },
-        {
           "id": "styleguide",
           "metadata": {
             "permalink": "/blog/styleguide",
-            "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blog/2021-03-15-styleGuide.md",
             "source": "@site/blog/2021-03-15-styleGuide.md",
             "description": "You can write content using GitHub-flavored Markdown syntax.",
             "date": "2021-03-15T00:00:00.000Z",
@@ -542,9 +509,40 @@
             "title": "Style Guide",
             "readingTime": 3.1,
             "truncated": false,
-            "prevItem": {
+            "nextItem": {
               "title": "Creation Guide",
               "permalink": "/blog/creationguide"
+            }
+          }
+        },
+        {
+          "id": "creationguide",
+          "metadata": {
+            "permalink": "/blog/creationguide",
+            "source": "@site/blog/2021-03-15-creationGuide.md",
+            "description": "Table of Contents are Auto Generated with any field that has at least one # and no more than 3.",
+            "date": "2021-03-15T00:00:00.000Z",
+            "formattedDate": "March 14, 2021",
+            "tags": [
+              {
+                "label": "modding",
+                "permalink": "/blog/tags/modding"
+              },
+              {
+                "label": "creationguide",
+                "permalink": "/blog/tags/creationguide"
+              },
+              {
+                "label": "gearbox",
+                "permalink": "/blog/tags/gearbox"
+              }
+            ],
+            "title": "Creation Guide",
+            "readingTime": 0.775,
+            "truncated": false,
+            "prevItem": {
+              "title": "Style Guide",
+              "permalink": "/blog/styleguide"
             }
           }
         }
@@ -563,8 +561,8 @@
             "blogTitle": "Blog"
           },
           "items": [
-            "creationguide",
-            "styleguide"
+            "styleguide",
+            "creationguide"
           ]
         }
       ],
@@ -572,25 +570,10 @@
         "modding": {
           "name": "modding",
           "items": [
-            "creationguide",
-            "styleguide"
-          ],
-          "permalink": "/blog/tags/modding"
-        },
-        "creationguide": {
-          "name": "creationguide",
-          "items": [
+            "styleguide",
             "creationguide"
           ],
-          "permalink": "/blog/tags/creationguide"
-        },
-        "gearbox": {
-          "name": "gearbox",
-          "items": [
-            "creationguide",
-            "styleguide"
-          ],
-          "permalink": "/blog/tags/gearbox"
+          "permalink": "/blog/tags/modding"
         },
         "styleguide": {
           "name": "styleguide",
@@ -598,6 +581,21 @@
             "styleguide"
           ],
           "permalink": "/blog/tags/styleguide"
+        },
+        "gearbox": {
+          "name": "gearbox",
+          "items": [
+            "styleguide",
+            "creationguide"
+          ],
+          "permalink": "/blog/tags/gearbox"
+        },
+        "creationguide": {
+          "name": "creationguide",
+          "items": [
+            "creationguide"
+          ],
+          "permalink": "/blog/tags/creationguide"
         }
       },
       "blogTagsListPath": "/blog/tags"

@@ -2,12 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Creation Guide",
-      "permalink": "/blog/creationguide"
-    },
-    {
       "title": "Style Guide",
       "permalink": "/blog/styleguide"
+    },
+    {
+      "title": "Creation Guide",
+      "permalink": "/blog/creationguide"
     }
   ]
 }

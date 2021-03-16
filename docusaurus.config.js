@@ -104,12 +104,11 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/VolcanoidsModding/VolcWiki",
+          editUrl: "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/VolcanoidsModding/VolcWiki",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -125,7 +124,7 @@ module.exports = {
         path: "coding",
         routeBasePath: "coding",
         sidebarPath: require.resolve("./sidebarsCoding.js"),
-        editUrl: "https://github.com/VolcanoidsModding/VolcWiki",
+        editUrl: "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
         // ... other options
       },
     ],
@@ -136,7 +135,7 @@ module.exports = {
         path: "designing",
         routeBasePath: "designing",
         sidebarPath: require.resolve("./sidebarsDesigning.js"),
-        editUrl: "https://github.com/VolcanoidsModding/VolcWiki",
+        editUrl: "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
         // ... other options
       },
     ],

@@ -25,15 +25,15 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-ee4": {
+  "/blog-d1b": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-46-c-a0c",
     "items": [
       {
-        "content": "content---blog-390-be7"
+        "content": "content---blogcd-5-ed1"
       },
       {
-        "content": "content---blogcd-5-ed1"
+        "content": "content---blog-390-be7"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -63,28 +63,28 @@
     ],
     "metadata": "metadata---blog-tags-creationguideabf-562"
   },
-  "/blog/tags/gearbox-c86": {
+  "/blog/tags/gearbox-0f3": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-46-c-a0c",
     "items": [
       {
-        "content": "content---blog-390-be7"
+        "content": "content---blogcd-5-ed1"
       },
       {
-        "content": "content---blogcd-5-ed1"
+        "content": "content---blog-390-be7"
       }
     ],
     "metadata": "metadata---blog-tags-gearboxd-0-d-1a7"
   },
-  "/blog/tags/modding-a2a": {
+  "/blog/tags/modding-bd7": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-46-c-a0c",
     "items": [
       {
-        "content": "content---blog-390-be7"
+        "content": "content---blogcd-5-ed1"
       },
       {
-        "content": "content---blogcd-5-ed1"
+        "content": "content---blog-390-be7"
       }
     ],
     "metadata": "metadata---blog-tags-moddingc-97-071"
