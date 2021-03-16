@@ -1,43 +1,5 @@
 {
   "docusaurus-plugin-content-docs": {
-    "coding": {
-      "path": "/coding",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/coding",
-          "mainDocId": "Master",
-          "docs": [
-            {
-              "id": "Master",
-              "path": "/coding/",
-              "sidebar": "codingSidebar"
-            }
-          ]
-        }
-      ]
-    },
-    "designing": {
-      "path": "/designing",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/designing",
-          "mainDocId": "Master",
-          "docs": [
-            {
-              "id": "Master",
-              "path": "/designing/",
-              "sidebar": "codingSidebar"
-            }
-          ]
-        }
-      ]
-    },
     "default": {
       "path": "/docs",
       "versions": [
@@ -111,6 +73,54 @@
             {
               "id": "StyleGuide",
               "path": "/docs/StyleGuide"
+            }
+          ]
+        }
+      ]
+    },
+    "designing": {
+      "path": "/designing",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/designing",
+          "mainDocId": "Master",
+          "docs": [
+            {
+              "id": "Master",
+              "path": "/designing/",
+              "sidebar": "codingSidebar"
+            }
+          ]
+        }
+      ]
+    },
+    "coding": {
+      "path": "/coding",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/coding",
+          "mainDocId": "Master",
+          "docs": [
+            {
+              "id": "Master",
+              "path": "/coding/",
+              "sidebar": "codingSidebar"
+            },
+            {
+              "id": "officialGuide/Info",
+              "path": "/coding/officialGuide/Info",
+              "sidebar": "officialGuide"
+            },
+            {
+              "id": "officialGuide/RequiredTools",
+              "path": "/coding/officialGuide/RequiredTools",
+              "sidebar": "officialGuide"
             }
           ]
         }

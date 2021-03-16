@@ -408,10 +408,33 @@
                 "label": "Getting Started",
                 "items": []
               }
+            ],
+            "officialGuide": [
+              {
+                "type": "doc",
+                "id": "Master"
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Guide",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "officialGuide/Info"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "officialGuide/RequiredTools"
+                  }
+                ]
+              }
             ]
           },
           "permalinkToSidebar": {
-            "/coding/": "codingSidebar"
+            "/coding/": "codingSidebar",
+            "/coding/officialGuide/Info": "officialGuide",
+            "/coding/officialGuide/RequiredTools": "officialGuide"
           },
           "docs": [
             {
@@ -419,6 +442,7 @@
               "id": "Master",
               "isDocsHomePage": false,
               "title": "Coding Master Page",
+              "description": "Official Modding Guide",
               "source": "@site/coding/Master.md",
               "slug": "/",
               "permalink": "/coding/",
@@ -426,6 +450,46 @@
               "version": "current",
               "sidebar_label": "Coding Master Page",
               "sidebar": "codingSidebar"
+            },
+            {
+              "unversionedId": "officialGuide/Info",
+              "id": "officialGuide/Info",
+              "isDocsHomePage": false,
+              "title": "Info",
+              "description": "Official modding support is planned, including Steam Workshop and tools for authoring content.",
+              "source": "@site/coding/officialGuide/Info.md",
+              "slug": "/officialGuide/Info",
+              "permalink": "/coding/officialGuide/Info",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/officialGuide/Info.md",
+              "version": "current",
+              "sidebar_label": "Info",
+              "sidebar": "officialGuide",
+              "previous": {
+                "title": "Coding Master Page",
+                "permalink": "/coding/"
+              },
+              "next": {
+                "title": "Required Tools",
+                "permalink": "/coding/officialGuide/RequiredTools"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/RequiredTools",
+              "id": "officialGuide/RequiredTools",
+              "isDocsHomePage": false,
+              "title": "Required Tools",
+              "description": "Tools",
+              "source": "@site/coding/officialGuide/RequiredTools.md",
+              "slug": "/officialGuide/RequiredTools",
+              "permalink": "/coding/officialGuide/RequiredTools",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/officialGuide/RequiredTools.md",
+              "version": "current",
+              "sidebar_label": "Required Tools",
+              "sidebar": "officialGuide",
+              "previous": {
+                "title": "Info",
+                "permalink": "/coding/officialGuide/Info"
+              }
             }
           ]
         }
@@ -485,37 +549,6 @@
     "default": {
       "blogPosts": [
         {
-          "id": "styleguide",
-          "metadata": {
-            "permalink": "/blog/styleguide",
-            "source": "@site/blog/2021-03-15-styleGuide.md",
-            "description": "You can write content using GitHub-flavored Markdown syntax.",
-            "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 14, 2021",
-            "tags": [
-              {
-                "label": "modding",
-                "permalink": "/blog/tags/modding"
-              },
-              {
-                "label": "styleguide",
-                "permalink": "/blog/tags/styleguide"
-              },
-              {
-                "label": "gearbox",
-                "permalink": "/blog/tags/gearbox"
-              }
-            ],
-            "title": "Style Guide",
-            "readingTime": 3.1,
-            "truncated": false,
-            "nextItem": {
-              "title": "Creation Guide",
-              "permalink": "/blog/creationguide"
-            }
-          }
-        },
-        {
           "id": "creationguide",
           "metadata": {
             "permalink": "/blog/creationguide",
@@ -540,9 +573,40 @@
             "title": "Creation Guide",
             "readingTime": 0.775,
             "truncated": false,
-            "prevItem": {
+            "nextItem": {
               "title": "Style Guide",
               "permalink": "/blog/styleguide"
+            }
+          }
+        },
+        {
+          "id": "styleguide",
+          "metadata": {
+            "permalink": "/blog/styleguide",
+            "source": "@site/blog/2021-03-15-styleGuide.md",
+            "description": "You can write content using GitHub-flavored Markdown syntax.",
+            "date": "2021-03-15T00:00:00.000Z",
+            "formattedDate": "March 14, 2021",
+            "tags": [
+              {
+                "label": "modding",
+                "permalink": "/blog/tags/modding"
+              },
+              {
+                "label": "styleguide",
+                "permalink": "/blog/tags/styleguide"
+              },
+              {
+                "label": "gearbox",
+                "permalink": "/blog/tags/gearbox"
+              }
+            ],
+            "title": "Style Guide",
+            "readingTime": 3.1,
+            "truncated": false,
+            "prevItem": {
+              "title": "Creation Guide",
+              "permalink": "/blog/creationguide"
             }
           }
         }
@@ -561,8 +625,8 @@
             "blogTitle": "Blog"
           },
           "items": [
-            "styleguide",
-            "creationguide"
+            "creationguide",
+            "styleguide"
           ]
         }
       ],
@@ -570,25 +634,10 @@
         "modding": {
           "name": "modding",
           "items": [
-            "styleguide",
-            "creationguide"
-          ],
-          "permalink": "/blog/tags/modding"
-        },
-        "styleguide": {
-          "name": "styleguide",
-          "items": [
+            "creationguide",
             "styleguide"
           ],
-          "permalink": "/blog/tags/styleguide"
-        },
-        "gearbox": {
-          "name": "gearbox",
-          "items": [
-            "styleguide",
-            "creationguide"
-          ],
-          "permalink": "/blog/tags/gearbox"
+          "permalink": "/blog/tags/modding"
         },
         "creationguide": {
           "name": "creationguide",
@@ -596,6 +645,21 @@
             "creationguide"
           ],
           "permalink": "/blog/tags/creationguide"
+        },
+        "gearbox": {
+          "name": "gearbox",
+          "items": [
+            "creationguide",
+            "styleguide"
+          ],
+          "permalink": "/blog/tags/gearbox"
+        },
+        "styleguide": {
+          "name": "styleguide",
+          "items": [
+            "styleguide"
+          ],
+          "permalink": "/blog/tags/styleguide"
         }
       },
       "blogTagsListPath": "/blog/tags"

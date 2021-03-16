@@ -44,7 +44,7 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','d1b'),
+  component: ComponentCreator('/blog','ee4'),
   exact: true,
 },
 {
@@ -69,12 +69,12 @@ export default [
 },
 {
   path: '/blog/tags/gearbox',
-  component: ComponentCreator('/blog/tags/gearbox','0f3'),
+  component: ComponentCreator('/blog/tags/gearbox','c86'),
   exact: true,
 },
 {
   path: '/blog/tags/modding',
-  component: ComponentCreator('/blog/tags/modding','bd7'),
+  component: ComponentCreator('/blog/tags/modding','a2a'),
   exact: true,
 },
 {
@@ -89,12 +89,22 @@ export default [
 },
 {
   path: '/coding',
-  component: ComponentCreator('/coding','5f1'),
+  component: ComponentCreator('/coding','bfd'),
   
   routes: [
 {
   path: '/coding/',
   component: ComponentCreator('/coding/','7de'),
+  exact: true,
+},
+{
+  path: '/coding/officialGuide/Info',
+  component: ComponentCreator('/coding/officialGuide/Info','0a4'),
+  exact: true,
+},
+{
+  path: '/coding/officialGuide/RequiredTools',
+  component: ComponentCreator('/coding/officialGuide/RequiredTools','7a1'),
   exact: true,
 },
 ]

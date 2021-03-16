@@ -6,12 +6,12 @@
     "count": 2,
     "permalink": "/blog/tags/modding"
   },
-  "styleguide": {
+  "creationguide": {
     "allTagsPath": "/blog/tags",
-    "slug": "styleguide",
-    "name": "styleguide",
+    "slug": "creationguide",
+    "name": "creationguide",
     "count": 1,
-    "permalink": "/blog/tags/styleguide"
+    "permalink": "/blog/tags/creationguide"
   },
   "gearbox": {
     "allTagsPath": "/blog/tags",
@@ -20,11 +20,11 @@
     "count": 2,
     "permalink": "/blog/tags/gearbox"
   },
-  "creationguide": {
+  "styleguide": {
     "allTagsPath": "/blog/tags",
-    "slug": "creationguide",
-    "name": "creationguide",
+    "slug": "styleguide",
+    "name": "styleguide",
     "count": 1,
-    "permalink": "/blog/tags/creationguide"
+    "permalink": "/blog/tags/styleguide"
   }
 }

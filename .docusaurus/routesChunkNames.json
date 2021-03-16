@@ -25,15 +25,15 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-d1b": {
+  "/blog-ee4": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-46-c-a0c",
     "items": [
       {
-        "content": "content---blogcd-5-ed1"
+        "content": "content---blog-390-be7"
       },
       {
-        "content": "content---blog-390-be7"
+        "content": "content---blogcd-5-ed1"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -63,28 +63,28 @@
     ],
     "metadata": "metadata---blog-tags-creationguideabf-562"
   },
-  "/blog/tags/gearbox-0f3": {
+  "/blog/tags/gearbox-c86": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-46-c-a0c",
     "items": [
       {
-        "content": "content---blogcd-5-ed1"
+        "content": "content---blog-390-be7"
       },
       {
-        "content": "content---blog-390-be7"
+        "content": "content---blogcd-5-ed1"
       }
     ],
     "metadata": "metadata---blog-tags-gearboxd-0-d-1a7"
   },
-  "/blog/tags/modding-bd7": {
+  "/blog/tags/modding-a2a": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---blog-46-c-a0c",
     "items": [
       {
-        "content": "content---blogcd-5-ed1"
+        "content": "content---blog-390-be7"
       },
       {
-        "content": "content---blog-390-be7"
+        "content": "content---blogcd-5-ed1"
       }
     ],
     "metadata": "metadata---blog-tags-moddingc-97-071"
@@ -103,13 +103,21 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/coding-5f1": {
+  "/coding-bfd": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---codingc-08-fa0"
   },
   "/coding/-7de": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---coding-872-0a0"
+  },
+  "/coding/officialGuide/Info-0a4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---coding-official-guide-info-721-581"
+  },
+  "/coding/officialGuide/RequiredTools-7a1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---coding-official-guide-required-tools-020-bd6"
   },
   "/designing-6b5": {
     "component": "component---theme-doc-page-1-be-9be",

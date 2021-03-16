@@ -10,4 +10,15 @@ module.exports = {
       items: [],
     },
   ],
+  officialGuide: [
+    {
+      type: "doc",
+      id: "Master",
+    },
+    {
+      type: "category",
+      label: "Guide",
+      items: ['officialGuide/Info', 'officialGuide/RequiredTools']
+    }
+  ],
 };
