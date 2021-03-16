@@ -1,5 +1,5 @@
 module.exports = {
-  someSidebar: {
+  mainSidebar: {
     Installation: ['InstallingMods', 'ModList'],
     Coding: ['StationUIText', 'EditingQuests'],
     Designers: ['MainDesign'],

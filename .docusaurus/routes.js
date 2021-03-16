@@ -88,6 +88,30 @@ export default [
   exact: true,
 },
 {
+  path: '/coding',
+  component: ComponentCreator('/coding','5f1'),
+  
+  routes: [
+{
+  path: '/coding/',
+  component: ComponentCreator('/coding/','7de'),
+  exact: true,
+},
+]
+},
+{
+  path: '/designing',
+  component: ComponentCreator('/designing','6b5'),
+  
+  routes: [
+{
+  path: '/designing/',
+  component: ComponentCreator('/designing/','bfb'),
+  exact: true,
+},
+]
+},
+{
   path: '/docs',
   component: ComponentCreator('/docs','745'),
   

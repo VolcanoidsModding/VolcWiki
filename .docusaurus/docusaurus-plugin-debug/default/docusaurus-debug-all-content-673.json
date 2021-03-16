@@ -15,7 +15,7 @@
           "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "mainDocId": "InstallingMods",
           "sidebars": {
-            "someSidebar": [
+            "mainSidebar": [
               {
                 "collapsed": true,
                 "type": "category",
@@ -95,18 +95,18 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/EditingQuests": "someSidebar",
-            "/docs/GUIDFields": "someSidebar",
-            "/docs/": "someSidebar",
-            "/docs/ItemIDs": "someSidebar",
-            "/docs/ItemStacks": "someSidebar",
-            "/docs/MainDesign": "someSidebar",
-            "/docs/ModList": "someSidebar",
-            "/docs/ModuleIDs": "someSidebar",
-            "/docs/QuestOrder": "someSidebar",
-            "/docs/RecipeIDs": "someSidebar",
-            "/docs/RecipeTimes": "someSidebar",
-            "/docs/StationUIText": "someSidebar"
+            "/docs/EditingQuests": "mainSidebar",
+            "/docs/GUIDFields": "mainSidebar",
+            "/docs/": "mainSidebar",
+            "/docs/ItemIDs": "mainSidebar",
+            "/docs/ItemStacks": "mainSidebar",
+            "/docs/MainDesign": "mainSidebar",
+            "/docs/ModList": "mainSidebar",
+            "/docs/ModuleIDs": "mainSidebar",
+            "/docs/QuestOrder": "mainSidebar",
+            "/docs/RecipeIDs": "mainSidebar",
+            "/docs/RecipeTimes": "mainSidebar",
+            "/docs/StationUIText": "mainSidebar"
           },
           "docs": [
             {
@@ -121,7 +121,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/EditingQuests.md",
               "version": "current",
               "sidebar_label": "Editing/Creating Quests",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "previous": {
                 "title": "Changing Station UI Text",
                 "permalink": "/docs/StationUIText"
@@ -143,7 +143,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/GUIDFields.md",
               "version": "current",
               "sidebar_label": "GUID Fields (C#)",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "previous": {
                 "title": "Recipe IDs",
                 "permalink": "/docs/RecipeIDs"
@@ -165,7 +165,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/InstallingMods.md",
               "version": "current",
               "sidebar_label": "Installing Mods",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "next": {
                 "title": "Mod List",
                 "permalink": "/docs/ModList"
@@ -183,7 +183,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/ItemIDs.md",
               "version": "current",
               "sidebar_label": "Item IDs",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "previous": {
                 "title": "Artistic Design in Modding",
                 "permalink": "/docs/MainDesign"
@@ -205,7 +205,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/ItemStacks.md",
               "version": "current",
               "sidebar_label": "Item Stack Sizes",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "previous": {
                 "title": "GUID Fields (C#)",
                 "permalink": "/docs/GUIDFields"
@@ -227,7 +227,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/MainDesign.md",
               "version": "current",
               "sidebar_label": "Artistic Design in Modding",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "previous": {
                 "title": "Editing/Creating Quests",
                 "permalink": "/docs/EditingQuests"
@@ -249,7 +249,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/ModList.md",
               "version": "current",
               "sidebar_label": "Mod List",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "previous": {
                 "title": "Installing Mods",
                 "permalink": "/docs/"
@@ -271,7 +271,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/ModuleIDs.md",
               "version": "current",
               "sidebar_label": "Module IDs",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "previous": {
                 "title": "Item IDs",
                 "permalink": "/docs/ItemIDs"
@@ -293,7 +293,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/QuestOrder.md",
               "version": "current",
               "sidebar_label": "Quest Order and List",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "previous": {
                 "title": "Recipe Production Times",
                 "permalink": "/docs/RecipeTimes"
@@ -311,7 +311,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/RecipeIDs.md",
               "version": "current",
               "sidebar_label": "Recipe IDs",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "previous": {
                 "title": "Module IDs",
                 "permalink": "/docs/ModuleIDs"
@@ -333,7 +333,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/RecipeProductionTimes.md",
               "version": "current",
               "sidebar_label": "Recipe Production Times",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "previous": {
                 "title": "Item Stack Sizes",
                 "permalink": "/docs/ItemStacks"
@@ -355,7 +355,7 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/StationUIText.md",
               "version": "current",
               "sidebar_label": "Changing Station UI Text",
-              "sidebar": "someSidebar",
+              "sidebar": "mainSidebar",
               "previous": {
                 "title": "Mod List",
                 "permalink": "/docs/ModList"
@@ -377,6 +377,104 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/docs/StyleGuide.md",
               "version": "current",
               "sidebar_label": "Style Guide"
+            }
+          ]
+        }
+      ]
+    },
+    "coding": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/coding",
+          "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/coding",
+          "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/i18n/en/docusaurus-plugin-content-docs-coding/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsCoding.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\coding",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-coding\\current",
+          "mainDocId": "Master",
+          "sidebars": {
+            "codingSidebar": [
+              {
+                "type": "doc",
+                "id": "Master"
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting Started",
+                "items": []
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/coding/": "codingSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "Master",
+              "id": "Master",
+              "isDocsHomePage": false,
+              "title": "Coding Master Page",
+              "source": "@site/coding/Master.md",
+              "slug": "/",
+              "permalink": "/coding/",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/coding/Master.md",
+              "version": "current",
+              "sidebar_label": "Coding Master Page",
+              "sidebar": "codingSidebar"
+            }
+          ]
+        }
+      ]
+    },
+    "designing": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/designing",
+          "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/designing",
+          "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/i18n/en/docusaurus-plugin-content-docs-designing/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\designing",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-designing\\current",
+          "mainDocId": "Master",
+          "sidebars": {
+            "codingSidebar": [
+              {
+                "type": "doc",
+                "id": "Master"
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting Started",
+                "items": []
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/designing/": "codingSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "Master",
+              "id": "Master",
+              "isDocsHomePage": false,
+              "title": "Designing Master Page",
+              "source": "@site/designing/Master.md",
+              "slug": "/",
+              "permalink": "/designing/",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/designing/Master.md",
+              "version": "current",
+              "sidebar_label": "Designing Master Page",
+              "sidebar": "codingSidebar"
             }
           ]
         }

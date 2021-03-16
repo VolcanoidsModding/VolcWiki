@@ -20,7 +20,19 @@ module.exports = {
         {
           to: "docs/",
           activeBasePath: "docs",
-          label: "Docs",
+          label: "Installing Mods",
+          position: "left",
+        },
+        {
+          to: "coding/",
+          activeBasePath: "coding",
+          label: "Coding",
+          position: "left",
+        },
+        {
+          to: "designing/",
+          activeBasePath: "designing",
+          label: "Designing",
           position: "left",
         },
         //{ to: "blog", label: "Blog", position: "left" },
@@ -43,12 +55,12 @@ module.exports = {
             },
             {
               label: "Coding",
-              to: "docs/StationUIText/",
+              to: "coding/",
             },
             {
-                label: "Designing",
-                to: "docs/MainDesign/"
-            }
+              label: "Designing",
+              to: "designing/",
+            },
           ],
         },
         {
@@ -92,18 +104,40 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/VolcanoidsModding/VolcWiki",
+          editUrl: "https://github.com/VolcanoidsModding/VolcWiki",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/VolcanoidsModding/VolcWiki",
+          editUrl: "https://github.com/VolcanoidsModding/VolcWiki",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "coding",
+        path: "coding",
+        routeBasePath: "coding",
+        sidebarPath: require.resolve("./sidebarsCoding.js"),
+        editUrl: "https://github.com/VolcanoidsModding/VolcWiki",
+        // ... other options
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "designing",
+        path: "designing",
+        routeBasePath: "designing",
+        sidebarPath: require.resolve("./sidebarsDesigning.js"),
+        editUrl: "https://github.com/VolcanoidsModding/VolcWiki",
+        // ... other options
       },
     ],
   ],

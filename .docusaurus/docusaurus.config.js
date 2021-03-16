@@ -19,7 +19,19 @@ export default {
         {
           "to": "docs/",
           "activeBasePath": "docs",
-          "label": "Docs",
+          "label": "Installing Mods",
+          "position": "left"
+        },
+        {
+          "to": "coding/",
+          "activeBasePath": "coding",
+          "label": "Coding",
+          "position": "left"
+        },
+        {
+          "to": "designing/",
+          "activeBasePath": "designing",
+          "label": "Designing",
           "position": "left"
         },
         {
@@ -42,11 +54,11 @@ export default {
             },
             {
               "label": "Coding",
-              "to": "docs/StationUIText/"
+              "to": "coding/"
             },
             {
               "label": "Designing",
-              "to": "docs/MainDesign/"
+              "to": "designing/"
             }
           ]
         },
@@ -117,6 +129,28 @@ export default {
       }
     ]
   ],
+  "plugins": [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "coding",
+        "path": "coding",
+        "routeBasePath": "coding",
+        "sidebarPath": "D:\\Coding\\VolcWiki\\sidebarsCoding.js",
+        "editUrl": "https://github.com/VolcanoidsModding/VolcWiki"
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "designing",
+        "path": "designing",
+        "routeBasePath": "designing",
+        "sidebarPath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
+        "editUrl": "https://github.com/VolcanoidsModding/VolcWiki"
+      }
+    ]
+  ],
   "baseUrlIssueBanner": true,
   "i18n": {
     "defaultLocale": "en",
@@ -127,7 +161,6 @@ export default {
   },
   "onDuplicateRoutes": "warn",
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "titleDelimiter": "|",
   "noIndex": false

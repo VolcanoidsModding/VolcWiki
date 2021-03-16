@@ -4,7 +4,7 @@
   "label": "Next",
   "isLast": true,
   "docsSidebars": {
-    "someSidebar": [
+    "mainSidebar": [
       {
         "collapsed": true,
         "type": "category",
@@ -96,17 +96,17 @@
     ]
   },
   "permalinkToSidebar": {
-    "/docs/EditingQuests": "someSidebar",
-    "/docs/GUIDFields": "someSidebar",
-    "/docs/": "someSidebar",
-    "/docs/ItemIDs": "someSidebar",
-    "/docs/ItemStacks": "someSidebar",
-    "/docs/MainDesign": "someSidebar",
-    "/docs/ModList": "someSidebar",
-    "/docs/ModuleIDs": "someSidebar",
-    "/docs/QuestOrder": "someSidebar",
-    "/docs/RecipeIDs": "someSidebar",
-    "/docs/RecipeTimes": "someSidebar",
-    "/docs/StationUIText": "someSidebar"
+    "/docs/EditingQuests": "mainSidebar",
+    "/docs/GUIDFields": "mainSidebar",
+    "/docs/": "mainSidebar",
+    "/docs/ItemIDs": "mainSidebar",
+    "/docs/ItemStacks": "mainSidebar",
+    "/docs/MainDesign": "mainSidebar",
+    "/docs/ModList": "mainSidebar",
+    "/docs/ModuleIDs": "mainSidebar",
+    "/docs/QuestOrder": "mainSidebar",
+    "/docs/RecipeIDs": "mainSidebar",
+    "/docs/RecipeTimes": "mainSidebar",
+    "/docs/StationUIText": "mainSidebar"
   }
 }
