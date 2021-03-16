@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebars.js",
-          "docsDirPath": "D:\\Coding\\VolcWiki\\docs",
-          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "/workspace/VolcWiki/sidebars.js",
+          "docsDirPath": "/workspace/VolcWiki/docs",
+          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "InstallingMods",
           "sidebars": {
             "mainSidebar": [
@@ -392,9 +392,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-coding/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsCoding.js",
-          "docsDirPath": "D:\\Coding\\VolcWiki\\coding",
-          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-coding\\current",
+          "sidebarFilePath": "/workspace/VolcWiki/sidebarsCoding.js",
+          "docsDirPath": "/workspace/VolcWiki/coding",
+          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-coding/current",
           "mainDocId": "Master",
           "sidebars": {
             "codingSidebar": [
@@ -434,6 +434,10 @@
                   {
                     "type": "doc",
                     "id": "officialGuide/BuildRun"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "officialGuide/FirstMod"
                   }
                 ]
               }
@@ -442,6 +446,7 @@
           "permalinkToSidebar": {
             "/coding/": "codingSidebar",
             "/coding/officialGuide/BuildRun": "officialGuide",
+            "/coding/officialGuide/FirstMod": "officialGuide",
             "/coding/officialGuide/Info": "officialGuide",
             "/coding/officialGuide/ProjectSetup": "officialGuide",
             "/coding/officialGuide/RequiredTools": "officialGuide"
@@ -477,6 +482,10 @@
               "previous": {
                 "title": "Project Setup",
                 "permalink": "/coding/officialGuide/ProjectSetup"
+              },
+              "next": {
+                "title": "First Real Mod",
+                "permalink": "/coding/officialGuide/FirstMod"
               }
             },
             {
@@ -484,12 +493,18 @@
               "id": "officialGuide/FirstMod",
               "isDocsHomePage": false,
               "title": "First Real Mod",
+              "description": "Delete Class1.cs from your project",
               "source": "@site/coding/officialGuide/FirstMod.md",
               "slug": "/officialGuide/FirstMod",
               "permalink": "/coding/officialGuide/FirstMod",
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/officialGuide/FirstMod.md",
               "version": "current",
-              "sidebar_label": "First Real Mod"
+              "sidebar_label": "First Real Mod",
+              "sidebar": "officialGuide",
+              "previous": {
+                "title": "Building and Running",
+                "permalink": "/coding/officialGuide/BuildRun"
+              }
             },
             {
               "unversionedId": "officialGuide/Info",
@@ -571,9 +586,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-designing/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
-          "docsDirPath": "D:\\Coding\\VolcWiki\\designing",
-          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-designing\\current",
+          "sidebarFilePath": "/workspace/VolcWiki/sidebarsDesigning.js",
+          "docsDirPath": "/workspace/VolcWiki/designing",
+          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-designing/current",
           "mainDocId": "Master",
           "sidebars": {
             "codingSidebar": [
@@ -621,7 +636,7 @@
             "source": "@site/blog/2021-03-15-creationGuide.md",
             "description": "Table of Contents are Auto Generated with any field that has at least one # and no more than 3.",
             "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 14, 2021",
+            "formattedDate": "March 15, 2021",
             "tags": [
               {
                 "label": "modding",
@@ -652,7 +667,7 @@
             "source": "@site/blog/2021-03-15-styleGuide.md",
             "description": "You can write content using GitHub-flavored Markdown syntax.",
             "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 14, 2021",
+            "formattedDate": "March 15, 2021",
             "tags": [
               {
                 "label": "modding",
