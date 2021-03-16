@@ -6,107 +6,19 @@
   "docsSidebars": {
     "mainSidebar": [
       {
-        "collapsed": true,
-        "type": "category",
-        "label": "Installation",
-        "items": [
-          {
-            "type": "link",
-            "label": "Installing Mods",
-            "href": "/docs/"
-          },
-          {
-            "type": "link",
-            "label": "Mod List",
-            "href": "/docs/ModList"
-          }
-        ]
+        "type": "link",
+        "label": "Installing Mods",
+        "href": "/docs/"
       },
       {
-        "collapsed": true,
-        "type": "category",
-        "label": "Coding",
-        "items": [
-          {
-            "type": "link",
-            "label": "Changing Station UI Text",
-            "href": "/docs/StationUIText"
-          },
-          {
-            "type": "link",
-            "label": "Editing/Creating Quests",
-            "href": "/docs/EditingQuests"
-          }
-        ]
-      },
-      {
-        "collapsed": true,
-        "type": "category",
-        "label": "Designers",
-        "items": [
-          {
-            "type": "link",
-            "label": "Artistic Design in Modding",
-            "href": "/docs/MainDesign"
-          }
-        ]
-      },
-      {
-        "collapsed": true,
-        "type": "category",
-        "label": "Reference",
-        "items": [
-          {
-            "type": "link",
-            "label": "Item IDs",
-            "href": "/docs/ItemIDs"
-          },
-          {
-            "type": "link",
-            "label": "Module IDs",
-            "href": "/docs/ModuleIDs"
-          },
-          {
-            "type": "link",
-            "label": "Recipe IDs",
-            "href": "/docs/RecipeIDs"
-          },
-          {
-            "type": "link",
-            "label": "GUID Fields (C#)",
-            "href": "/docs/GUIDFields"
-          },
-          {
-            "type": "link",
-            "label": "Item Stack Sizes",
-            "href": "/docs/ItemStacks"
-          },
-          {
-            "type": "link",
-            "label": "Recipe Production Times",
-            "href": "/docs/RecipeTimes"
-          },
-          {
-            "type": "link",
-            "label": "Quest Order and List",
-            "href": "/docs/QuestOrder"
-          }
-        ]
+        "type": "link",
+        "label": "Mod List",
+        "href": "/docs/ModList"
       }
     ]
   },
   "permalinkToSidebar": {
-    "/docs/EditingQuests": "mainSidebar",
-    "/docs/GUIDFields": "mainSidebar",
     "/docs/": "mainSidebar",
-    "/docs/ItemIDs": "mainSidebar",
-    "/docs/ItemStacks": "mainSidebar",
-    "/docs/MainDesign": "mainSidebar",
-    "/docs/ModList": "mainSidebar",
-    "/docs/ModuleIDs": "mainSidebar",
-    "/docs/QuestOrder": "mainSidebar",
-    "/docs/RecipeIDs": "mainSidebar",
-    "/docs/RecipeTimes": "mainSidebar",
-    "/docs/StationUIText": "mainSidebar"
+    "/docs/ModList": "mainSidebar"
   }
 }

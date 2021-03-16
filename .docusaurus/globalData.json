@@ -1,83 +1,5 @@
 {
   "docusaurus-plugin-content-docs": {
-    "default": {
-      "path": "/docs",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/docs",
-          "mainDocId": "InstallingMods",
-          "docs": [
-            {
-              "id": "EditingQuests",
-              "path": "/docs/EditingQuests",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "GUIDFields",
-              "path": "/docs/GUIDFields",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "InstallingMods",
-              "path": "/docs/",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "ItemIDs",
-              "path": "/docs/ItemIDs",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "ItemStacks",
-              "path": "/docs/ItemStacks",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "MainDesign",
-              "path": "/docs/MainDesign",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "ModList",
-              "path": "/docs/ModList",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "ModuleIDs",
-              "path": "/docs/ModuleIDs",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "QuestOrder",
-              "path": "/docs/QuestOrder",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "RecipeIDs",
-              "path": "/docs/RecipeIDs",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "RecipeTimes",
-              "path": "/docs/RecipeTimes",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "StationUIText",
-              "path": "/docs/StationUIText",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "StyleGuide",
-              "path": "/docs/StyleGuide"
-            }
-          ]
-        }
-      ]
-    },
     "designing": {
       "path": "/designing",
       "versions": [
@@ -92,6 +14,38 @@
               "id": "Master",
               "path": "/designing/",
               "sidebar": "codingSidebar"
+            }
+          ]
+        }
+      ]
+    },
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "InstallingMods",
+          "docs": [
+            {
+              "id": "InstallingMods",
+              "path": "/docs/",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "MainDesign",
+              "path": "/docs/MainDesign"
+            },
+            {
+              "id": "ModList",
+              "path": "/docs/ModList",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "StyleGuide",
+              "path": "/docs/StyleGuide"
             }
           ]
         }
@@ -118,8 +72,23 @@
               "sidebar": "officialGuide"
             },
             {
+              "id": "officialGuide/Debugging",
+              "path": "/coding/officialGuide/Debugging",
+              "sidebar": "officialGuide"
+            },
+            {
+              "id": "officialGuide/FinalWords",
+              "path": "/coding/officialGuide/FinalWords",
+              "sidebar": "officialGuide"
+            },
+            {
               "id": "officialGuide/FirstMod",
               "path": "/coding/officialGuide/FirstMod",
+              "sidebar": "officialGuide"
+            },
+            {
+              "id": "officialGuide/GameModding",
+              "path": "/coding/officialGuide/GameModding",
               "sidebar": "officialGuide"
             },
             {
@@ -136,6 +105,65 @@
               "id": "officialGuide/RequiredTools",
               "path": "/coding/officialGuide/RequiredTools",
               "sidebar": "officialGuide"
+            },
+            {
+              "id": "reference/GUID/ItemGUIDs",
+              "path": "/coding/reference/GUID/ItemGUIDs",
+              "sidebar": "codingSidebar"
+            },
+            {
+              "id": "reference/GUID/ModuleGUIDs",
+              "path": "/coding/reference/GUID/ModuleGUIDs",
+              "sidebar": "codingSidebar"
+            },
+            {
+              "id": "reference/GUID/RecipeGUIDs",
+              "path": "/coding/reference/GUID/RecipeGUIDs",
+              "sidebar": "codingSidebar"
+            },
+            {
+              "id": "reference/GUIDFields",
+              "path": "/coding/reference/GUIDFields"
+            },
+            {
+              "id": "reference/ItemIDs",
+              "path": "/coding/reference/ItemIDs",
+              "sidebar": "codingSidebar"
+            },
+            {
+              "id": "reference/ItemStacks",
+              "path": "/coding/reference/ItemStacks",
+              "sidebar": "codingSidebar"
+            },
+            {
+              "id": "reference/ModuleIDs",
+              "path": "/coding/reference/ModuleIDs",
+              "sidebar": "codingSidebar"
+            },
+            {
+              "id": "reference/QuestOrder",
+              "path": "/coding/reference/QuestOrder",
+              "sidebar": "codingSidebar"
+            },
+            {
+              "id": "reference/RecipeIDs",
+              "path": "/coding/reference/RecipeIDs",
+              "sidebar": "codingSidebar"
+            },
+            {
+              "id": "reference/RecipeTimes",
+              "path": "/coding/reference/RecipeTimes",
+              "sidebar": "codingSidebar"
+            },
+            {
+              "id": "snippits/EditingQuests",
+              "path": "/coding/snippits/EditingQuests",
+              "sidebar": "codingSidebar"
+            },
+            {
+              "id": "snippits/StationUIText",
+              "path": "/coding/snippits/StationUIText",
+              "sidebar": "codingSidebar"
             }
           ]
         }

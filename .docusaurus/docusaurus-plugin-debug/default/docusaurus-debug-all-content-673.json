@@ -10,149 +10,27 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/workspace/VolcWiki/sidebars.js",
-          "docsDirPath": "/workspace/VolcWiki/docs",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebars.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\docs",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "mainDocId": "InstallingMods",
           "sidebars": {
             "mainSidebar": [
               {
-                "collapsed": true,
-                "type": "category",
-                "label": "Installation",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "InstallingMods"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "ModList"
-                  }
-                ]
+                "type": "doc",
+                "id": "InstallingMods"
               },
               {
-                "collapsed": true,
-                "type": "category",
-                "label": "Coding",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "StationUIText"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "EditingQuests"
-                  }
-                ]
-              },
-              {
-                "collapsed": true,
-                "type": "category",
-                "label": "Designers",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "MainDesign"
-                  }
-                ]
-              },
-              {
-                "collapsed": true,
-                "type": "category",
-                "label": "Reference",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "ItemIDs"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "ModuleIDs"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "RecipeIDs"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "GUIDFields"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "ItemStacks"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "RecipeTimes"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "QuestOrder"
-                  }
-                ]
+                "type": "doc",
+                "id": "ModList"
               }
             ]
           },
           "permalinkToSidebar": {
-            "/docs/EditingQuests": "mainSidebar",
-            "/docs/GUIDFields": "mainSidebar",
             "/docs/": "mainSidebar",
-            "/docs/ItemIDs": "mainSidebar",
-            "/docs/ItemStacks": "mainSidebar",
-            "/docs/MainDesign": "mainSidebar",
-            "/docs/ModList": "mainSidebar",
-            "/docs/ModuleIDs": "mainSidebar",
-            "/docs/QuestOrder": "mainSidebar",
-            "/docs/RecipeIDs": "mainSidebar",
-            "/docs/RecipeTimes": "mainSidebar",
-            "/docs/StationUIText": "mainSidebar"
+            "/docs/ModList": "mainSidebar"
           },
           "docs": [
-            {
-              "unversionedId": "EditingQuests",
-              "id": "EditingQuests",
-              "isDocsHomePage": false,
-              "title": "Editing/Creating Quests",
-              "description": "Altering quests means altering QuestManager.m_quests which is attached to about 1600 game objects and only two of them actually load the quests.",
-              "source": "@site/docs/EditingQuests.md",
-              "slug": "/EditingQuests",
-              "permalink": "/docs/EditingQuests",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/EditingQuests.md",
-              "version": "current",
-              "sidebar_label": "Editing/Creating Quests",
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Changing Station UI Text",
-                "permalink": "/docs/StationUIText"
-              },
-              "next": {
-                "title": "Artistic Design in Modding",
-                "permalink": "/docs/MainDesign"
-              }
-            },
-            {
-              "unversionedId": "GUIDFields",
-              "id": "GUIDFields",
-              "isDocsHomePage": false,
-              "title": "GUID Fields (C#)",
-              "description": "For Volcanoids v1.24.471.0",
-              "source": "@site/docs/GUIDFields.md",
-              "slug": "/GUIDFields",
-              "permalink": "/docs/GUIDFields",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/GUIDFields.md",
-              "version": "current",
-              "sidebar_label": "GUID Fields (C#)",
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Recipe IDs",
-                "permalink": "/docs/RecipeIDs"
-              },
-              "next": {
-                "title": "Item Stack Sizes",
-                "permalink": "/docs/ItemStacks"
-              }
-            },
             {
               "unversionedId": "InstallingMods",
               "id": "InstallingMods",
@@ -172,50 +50,6 @@
               }
             },
             {
-              "unversionedId": "ItemIDs",
-              "id": "ItemIDs",
-              "isDocsHomePage": false,
-              "title": "Item IDs",
-              "description": "For Volcanoids v1.24.471.0",
-              "source": "@site/docs/ItemIDs.md",
-              "slug": "/ItemIDs",
-              "permalink": "/docs/ItemIDs",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/ItemIDs.md",
-              "version": "current",
-              "sidebar_label": "Item IDs",
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Artistic Design in Modding",
-                "permalink": "/docs/MainDesign"
-              },
-              "next": {
-                "title": "Module IDs",
-                "permalink": "/docs/ModuleIDs"
-              }
-            },
-            {
-              "unversionedId": "ItemStacks",
-              "id": "ItemStacks",
-              "isDocsHomePage": false,
-              "title": "Item Stack Sizes",
-              "description": "For Volcanoids v1.24.471.0",
-              "source": "@site/docs/ItemStacks.md",
-              "slug": "/ItemStacks",
-              "permalink": "/docs/ItemStacks",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/ItemStacks.md",
-              "version": "current",
-              "sidebar_label": "Item Stack Sizes",
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "GUID Fields (C#)",
-                "permalink": "/docs/GUIDFields"
-              },
-              "next": {
-                "title": "Recipe Production Times",
-                "permalink": "/docs/RecipeTimes"
-              }
-            },
-            {
               "unversionedId": "MainDesign",
               "id": "MainDesign",
               "isDocsHomePage": false,
@@ -226,16 +60,7 @@
               "permalink": "/docs/MainDesign",
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/MainDesign.md",
               "version": "current",
-              "sidebar_label": "Artistic Design in Modding",
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Editing/Creating Quests",
-                "permalink": "/docs/EditingQuests"
-              },
-              "next": {
-                "title": "Item IDs",
-                "permalink": "/docs/ItemIDs"
-              }
+              "sidebar_label": "Artistic Design in Modding"
             },
             {
               "unversionedId": "ModList",
@@ -253,116 +78,6 @@
               "previous": {
                 "title": "Installing Mods",
                 "permalink": "/docs/"
-              },
-              "next": {
-                "title": "Changing Station UI Text",
-                "permalink": "/docs/StationUIText"
-              }
-            },
-            {
-              "unversionedId": "ModuleIDs",
-              "id": "ModuleIDs",
-              "isDocsHomePage": false,
-              "title": "Module IDs",
-              "description": "For Volcanoids v1.24.471.0",
-              "source": "@site/docs/ModuleIDs.md",
-              "slug": "/ModuleIDs",
-              "permalink": "/docs/ModuleIDs",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/ModuleIDs.md",
-              "version": "current",
-              "sidebar_label": "Module IDs",
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Item IDs",
-                "permalink": "/docs/ItemIDs"
-              },
-              "next": {
-                "title": "Recipe IDs",
-                "permalink": "/docs/RecipeIDs"
-              }
-            },
-            {
-              "unversionedId": "QuestOrder",
-              "id": "QuestOrder",
-              "isDocsHomePage": false,
-              "title": "Quest Order and List",
-              "description": "For Volcanoids v1.24.507.0",
-              "source": "@site/docs/QuestOrder.md",
-              "slug": "/QuestOrder",
-              "permalink": "/docs/QuestOrder",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/QuestOrder.md",
-              "version": "current",
-              "sidebar_label": "Quest Order and List",
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Recipe Production Times",
-                "permalink": "/docs/RecipeTimes"
-              }
-            },
-            {
-              "unversionedId": "RecipeIDs",
-              "id": "RecipeIDs",
-              "isDocsHomePage": false,
-              "title": "Recipe IDs",
-              "description": "For Volcanoids v1.24.471.0",
-              "source": "@site/docs/RecipeIDs.md",
-              "slug": "/RecipeIDs",
-              "permalink": "/docs/RecipeIDs",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/RecipeIDs.md",
-              "version": "current",
-              "sidebar_label": "Recipe IDs",
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Module IDs",
-                "permalink": "/docs/ModuleIDs"
-              },
-              "next": {
-                "title": "GUID Fields (C#)",
-                "permalink": "/docs/GUIDFields"
-              }
-            },
-            {
-              "unversionedId": "RecipeTimes",
-              "id": "RecipeTimes",
-              "isDocsHomePage": false,
-              "title": "Recipe Production Times",
-              "description": "For Volcanoids v1.24.471.0",
-              "source": "@site/docs/RecipeProductionTimes.md",
-              "slug": "/RecipeTimes",
-              "permalink": "/docs/RecipeTimes",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/RecipeProductionTimes.md",
-              "version": "current",
-              "sidebar_label": "Recipe Production Times",
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Item Stack Sizes",
-                "permalink": "/docs/ItemStacks"
-              },
-              "next": {
-                "title": "Quest Order and List",
-                "permalink": "/docs/QuestOrder"
-              }
-            },
-            {
-              "unversionedId": "StationUIText",
-              "id": "StationUIText",
-              "isDocsHomePage": false,
-              "title": "Changing Station UI Text",
-              "description": "This is for changing the station text in the worldview:",
-              "source": "@site/docs/StationUIText.md",
-              "slug": "/StationUIText",
-              "permalink": "/docs/StationUIText",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/StationUIText.md",
-              "version": "current",
-              "sidebar_label": "Changing Station UI Text",
-              "sidebar": "mainSidebar",
-              "previous": {
-                "title": "Mod List",
-                "permalink": "/docs/ModList"
-              },
-              "next": {
-                "title": "Editing/Creating Quests",
-                "permalink": "/docs/EditingQuests"
               }
             },
             {
@@ -392,9 +107,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-coding/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/workspace/VolcWiki/sidebarsCoding.js",
-          "docsDirPath": "/workspace/VolcWiki/coding",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-coding/current",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsCoding.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\coding",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-coding\\current",
           "mainDocId": "Master",
           "sidebars": {
             "codingSidebar": [
@@ -407,6 +122,77 @@
                 "type": "category",
                 "label": "Getting Started",
                 "items": []
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Full Guide",
+                "items": []
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Snippits",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "snippits/EditingQuests"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "snippits/StationUIText"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "References",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "reference/ItemIDs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reference/ModuleIDs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reference/RecipeIDs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reference/RecipeTimes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reference/ItemStacks"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reference/QuestOrder"
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "GUID Code",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "reference/GUID/ItemGUIDs"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reference/GUID/ModuleGUIDs"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "reference/GUID/RecipeGUIDs"
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "officialGuide": [
@@ -438,6 +224,18 @@
                   {
                     "type": "doc",
                     "id": "officialGuide/FirstMod"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "officialGuide/Debugging"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "officialGuide/GameModding"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "officialGuide/FinalWords"
                   }
                 ]
               }
@@ -446,10 +244,24 @@
           "permalinkToSidebar": {
             "/coding/": "codingSidebar",
             "/coding/officialGuide/BuildRun": "officialGuide",
+            "/coding/officialGuide/Debugging": "officialGuide",
+            "/coding/officialGuide/FinalWords": "officialGuide",
             "/coding/officialGuide/FirstMod": "officialGuide",
+            "/coding/officialGuide/GameModding": "officialGuide",
             "/coding/officialGuide/Info": "officialGuide",
             "/coding/officialGuide/ProjectSetup": "officialGuide",
-            "/coding/officialGuide/RequiredTools": "officialGuide"
+            "/coding/officialGuide/RequiredTools": "officialGuide",
+            "/coding/reference/GUID/ItemGUIDs": "codingSidebar",
+            "/coding/reference/GUID/ModuleGUIDs": "codingSidebar",
+            "/coding/reference/GUID/RecipeGUIDs": "codingSidebar",
+            "/coding/reference/ItemIDs": "codingSidebar",
+            "/coding/reference/ItemStacks": "codingSidebar",
+            "/coding/reference/ModuleIDs": "codingSidebar",
+            "/coding/reference/QuestOrder": "codingSidebar",
+            "/coding/reference/RecipeIDs": "codingSidebar",
+            "/coding/reference/RecipeTimes": "codingSidebar",
+            "/coding/snippits/EditingQuests": "codingSidebar",
+            "/coding/snippits/StationUIText": "codingSidebar"
           },
           "docs": [
             {
@@ -464,7 +276,11 @@
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/Master.md",
               "version": "current",
               "sidebar_label": "Coding Master Page",
-              "sidebar": "codingSidebar"
+              "sidebar": "codingSidebar",
+              "next": {
+                "title": "Editing/Creating Quests",
+                "permalink": "/coding/snippits/EditingQuests"
+              }
             },
             {
               "unversionedId": "officialGuide/BuildRun",
@@ -489,6 +305,46 @@
               }
             },
             {
+              "unversionedId": "officialGuide/Debugging",
+              "id": "officialGuide/Debugging",
+              "isDocsHomePage": false,
+              "title": "Debugging",
+              "description": "This is optional step and requires some setup. It allows you to put breakpoint into code of your mod, break Volcanoids execution, inspect / modify variables at runtime and continue execution.",
+              "source": "@site/coding/officialGuide/Debugging.md",
+              "slug": "/officialGuide/Debugging",
+              "permalink": "/coding/officialGuide/Debugging",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/officialGuide/Debugging.md",
+              "version": "current",
+              "sidebar_label": "Debugging",
+              "sidebar": "officialGuide",
+              "previous": {
+                "title": "First Real Mod",
+                "permalink": "/coding/officialGuide/FirstMod"
+              },
+              "next": {
+                "title": "Game Modding",
+                "permalink": "/coding/officialGuide/GameModding"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/FinalWords",
+              "id": "officialGuide/FinalWords",
+              "isDocsHomePage": false,
+              "title": "Final Words",
+              "description": "Please leave any feedback here or contact me on Volcanoids Discord.",
+              "source": "@site/coding/officialGuide/FinalWords.md",
+              "slug": "/officialGuide/FinalWords",
+              "permalink": "/coding/officialGuide/FinalWords",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/officialGuide/FinalWords.md",
+              "version": "current",
+              "sidebar_label": "Final Words",
+              "sidebar": "officialGuide",
+              "previous": {
+                "title": "Game Modding",
+                "permalink": "/coding/officialGuide/GameModding"
+              }
+            },
+            {
               "unversionedId": "officialGuide/FirstMod",
               "id": "officialGuide/FirstMod",
               "isDocsHomePage": false,
@@ -504,6 +360,32 @@
               "previous": {
                 "title": "Building and Running",
                 "permalink": "/coding/officialGuide/BuildRun"
+              },
+              "next": {
+                "title": "Debugging",
+                "permalink": "/coding/officialGuide/Debugging"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/GameModding",
+              "id": "officialGuide/GameModding",
+              "isDocsHomePage": false,
+              "title": "Game Modding",
+              "description": "Startup",
+              "source": "@site/coding/officialGuide/GameModding.md",
+              "slug": "/officialGuide/GameModding",
+              "permalink": "/coding/officialGuide/GameModding",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/officialGuide/GameModding.md",
+              "version": "current",
+              "sidebar_label": "Game Modding",
+              "sidebar": "officialGuide",
+              "previous": {
+                "title": "Debugging",
+                "permalink": "/coding/officialGuide/Debugging"
+              },
+              "next": {
+                "title": "Final Words",
+                "permalink": "/coding/officialGuide/FinalWords"
               }
             },
             {
@@ -571,6 +453,257 @@
                 "title": "Project Setup",
                 "permalink": "/coding/officialGuide/ProjectSetup"
               }
+            },
+            {
+              "unversionedId": "reference/GUID/ItemGUIDs",
+              "id": "reference/GUID/ItemGUIDs",
+              "isDocsHomePage": false,
+              "title": "ItemGUIDs | Version 1.24.471",
+              "description": "`",
+              "source": "@site/coding/reference/GUID/ItemGUIDs.md",
+              "slug": "/reference/GUID/ItemGUIDs",
+              "permalink": "/coding/reference/GUID/ItemGUIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/reference/GUID/ItemGUIDs.md",
+              "version": "current",
+              "sidebar_label": "ItemGUIDs",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Quest Order and List",
+                "permalink": "/coding/reference/QuestOrder"
+              },
+              "next": {
+                "title": "ModuleGUIDs | Version 1.24.471",
+                "permalink": "/coding/reference/GUID/ModuleGUIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/GUID/ModuleGUIDs",
+              "id": "reference/GUID/ModuleGUIDs",
+              "isDocsHomePage": false,
+              "title": "ModuleGUIDs | Version 1.24.471",
+              "description": "`",
+              "source": "@site/coding/reference/GUID/ModuleGUIDs.md",
+              "slug": "/reference/GUID/ModuleGUIDs",
+              "permalink": "/coding/reference/GUID/ModuleGUIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/reference/GUID/ModuleGUIDs.md",
+              "version": "current",
+              "sidebar_label": "ModuleGUIDs",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "ItemGUIDs | Version 1.24.471",
+                "permalink": "/coding/reference/GUID/ItemGUIDs"
+              },
+              "next": {
+                "title": "RecipeGUIDs | Version 1.24.471",
+                "permalink": "/coding/reference/GUID/RecipeGUIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/GUID/RecipeGUIDs",
+              "id": "reference/GUID/RecipeGUIDs",
+              "isDocsHomePage": false,
+              "title": "RecipeGUIDs | Version 1.24.471",
+              "description": "`",
+              "source": "@site/coding/reference/GUID/RecipeGUIDs.md",
+              "slug": "/reference/GUID/RecipeGUIDs",
+              "permalink": "/coding/reference/GUID/RecipeGUIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/reference/GUID/RecipeGUIDs.md",
+              "version": "current",
+              "sidebar_label": "RecipeGUIDs",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "ModuleGUIDs | Version 1.24.471",
+                "permalink": "/coding/reference/GUID/ModuleGUIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/GUIDFields",
+              "id": "reference/GUIDFields",
+              "isDocsHomePage": false,
+              "title": "GUID Fields (C#)",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding/reference/GUIDFields.md",
+              "slug": "/reference/GUIDFields",
+              "permalink": "/coding/reference/GUIDFields",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/reference/GUIDFields.md",
+              "version": "current",
+              "sidebar_label": "GUID Fields (C#)"
+            },
+            {
+              "unversionedId": "reference/ItemIDs",
+              "id": "reference/ItemIDs",
+              "isDocsHomePage": false,
+              "title": "Item IDs",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding/reference/ItemIDs.md",
+              "slug": "/reference/ItemIDs",
+              "permalink": "/coding/reference/ItemIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/reference/ItemIDs.md",
+              "version": "current",
+              "sidebar_label": "Item IDs",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Changing Station UI Text",
+                "permalink": "/coding/snippits/StationUIText"
+              },
+              "next": {
+                "title": "Module IDs",
+                "permalink": "/coding/reference/ModuleIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/ItemStacks",
+              "id": "reference/ItemStacks",
+              "isDocsHomePage": false,
+              "title": "Item Stack Sizes",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding/reference/ItemStacks.md",
+              "slug": "/reference/ItemStacks",
+              "permalink": "/coding/reference/ItemStacks",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/reference/ItemStacks.md",
+              "version": "current",
+              "sidebar_label": "Item Stack Sizes",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Recipe Production Times",
+                "permalink": "/coding/reference/RecipeTimes"
+              },
+              "next": {
+                "title": "Quest Order and List",
+                "permalink": "/coding/reference/QuestOrder"
+              }
+            },
+            {
+              "unversionedId": "reference/ModuleIDs",
+              "id": "reference/ModuleIDs",
+              "isDocsHomePage": false,
+              "title": "Module IDs",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding/reference/ModuleIDs.md",
+              "slug": "/reference/ModuleIDs",
+              "permalink": "/coding/reference/ModuleIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/reference/ModuleIDs.md",
+              "version": "current",
+              "sidebar_label": "Module IDs",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Item IDs",
+                "permalink": "/coding/reference/ItemIDs"
+              },
+              "next": {
+                "title": "Recipe IDs",
+                "permalink": "/coding/reference/RecipeIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/QuestOrder",
+              "id": "reference/QuestOrder",
+              "isDocsHomePage": false,
+              "title": "Quest Order and List",
+              "description": "For Volcanoids v1.24.507.0",
+              "source": "@site/coding/reference/QuestOrder.md",
+              "slug": "/reference/QuestOrder",
+              "permalink": "/coding/reference/QuestOrder",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/reference/QuestOrder.md",
+              "version": "current",
+              "sidebar_label": "Quest Order and List",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Item Stack Sizes",
+                "permalink": "/coding/reference/ItemStacks"
+              },
+              "next": {
+                "title": "ItemGUIDs | Version 1.24.471",
+                "permalink": "/coding/reference/GUID/ItemGUIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/RecipeIDs",
+              "id": "reference/RecipeIDs",
+              "isDocsHomePage": false,
+              "title": "Recipe IDs",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding/reference/RecipeIDs.md",
+              "slug": "/reference/RecipeIDs",
+              "permalink": "/coding/reference/RecipeIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/reference/RecipeIDs.md",
+              "version": "current",
+              "sidebar_label": "Recipe IDs",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Module IDs",
+                "permalink": "/coding/reference/ModuleIDs"
+              },
+              "next": {
+                "title": "Recipe Production Times",
+                "permalink": "/coding/reference/RecipeTimes"
+              }
+            },
+            {
+              "unversionedId": "reference/RecipeTimes",
+              "id": "reference/RecipeTimes",
+              "isDocsHomePage": false,
+              "title": "Recipe Production Times",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding/reference/RecipeProductionTimes.md",
+              "slug": "/reference/RecipeTimes",
+              "permalink": "/coding/reference/RecipeTimes",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/reference/RecipeProductionTimes.md",
+              "version": "current",
+              "sidebar_label": "Recipe Production Times",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Recipe IDs",
+                "permalink": "/coding/reference/RecipeIDs"
+              },
+              "next": {
+                "title": "Item Stack Sizes",
+                "permalink": "/coding/reference/ItemStacks"
+              }
+            },
+            {
+              "unversionedId": "snippits/EditingQuests",
+              "id": "snippits/EditingQuests",
+              "isDocsHomePage": false,
+              "title": "Editing/Creating Quests",
+              "description": "Altering quests means altering QuestManager.m_quests which is attached to about 1600 game objects and only two of them actually load the quests.",
+              "source": "@site/coding/snippits/EditingQuests.md",
+              "slug": "/snippits/EditingQuests",
+              "permalink": "/coding/snippits/EditingQuests",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/snippits/EditingQuests.md",
+              "version": "current",
+              "sidebar_label": "Editing/Creating Quests",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Coding Master Page",
+                "permalink": "/coding/"
+              },
+              "next": {
+                "title": "Changing Station UI Text",
+                "permalink": "/coding/snippits/StationUIText"
+              }
+            },
+            {
+              "unversionedId": "snippits/StationUIText",
+              "id": "snippits/StationUIText",
+              "isDocsHomePage": false,
+              "title": "Changing Station UI Text",
+              "description": "This is for changing the station text in the worldview:",
+              "source": "@site/coding/snippits/StationUIText.md",
+              "slug": "/snippits/StationUIText",
+              "permalink": "/coding/snippits/StationUIText",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/snippits/StationUIText.md",
+              "version": "current",
+              "sidebar_label": "Changing Station UI Text",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Editing/Creating Quests",
+                "permalink": "/coding/snippits/EditingQuests"
+              },
+              "next": {
+                "title": "Item IDs",
+                "permalink": "/coding/reference/ItemIDs"
+              }
             }
           ]
         }
@@ -586,9 +719,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-designing/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/workspace/VolcWiki/sidebarsDesigning.js",
-          "docsDirPath": "/workspace/VolcWiki/designing",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-designing/current",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\designing",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-designing\\current",
           "mainDocId": "Master",
           "sidebars": {
             "codingSidebar": [
@@ -613,6 +746,7 @@
               "id": "Master",
               "isDocsHomePage": false,
               "title": "Designing Master Page",
+              "description": "RedDolphin was kind enough to put together a few resources for building and designing models. The links are below. Enjoy.",
               "source": "@site/designing/Master.md",
               "slug": "/",
               "permalink": "/designing/",
@@ -636,7 +770,7 @@
             "source": "@site/blog/2021-03-15-creationGuide.md",
             "description": "Table of Contents are Auto Generated with any field that has at least one # and no more than 3.",
             "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 15, 2021",
+            "formattedDate": "March 14, 2021",
             "tags": [
               {
                 "label": "modding",
@@ -667,7 +801,7 @@
             "source": "@site/blog/2021-03-15-styleGuide.md",
             "description": "You can write content using GitHub-flavored Markdown syntax.",
             "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 15, 2021",
+            "formattedDate": "March 14, 2021",
             "tags": [
               {
                 "label": "modding",

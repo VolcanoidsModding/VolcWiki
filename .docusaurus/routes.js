@@ -44,42 +44,42 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','362'),
+  component: ComponentCreator('/blog','ee4'),
   exact: true,
 },
 {
   path: '/blog/creationguide',
-  component: ComponentCreator('/blog/creationguide','8fb'),
+  component: ComponentCreator('/blog/creationguide','dc9'),
   exact: true,
 },
 {
   path: '/blog/styleguide',
-  component: ComponentCreator('/blog/styleguide','82f'),
+  component: ComponentCreator('/blog/styleguide','1b0'),
   exact: true,
 },
 {
   path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','293'),
+  component: ComponentCreator('/blog/tags','964'),
   exact: true,
 },
 {
   path: '/blog/tags/creationguide',
-  component: ComponentCreator('/blog/tags/creationguide','217'),
+  component: ComponentCreator('/blog/tags/creationguide','a9a'),
   exact: true,
 },
 {
   path: '/blog/tags/gearbox',
-  component: ComponentCreator('/blog/tags/gearbox','805'),
+  component: ComponentCreator('/blog/tags/gearbox','c86'),
   exact: true,
 },
 {
   path: '/blog/tags/modding',
-  component: ComponentCreator('/blog/tags/modding','118'),
+  component: ComponentCreator('/blog/tags/modding','a2a'),
   exact: true,
 },
 {
   path: '/blog/tags/styleguide',
-  component: ComponentCreator('/blog/tags/styleguide','8cd'),
+  component: ComponentCreator('/blog/tags/styleguide','843'),
   exact: true,
 },
 {
@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/coding',
-  component: ComponentCreator('/coding','dbc'),
+  component: ComponentCreator('/coding','1eb'),
   
   routes: [
 {
@@ -103,8 +103,23 @@ export default [
   exact: true,
 },
 {
+  path: '/coding/officialGuide/Debugging',
+  component: ComponentCreator('/coding/officialGuide/Debugging','15e'),
+  exact: true,
+},
+{
+  path: '/coding/officialGuide/FinalWords',
+  component: ComponentCreator('/coding/officialGuide/FinalWords','c35'),
+  exact: true,
+},
+{
   path: '/coding/officialGuide/FirstMod',
   component: ComponentCreator('/coding/officialGuide/FirstMod','ddf'),
+  exact: true,
+},
+{
+  path: '/coding/officialGuide/GameModding',
+  component: ComponentCreator('/coding/officialGuide/GameModding','973'),
   exact: true,
 },
 {
@@ -120,6 +135,66 @@ export default [
 {
   path: '/coding/officialGuide/RequiredTools',
   component: ComponentCreator('/coding/officialGuide/RequiredTools','7a1'),
+  exact: true,
+},
+{
+  path: '/coding/reference/GUID/ItemGUIDs',
+  component: ComponentCreator('/coding/reference/GUID/ItemGUIDs','047'),
+  exact: true,
+},
+{
+  path: '/coding/reference/GUID/ModuleGUIDs',
+  component: ComponentCreator('/coding/reference/GUID/ModuleGUIDs','a7a'),
+  exact: true,
+},
+{
+  path: '/coding/reference/GUID/RecipeGUIDs',
+  component: ComponentCreator('/coding/reference/GUID/RecipeGUIDs','924'),
+  exact: true,
+},
+{
+  path: '/coding/reference/GUIDFields',
+  component: ComponentCreator('/coding/reference/GUIDFields','d2d'),
+  exact: true,
+},
+{
+  path: '/coding/reference/ItemIDs',
+  component: ComponentCreator('/coding/reference/ItemIDs','f92'),
+  exact: true,
+},
+{
+  path: '/coding/reference/ItemStacks',
+  component: ComponentCreator('/coding/reference/ItemStacks','961'),
+  exact: true,
+},
+{
+  path: '/coding/reference/ModuleIDs',
+  component: ComponentCreator('/coding/reference/ModuleIDs','a09'),
+  exact: true,
+},
+{
+  path: '/coding/reference/QuestOrder',
+  component: ComponentCreator('/coding/reference/QuestOrder','9b0'),
+  exact: true,
+},
+{
+  path: '/coding/reference/RecipeIDs',
+  component: ComponentCreator('/coding/reference/RecipeIDs','5fe'),
+  exact: true,
+},
+{
+  path: '/coding/reference/RecipeTimes',
+  component: ComponentCreator('/coding/reference/RecipeTimes','857'),
+  exact: true,
+},
+{
+  path: '/coding/snippits/EditingQuests',
+  component: ComponentCreator('/coding/snippits/EditingQuests','b7c'),
+  exact: true,
+},
+{
+  path: '/coding/snippits/StationUIText',
+  component: ComponentCreator('/coding/snippits/StationUIText','d40'),
   exact: true,
 },
 ]
@@ -138,32 +213,12 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','745'),
+  component: ComponentCreator('/docs','67f'),
   
   routes: [
 {
   path: '/docs/',
   component: ComponentCreator('/docs/','70f'),
-  exact: true,
-},
-{
-  path: '/docs/EditingQuests',
-  component: ComponentCreator('/docs/EditingQuests','e09'),
-  exact: true,
-},
-{
-  path: '/docs/GUIDFields',
-  component: ComponentCreator('/docs/GUIDFields','476'),
-  exact: true,
-},
-{
-  path: '/docs/ItemIDs',
-  component: ComponentCreator('/docs/ItemIDs','cf8'),
-  exact: true,
-},
-{
-  path: '/docs/ItemStacks',
-  component: ComponentCreator('/docs/ItemStacks','f8d'),
   exact: true,
 },
 {
@@ -174,31 +229,6 @@ export default [
 {
   path: '/docs/ModList',
   component: ComponentCreator('/docs/ModList','d95'),
-  exact: true,
-},
-{
-  path: '/docs/ModuleIDs',
-  component: ComponentCreator('/docs/ModuleIDs','47b'),
-  exact: true,
-},
-{
-  path: '/docs/QuestOrder',
-  component: ComponentCreator('/docs/QuestOrder','090'),
-  exact: true,
-},
-{
-  path: '/docs/RecipeIDs',
-  component: ComponentCreator('/docs/RecipeIDs','722'),
-  exact: true,
-},
-{
-  path: '/docs/RecipeTimes',
-  component: ComponentCreator('/docs/RecipeTimes','bc6'),
-  exact: true,
-},
-{
-  path: '/docs/StationUIText',
-  component: ComponentCreator('/docs/StationUIText','99c'),
   exact: true,
 },
 {
