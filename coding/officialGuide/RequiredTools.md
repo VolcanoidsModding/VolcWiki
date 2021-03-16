@@ -14,4 +14,4 @@ You can use any developer environment, but I'll be describing how things are don
 
 Suggested workloads when installing Visual Studio 2019, Game Development with Unity is required for debugging.
 
-<img>
+![VSCode Installer](/img/someImage.png)

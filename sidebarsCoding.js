@@ -18,7 +18,7 @@ module.exports = {
     {
       type: "category",
       label: "Guide",
-      items: ['officialGuide/Info', 'officialGuide/RequiredTools']
+      items: ['officialGuide/Info', 'officialGuide/RequiredTools', 'officialGuide/ProjectSetup', 'officialGuide/BuildRun']
     }
   ],
 };

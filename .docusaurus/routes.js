@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/coding',
-  component: ComponentCreator('/coding','bfd'),
+  component: ComponentCreator('/coding','dbc'),
   
   routes: [
 {
@@ -98,8 +98,23 @@ export default [
   exact: true,
 },
 {
+  path: '/coding/officialGuide/BuildRun',
+  component: ComponentCreator('/coding/officialGuide/BuildRun','e2b'),
+  exact: true,
+},
+{
+  path: '/coding/officialGuide/FirstMod',
+  component: ComponentCreator('/coding/officialGuide/FirstMod','ddf'),
+  exact: true,
+},
+{
   path: '/coding/officialGuide/Info',
   component: ComponentCreator('/coding/officialGuide/Info','0a4'),
+  exact: true,
+},
+{
+  path: '/coding/officialGuide/ProjectSetup',
+  component: ComponentCreator('/coding/officialGuide/ProjectSetup','dec'),
   exact: true,
 },
 {

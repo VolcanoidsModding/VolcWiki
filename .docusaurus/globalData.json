@@ -113,8 +113,22 @@
               "sidebar": "codingSidebar"
             },
             {
+              "id": "officialGuide/BuildRun",
+              "path": "/coding/officialGuide/BuildRun",
+              "sidebar": "officialGuide"
+            },
+            {
+              "id": "officialGuide/FirstMod",
+              "path": "/coding/officialGuide/FirstMod"
+            },
+            {
               "id": "officialGuide/Info",
               "path": "/coding/officialGuide/Info",
+              "sidebar": "officialGuide"
+            },
+            {
+              "id": "officialGuide/ProjectSetup",
+              "path": "/coding/officialGuide/ProjectSetup",
               "sidebar": "officialGuide"
             },
             {

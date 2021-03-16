@@ -426,6 +426,14 @@
                   {
                     "type": "doc",
                     "id": "officialGuide/RequiredTools"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "officialGuide/ProjectSetup"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "officialGuide/BuildRun"
                   }
                 ]
               }
@@ -433,7 +441,9 @@
           },
           "permalinkToSidebar": {
             "/coding/": "codingSidebar",
+            "/coding/officialGuide/BuildRun": "officialGuide",
             "/coding/officialGuide/Info": "officialGuide",
+            "/coding/officialGuide/ProjectSetup": "officialGuide",
             "/coding/officialGuide/RequiredTools": "officialGuide"
           },
           "docs": [
@@ -450,6 +460,36 @@
               "version": "current",
               "sidebar_label": "Coding Master Page",
               "sidebar": "codingSidebar"
+            },
+            {
+              "unversionedId": "officialGuide/BuildRun",
+              "id": "officialGuide/BuildRun",
+              "isDocsHomePage": false,
+              "title": "Building and Running",
+              "description": "Copy-paste this script into Class1.cs, build project, and start Volcanoids through Steam",
+              "source": "@site/coding/officialGuide/BuildRun.md",
+              "slug": "/officialGuide/BuildRun",
+              "permalink": "/coding/officialGuide/BuildRun",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/officialGuide/BuildRun.md",
+              "version": "current",
+              "sidebar_label": "Building and Running",
+              "sidebar": "officialGuide",
+              "previous": {
+                "title": "Project Setup",
+                "permalink": "/coding/officialGuide/ProjectSetup"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/FirstMod",
+              "id": "officialGuide/FirstMod",
+              "isDocsHomePage": false,
+              "title": "First Real Mod",
+              "source": "@site/coding/officialGuide/FirstMod.md",
+              "slug": "/officialGuide/FirstMod",
+              "permalink": "/coding/officialGuide/FirstMod",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/officialGuide/FirstMod.md",
+              "version": "current",
+              "sidebar_label": "First Real Mod"
             },
             {
               "unversionedId": "officialGuide/Info",
@@ -474,6 +514,28 @@
               }
             },
             {
+              "unversionedId": "officialGuide/ProjectSetup",
+              "id": "officialGuide/ProjectSetup",
+              "isDocsHomePage": false,
+              "title": "Project Setup",
+              "description": "References",
+              "source": "@site/coding/officialGuide/ProjectSetup.md",
+              "slug": "/officialGuide/ProjectSetup",
+              "permalink": "/coding/officialGuide/ProjectSetup",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/officialGuide/ProjectSetup.md",
+              "version": "current",
+              "sidebar_label": "Project Setup",
+              "sidebar": "officialGuide",
+              "previous": {
+                "title": "Required Tools",
+                "permalink": "/coding/officialGuide/RequiredTools"
+              },
+              "next": {
+                "title": "Building and Running",
+                "permalink": "/coding/officialGuide/BuildRun"
+              }
+            },
+            {
               "unversionedId": "officialGuide/RequiredTools",
               "id": "officialGuide/RequiredTools",
               "isDocsHomePage": false,
@@ -489,6 +551,10 @@
               "previous": {
                 "title": "Info",
                 "permalink": "/coding/officialGuide/Info"
+              },
+              "next": {
+                "title": "Project Setup",
+                "permalink": "/coding/officialGuide/ProjectSetup"
               }
             }
           ]
