@@ -1,0 +1,14 @@
+{
+  "version-1.0.0/codingSidebar": [
+    {
+      "type": "doc",
+      "id": "version-1.0.0/Master"
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Getting Started",
+      "items": []
+    }
+  ]
+}

@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/workspace/VolcWiki/sidebars.js",
-          "docsDirPath": "/workspace/VolcWiki/docs",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebars.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\docs",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "mainDocId": "InstallingMods",
           "sidebars": {
             "mainSidebar": [
@@ -88,15 +88,15 @@
       "loadedVersions": [
         {
           "versionName": "current",
-          "versionLabel": "Next",
+          "versionLabel": "1.24.471.0",
           "versionPath": "/coding",
           "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding",
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-coding/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/workspace/VolcWiki/sidebarsCoding.js",
-          "docsDirPath": "/workspace/VolcWiki/coding",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-coding/current",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsCoding.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\coding",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-coding\\current",
           "mainDocId": "Master",
           "sidebars": {
             "codingSidebar": [
@@ -733,6 +733,653 @@
               }
             }
           ]
+        },
+        {
+          "versionName": "1.0.0",
+          "versionLabel": "1.0.0",
+          "versionPath": "/coding/coding-1.0.0",
+          "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0",
+          "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-coding/version-1.0.0",
+          "isLast": false,
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\coding_versioned_sidebars\\version-1.0.0-sidebars.json",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\coding_versioned_docs\\version-1.0.0",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-coding\\version-1.0.0",
+          "mainDocId": "Master",
+          "sidebars": {
+            "version-1.0.0/codingSidebar": [
+              {
+                "type": "doc",
+                "id": "version-1.0.0/Master"
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Guides",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/fullGuide/Introduction"
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Getting Started",
+                    "items": []
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Simple Modding",
+                    "items": []
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Advanced Modding",
+                    "items": []
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Snippits",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/snippits/EditingQuests"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/snippits/StationUIText"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "References",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/reference/ItemIDs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/reference/ModuleIDs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/reference/RecipeIDs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/reference/RecipeTimes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/reference/ItemStacks"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/reference/QuestOrder"
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "GUID Code",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "version-1.0.0/reference/GUID/ItemGUIDs"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "version-1.0.0/reference/GUID/ModuleGUIDs"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "version-1.0.0/reference/GUID/RecipeGUIDs"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "version-1.0.0/officialGuide": [
+              {
+                "type": "doc",
+                "id": "version-1.0.0/Master"
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Guide",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/officialGuide/Info"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/officialGuide/RequiredTools"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/officialGuide/ProjectSetup"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/officialGuide/BuildRun"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/officialGuide/FirstMod"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/officialGuide/Debugging"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/officialGuide/GameModding"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0.0/officialGuide/FinalWords"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/coding/coding-1.0.0/fullGuide/Introduction": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/officialGuide/BuildRun": "version-1.0.0/officialGuide",
+            "/coding/coding-1.0.0/officialGuide/Debugging": "version-1.0.0/officialGuide",
+            "/coding/coding-1.0.0/officialGuide/FinalWords": "version-1.0.0/officialGuide",
+            "/coding/coding-1.0.0/officialGuide/FirstMod": "version-1.0.0/officialGuide",
+            "/coding/coding-1.0.0/officialGuide/GameModding": "version-1.0.0/officialGuide",
+            "/coding/coding-1.0.0/officialGuide/Info": "version-1.0.0/officialGuide",
+            "/coding/coding-1.0.0/officialGuide/ProjectSetup": "version-1.0.0/officialGuide",
+            "/coding/coding-1.0.0/officialGuide/RequiredTools": "version-1.0.0/officialGuide",
+            "/coding/coding-1.0.0/reference/GUID/ItemGUIDs": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/reference/GUID/ModuleGUIDs": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/reference/GUID/RecipeGUIDs": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/reference/ItemIDs": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/reference/ItemStacks": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/reference/ModuleIDs": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/reference/QuestOrder": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/reference/RecipeIDs": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/reference/RecipeTimes": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/snippits/EditingQuests": "version-1.0.0/codingSidebar",
+            "/coding/coding-1.0.0/snippits/StationUIText": "version-1.0.0/codingSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "fullGuide/Introduction",
+              "id": "version-1.0.0/fullGuide/Introduction",
+              "isDocsHomePage": false,
+              "title": "Introduction to Modding",
+              "description": "Coming Soon! Stay Tuned!",
+              "source": "@site/coding_versioned_docs/version-1.0.0/fullGuide/Introduction.md",
+              "slug": "/fullGuide/Introduction",
+              "permalink": "/coding/coding-1.0.0/fullGuide/Introduction",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/fullGuide/Introduction.md",
+              "version": "1.0.0",
+              "sidebar_label": "Introduction to Modding",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "Coding Master Page",
+                "permalink": "/coding/coding-1.0.0/"
+              },
+              "next": {
+                "title": "Editing/Creating Quests",
+                "permalink": "/coding/coding-1.0.0/snippits/EditingQuests"
+              }
+            },
+            {
+              "unversionedId": "Master",
+              "id": "version-1.0.0/Master",
+              "isDocsHomePage": false,
+              "title": "Coding Master Page",
+              "description": "Official Modding Guide",
+              "source": "@site/coding_versioned_docs/version-1.0.0/Master.md",
+              "slug": "/",
+              "permalink": "/coding/coding-1.0.0/",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/Master.md",
+              "version": "1.0.0",
+              "sidebar_label": "Coding Master Page",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "next": {
+                "title": "Introduction to Modding",
+                "permalink": "/coding/coding-1.0.0/fullGuide/Introduction"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/BuildRun",
+              "id": "version-1.0.0/officialGuide/BuildRun",
+              "isDocsHomePage": false,
+              "title": "Building and Running",
+              "description": "Copy-paste this script into Class1.cs, build project, and start Volcanoids through Steam",
+              "source": "@site/coding_versioned_docs/version-1.0.0/officialGuide/BuildRun.md",
+              "slug": "/officialGuide/BuildRun",
+              "permalink": "/coding/coding-1.0.0/officialGuide/BuildRun",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/officialGuide/BuildRun.md",
+              "version": "1.0.0",
+              "sidebar_label": "Building and Running",
+              "sidebar": "version-1.0.0/officialGuide",
+              "previous": {
+                "title": "Project Setup",
+                "permalink": "/coding/coding-1.0.0/officialGuide/ProjectSetup"
+              },
+              "next": {
+                "title": "First Real Mod",
+                "permalink": "/coding/coding-1.0.0/officialGuide/FirstMod"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/Debugging",
+              "id": "version-1.0.0/officialGuide/Debugging",
+              "isDocsHomePage": false,
+              "title": "Debugging",
+              "description": "This is optional step and requires some setup. It allows you to put breakpoint into code of your mod, break Volcanoids execution, inspect / modify variables at runtime and continue execution.",
+              "source": "@site/coding_versioned_docs/version-1.0.0/officialGuide/Debugging.md",
+              "slug": "/officialGuide/Debugging",
+              "permalink": "/coding/coding-1.0.0/officialGuide/Debugging",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/officialGuide/Debugging.md",
+              "version": "1.0.0",
+              "sidebar_label": "Debugging",
+              "sidebar": "version-1.0.0/officialGuide",
+              "previous": {
+                "title": "First Real Mod",
+                "permalink": "/coding/coding-1.0.0/officialGuide/FirstMod"
+              },
+              "next": {
+                "title": "Game Modding",
+                "permalink": "/coding/coding-1.0.0/officialGuide/GameModding"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/FinalWords",
+              "id": "version-1.0.0/officialGuide/FinalWords",
+              "isDocsHomePage": false,
+              "title": "Final Words",
+              "description": "Please leave any feedback here or contact me on Volcanoids Discord.",
+              "source": "@site/coding_versioned_docs/version-1.0.0/officialGuide/FinalWords.md",
+              "slug": "/officialGuide/FinalWords",
+              "permalink": "/coding/coding-1.0.0/officialGuide/FinalWords",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/officialGuide/FinalWords.md",
+              "version": "1.0.0",
+              "sidebar_label": "Final Words",
+              "sidebar": "version-1.0.0/officialGuide",
+              "previous": {
+                "title": "Game Modding",
+                "permalink": "/coding/coding-1.0.0/officialGuide/GameModding"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/FirstMod",
+              "id": "version-1.0.0/officialGuide/FirstMod",
+              "isDocsHomePage": false,
+              "title": "First Real Mod",
+              "description": "Delete Class1.cs from your project",
+              "source": "@site/coding_versioned_docs/version-1.0.0/officialGuide/FirstMod.md",
+              "slug": "/officialGuide/FirstMod",
+              "permalink": "/coding/coding-1.0.0/officialGuide/FirstMod",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/officialGuide/FirstMod.md",
+              "version": "1.0.0",
+              "sidebar_label": "First Real Mod",
+              "sidebar": "version-1.0.0/officialGuide",
+              "previous": {
+                "title": "Building and Running",
+                "permalink": "/coding/coding-1.0.0/officialGuide/BuildRun"
+              },
+              "next": {
+                "title": "Debugging",
+                "permalink": "/coding/coding-1.0.0/officialGuide/Debugging"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/GameModding",
+              "id": "version-1.0.0/officialGuide/GameModding",
+              "isDocsHomePage": false,
+              "title": "Game Modding",
+              "description": "Startup",
+              "source": "@site/coding_versioned_docs/version-1.0.0/officialGuide/GameModding.md",
+              "slug": "/officialGuide/GameModding",
+              "permalink": "/coding/coding-1.0.0/officialGuide/GameModding",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/officialGuide/GameModding.md",
+              "version": "1.0.0",
+              "sidebar_label": "Game Modding",
+              "sidebar": "version-1.0.0/officialGuide",
+              "previous": {
+                "title": "Debugging",
+                "permalink": "/coding/coding-1.0.0/officialGuide/Debugging"
+              },
+              "next": {
+                "title": "Final Words",
+                "permalink": "/coding/coding-1.0.0/officialGuide/FinalWords"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/Info",
+              "id": "version-1.0.0/officialGuide/Info",
+              "isDocsHomePage": false,
+              "title": "Info",
+              "description": "Official modding support is planned, including Steam Workshop and tools for authoring content.",
+              "source": "@site/coding_versioned_docs/version-1.0.0/officialGuide/Info.md",
+              "slug": "/officialGuide/Info",
+              "permalink": "/coding/coding-1.0.0/officialGuide/Info",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/officialGuide/Info.md",
+              "version": "1.0.0",
+              "sidebar_label": "Info",
+              "sidebar": "version-1.0.0/officialGuide",
+              "previous": {
+                "title": "Coding Master Page",
+                "permalink": "/coding/coding-1.0.0/"
+              },
+              "next": {
+                "title": "Required Tools",
+                "permalink": "/coding/coding-1.0.0/officialGuide/RequiredTools"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/ProjectSetup",
+              "id": "version-1.0.0/officialGuide/ProjectSetup",
+              "isDocsHomePage": false,
+              "title": "Project Setup",
+              "description": "References",
+              "source": "@site/coding_versioned_docs/version-1.0.0/officialGuide/ProjectSetup.md",
+              "slug": "/officialGuide/ProjectSetup",
+              "permalink": "/coding/coding-1.0.0/officialGuide/ProjectSetup",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/officialGuide/ProjectSetup.md",
+              "version": "1.0.0",
+              "sidebar_label": "Project Setup",
+              "sidebar": "version-1.0.0/officialGuide",
+              "previous": {
+                "title": "Required Tools",
+                "permalink": "/coding/coding-1.0.0/officialGuide/RequiredTools"
+              },
+              "next": {
+                "title": "Building and Running",
+                "permalink": "/coding/coding-1.0.0/officialGuide/BuildRun"
+              }
+            },
+            {
+              "unversionedId": "officialGuide/RequiredTools",
+              "id": "version-1.0.0/officialGuide/RequiredTools",
+              "isDocsHomePage": false,
+              "title": "Required Tools",
+              "description": "Tools",
+              "source": "@site/coding_versioned_docs/version-1.0.0/officialGuide/RequiredTools.md",
+              "slug": "/officialGuide/RequiredTools",
+              "permalink": "/coding/coding-1.0.0/officialGuide/RequiredTools",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/officialGuide/RequiredTools.md",
+              "version": "1.0.0",
+              "sidebar_label": "Required Tools",
+              "sidebar": "version-1.0.0/officialGuide",
+              "previous": {
+                "title": "Info",
+                "permalink": "/coding/coding-1.0.0/officialGuide/Info"
+              },
+              "next": {
+                "title": "Project Setup",
+                "permalink": "/coding/coding-1.0.0/officialGuide/ProjectSetup"
+              }
+            },
+            {
+              "unversionedId": "reference/GUID/ItemGUIDs",
+              "id": "version-1.0.0/reference/GUID/ItemGUIDs",
+              "isDocsHomePage": false,
+              "title": "ItemGUIDs | Version 1.24.471",
+              "description": "`",
+              "source": "@site/coding_versioned_docs/version-1.0.0/reference/GUID/ItemGUIDs.md",
+              "slug": "/reference/GUID/ItemGUIDs",
+              "permalink": "/coding/coding-1.0.0/reference/GUID/ItemGUIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/reference/GUID/ItemGUIDs.md",
+              "version": "1.0.0",
+              "sidebar_label": "ItemGUIDs",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "Quest Order and List",
+                "permalink": "/coding/coding-1.0.0/reference/QuestOrder"
+              },
+              "next": {
+                "title": "ModuleGUIDs | Version 1.24.471",
+                "permalink": "/coding/coding-1.0.0/reference/GUID/ModuleGUIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/GUID/ModuleGUIDs",
+              "id": "version-1.0.0/reference/GUID/ModuleGUIDs",
+              "isDocsHomePage": false,
+              "title": "ModuleGUIDs | Version 1.24.471",
+              "description": "`",
+              "source": "@site/coding_versioned_docs/version-1.0.0/reference/GUID/ModuleGUIDs.md",
+              "slug": "/reference/GUID/ModuleGUIDs",
+              "permalink": "/coding/coding-1.0.0/reference/GUID/ModuleGUIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/reference/GUID/ModuleGUIDs.md",
+              "version": "1.0.0",
+              "sidebar_label": "ModuleGUIDs",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "ItemGUIDs | Version 1.24.471",
+                "permalink": "/coding/coding-1.0.0/reference/GUID/ItemGUIDs"
+              },
+              "next": {
+                "title": "RecipeGUIDs | Version 1.24.471",
+                "permalink": "/coding/coding-1.0.0/reference/GUID/RecipeGUIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/GUID/RecipeGUIDs",
+              "id": "version-1.0.0/reference/GUID/RecipeGUIDs",
+              "isDocsHomePage": false,
+              "title": "RecipeGUIDs | Version 1.24.471",
+              "description": "`",
+              "source": "@site/coding_versioned_docs/version-1.0.0/reference/GUID/RecipeGUIDs.md",
+              "slug": "/reference/GUID/RecipeGUIDs",
+              "permalink": "/coding/coding-1.0.0/reference/GUID/RecipeGUIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/reference/GUID/RecipeGUIDs.md",
+              "version": "1.0.0",
+              "sidebar_label": "RecipeGUIDs",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "ModuleGUIDs | Version 1.24.471",
+                "permalink": "/coding/coding-1.0.0/reference/GUID/ModuleGUIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/GUIDFields",
+              "id": "version-1.0.0/reference/GUIDFields",
+              "isDocsHomePage": false,
+              "title": "GUID Fields (C#)",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding_versioned_docs/version-1.0.0/reference/GUIDFields.md",
+              "slug": "/reference/GUIDFields",
+              "permalink": "/coding/coding-1.0.0/reference/GUIDFields",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/reference/GUIDFields.md",
+              "version": "1.0.0",
+              "sidebar_label": "GUID Fields (C#)"
+            },
+            {
+              "unversionedId": "reference/ItemIDs",
+              "id": "version-1.0.0/reference/ItemIDs",
+              "isDocsHomePage": false,
+              "title": "Item IDs",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding_versioned_docs/version-1.0.0/reference/ItemIDs.md",
+              "slug": "/reference/ItemIDs",
+              "permalink": "/coding/coding-1.0.0/reference/ItemIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/reference/ItemIDs.md",
+              "version": "1.0.0",
+              "sidebar_label": "Item IDs",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "Changing Station UI Text",
+                "permalink": "/coding/coding-1.0.0/snippits/StationUIText"
+              },
+              "next": {
+                "title": "Module IDs",
+                "permalink": "/coding/coding-1.0.0/reference/ModuleIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/ItemStacks",
+              "id": "version-1.0.0/reference/ItemStacks",
+              "isDocsHomePage": false,
+              "title": "Item Stack Sizes",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding_versioned_docs/version-1.0.0/reference/ItemStacks.md",
+              "slug": "/reference/ItemStacks",
+              "permalink": "/coding/coding-1.0.0/reference/ItemStacks",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/reference/ItemStacks.md",
+              "version": "1.0.0",
+              "sidebar_label": "Item Stack Sizes",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "Recipe Production Times",
+                "permalink": "/coding/coding-1.0.0/reference/RecipeTimes"
+              },
+              "next": {
+                "title": "Quest Order and List",
+                "permalink": "/coding/coding-1.0.0/reference/QuestOrder"
+              }
+            },
+            {
+              "unversionedId": "reference/ModuleIDs",
+              "id": "version-1.0.0/reference/ModuleIDs",
+              "isDocsHomePage": false,
+              "title": "Module IDs",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding_versioned_docs/version-1.0.0/reference/ModuleIDs.md",
+              "slug": "/reference/ModuleIDs",
+              "permalink": "/coding/coding-1.0.0/reference/ModuleIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/reference/ModuleIDs.md",
+              "version": "1.0.0",
+              "sidebar_label": "Module IDs",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "Item IDs",
+                "permalink": "/coding/coding-1.0.0/reference/ItemIDs"
+              },
+              "next": {
+                "title": "Recipe IDs",
+                "permalink": "/coding/coding-1.0.0/reference/RecipeIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/QuestOrder",
+              "id": "version-1.0.0/reference/QuestOrder",
+              "isDocsHomePage": false,
+              "title": "Quest Order and List",
+              "description": "For Volcanoids v1.24.507.0",
+              "source": "@site/coding_versioned_docs/version-1.0.0/reference/QuestOrder.md",
+              "slug": "/reference/QuestOrder",
+              "permalink": "/coding/coding-1.0.0/reference/QuestOrder",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/reference/QuestOrder.md",
+              "version": "1.0.0",
+              "sidebar_label": "Quest Order and List",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "Item Stack Sizes",
+                "permalink": "/coding/coding-1.0.0/reference/ItemStacks"
+              },
+              "next": {
+                "title": "ItemGUIDs | Version 1.24.471",
+                "permalink": "/coding/coding-1.0.0/reference/GUID/ItemGUIDs"
+              }
+            },
+            {
+              "unversionedId": "reference/RecipeIDs",
+              "id": "version-1.0.0/reference/RecipeIDs",
+              "isDocsHomePage": false,
+              "title": "Recipe IDs",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding_versioned_docs/version-1.0.0/reference/RecipeIDs.md",
+              "slug": "/reference/RecipeIDs",
+              "permalink": "/coding/coding-1.0.0/reference/RecipeIDs",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/reference/RecipeIDs.md",
+              "version": "1.0.0",
+              "sidebar_label": "Recipe IDs",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "Module IDs",
+                "permalink": "/coding/coding-1.0.0/reference/ModuleIDs"
+              },
+              "next": {
+                "title": "Recipe Production Times",
+                "permalink": "/coding/coding-1.0.0/reference/RecipeTimes"
+              }
+            },
+            {
+              "unversionedId": "reference/RecipeTimes",
+              "id": "version-1.0.0/reference/RecipeTimes",
+              "isDocsHomePage": false,
+              "title": "Recipe Production Times",
+              "description": "For Volcanoids v1.24.471.0",
+              "source": "@site/coding_versioned_docs/version-1.0.0/reference/RecipeProductionTimes.md",
+              "slug": "/reference/RecipeTimes",
+              "permalink": "/coding/coding-1.0.0/reference/RecipeTimes",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/reference/RecipeProductionTimes.md",
+              "version": "1.0.0",
+              "sidebar_label": "Recipe Production Times",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "Recipe IDs",
+                "permalink": "/coding/coding-1.0.0/reference/RecipeIDs"
+              },
+              "next": {
+                "title": "Item Stack Sizes",
+                "permalink": "/coding/coding-1.0.0/reference/ItemStacks"
+              }
+            },
+            {
+              "unversionedId": "snippits/EditingQuests",
+              "id": "version-1.0.0/snippits/EditingQuests",
+              "isDocsHomePage": false,
+              "title": "Editing/Creating Quests",
+              "description": "Altering quests means altering QuestManager.m_quests which is attached to about 1600 game objects and only two of them actually load the quests.",
+              "source": "@site/coding_versioned_docs/version-1.0.0/snippits/EditingQuests.md",
+              "slug": "/snippits/EditingQuests",
+              "permalink": "/coding/coding-1.0.0/snippits/EditingQuests",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/snippits/EditingQuests.md",
+              "version": "1.0.0",
+              "sidebar_label": "Editing/Creating Quests",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "Introduction to Modding",
+                "permalink": "/coding/coding-1.0.0/fullGuide/Introduction"
+              },
+              "next": {
+                "title": "Changing Station UI Text",
+                "permalink": "/coding/coding-1.0.0/snippits/StationUIText"
+              }
+            },
+            {
+              "unversionedId": "snippits/StationUIText",
+              "id": "version-1.0.0/snippits/StationUIText",
+              "isDocsHomePage": false,
+              "title": "Changing Station UI Text",
+              "description": "This is for changing the station text in the worldview:",
+              "source": "@site/coding_versioned_docs/version-1.0.0/snippits/StationUIText.md",
+              "slug": "/snippits/StationUIText",
+              "permalink": "/coding/coding-1.0.0/snippits/StationUIText",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.0.0/snippits/StationUIText.md",
+              "version": "1.0.0",
+              "sidebar_label": "Changing Station UI Text",
+              "sidebar": "version-1.0.0/codingSidebar",
+              "previous": {
+                "title": "Editing/Creating Quests",
+                "permalink": "/coding/coding-1.0.0/snippits/EditingQuests"
+              },
+              "next": {
+                "title": "Item IDs",
+                "permalink": "/coding/coding-1.0.0/reference/ItemIDs"
+              }
+            }
+          ]
         }
       ]
     },
@@ -741,14 +1388,13 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/designing",
+          "versionPath": "/designing/next",
           "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/designing",
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-designing/current",
-          "isLast": true,
-          "routePriority": -1,
-          "sidebarFilePath": "/workspace/VolcWiki/sidebarsDesigning.js",
-          "docsDirPath": "/workspace/VolcWiki/designing",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-designing/current",
+          "isLast": false,
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\designing",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-designing\\current",
           "mainDocId": "Master",
           "sidebars": {
             "codingSidebar": [
@@ -765,7 +1411,7 @@
             ]
           },
           "permalinkToSidebar": {
-            "/designing/": "codingSidebar"
+            "/designing/next/": "codingSidebar"
           },
           "docs": [
             {
@@ -776,11 +1422,57 @@
               "description": "RedDolphin was kind enough to put together a few resources for building and designing models. The links are below. Enjoy.",
               "source": "@site/designing/Master.md",
               "slug": "/",
-              "permalink": "/designing/",
+              "permalink": "/designing/next/",
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/designing/Master.md",
               "version": "current",
               "sidebar_label": "Designing Master Page",
               "sidebar": "codingSidebar"
+            }
+          ]
+        },
+        {
+          "versionName": "1.0.0",
+          "versionLabel": "1.0.0",
+          "versionPath": "/designing",
+          "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/designing_versioned_docs/version-1.0.0",
+          "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-designing/version-1.0.0",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\designing_versioned_sidebars\\version-1.0.0-sidebars.json",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\designing_versioned_docs\\version-1.0.0",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-designing\\version-1.0.0",
+          "mainDocId": "Master",
+          "sidebars": {
+            "version-1.0.0/codingSidebar": [
+              {
+                "type": "doc",
+                "id": "version-1.0.0/Master"
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting Started",
+                "items": []
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/designing/": "version-1.0.0/codingSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "Master",
+              "id": "version-1.0.0/Master",
+              "isDocsHomePage": false,
+              "title": "Designing Master Page",
+              "description": "RedDolphin was kind enough to put together a few resources for building and designing models. The links are below. Enjoy.",
+              "source": "@site/designing_versioned_docs/version-1.0.0/Master.md",
+              "slug": "/",
+              "permalink": "/designing/",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/designing_versioned_docs/version-1.0.0/Master.md",
+              "version": "1.0.0",
+              "sidebar_label": "Designing Master Page",
+              "sidebar": "version-1.0.0/codingSidebar"
             }
           ]
         }
@@ -797,7 +1489,7 @@
             "source": "@site/blog/2021-03-15-creationGuide.md",
             "description": "Table of Contents are Auto Generated with any field that has at least one # and no more than 3.",
             "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 15, 2021",
+            "formattedDate": "March 14, 2021",
             "tags": [
               {
                 "label": "modding",
@@ -828,7 +1520,7 @@
             "source": "@site/blog/2021-03-15-styleGuide.md",
             "description": "You can write content using GitHub-flavored Markdown syntax.",
             "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 15, 2021",
+            "formattedDate": "March 14, 2021",
             "tags": [
               {
                 "label": "modding",

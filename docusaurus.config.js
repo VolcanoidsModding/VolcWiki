@@ -41,6 +41,18 @@ module.exports = {
           label: "GitHub",
           position: "right",
         },
+        {
+          type: "docsVersionDropdown",
+
+          //// Optional
+          position: "right",
+          // Add additional dropdown items at the beginning/end of the dropdown.
+          dropdownItemsBefore: [],
+          dropdownItemsAfter: [],
+          // Do not add the link active class when browsing docs.
+          dropdownActiveClassDisabled: true,
+          docsPluginId: "coding",
+        },
       ],
     },
     footer: {
@@ -125,6 +137,19 @@ module.exports = {
         routeBasePath: "coding",
         sidebarPath: require.resolve("./sidebarsCoding.js"),
         editUrl: "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
+        includeCurrentVersion: true,
+        disableVersioning: false,
+        lastVersion: "current",
+        versions: {
+          current: {
+            label: "1.24.471.0",
+            path: "",
+          },
+          "1.0.0": {
+            label: "1.0.0",
+            path: "coding-1.0.0",
+          },
+        },
         // ... other options
       },
     ],

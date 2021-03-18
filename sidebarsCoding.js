@@ -1,5 +1,5 @@
 module.exports = {
-  codingSidebar: [
+  codingSidebar: [ 
     {
       type: "doc",
       id: "Master",

@@ -38,6 +38,14 @@ export default {
           "href": "https://github.com/VolcanoidsModding",
           "label": "GitHub",
           "position": "right"
+        },
+        {
+          "type": "docsVersionDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": [],
+          "dropdownActiveClassDisabled": true,
+          "docsPluginId": "coding"
         }
       ],
       "hideOnScroll": false
@@ -116,14 +124,14 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/workspace/VolcWiki/sidebars.js",
+          "sidebarPath": "D:\\Coding\\VolcWiki\\sidebars.js",
           "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/workspace/VolcWiki/src/css/custom.css"
+          "customCss": "D:\\Coding\\VolcWiki\\src\\css\\custom.css"
         }
       }
     ]
@@ -135,8 +143,21 @@ export default {
         "id": "coding",
         "path": "coding",
         "routeBasePath": "coding",
-        "sidebarPath": "/workspace/VolcWiki/sidebarsCoding.js",
-        "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main"
+        "sidebarPath": "D:\\Coding\\VolcWiki\\sidebarsCoding.js",
+        "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
+        "includeCurrentVersion": true,
+        "disableVersioning": false,
+        "lastVersion": "current",
+        "versions": {
+          "current": {
+            "label": "1.24.471.0",
+            "path": ""
+          },
+          "1.0.0": {
+            "label": "1.0.0",
+            "path": "coding-1.0.0"
+          }
+        }
       }
     ],
     [
@@ -145,7 +166,7 @@ export default {
         "id": "designing",
         "path": "designing",
         "routeBasePath": "designing",
-        "sidebarPath": "/workspace/VolcWiki/sidebarsDesigning.js",
+        "sidebarPath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
         "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main"
       }
     ]
