@@ -1,5 +1,33 @@
 {
   "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "InstallingMods",
+          "docs": [
+            {
+              "id": "InstallingMods",
+              "path": "/docs/",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "ModList",
+              "path": "/docs/ModList",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "StyleGuide",
+              "path": "/docs/StyleGuide"
+            }
+          ]
+        }
+      ]
+    },
     "designing": {
       "path": "/designing",
       "versions": [
@@ -19,38 +47,6 @@
         }
       ]
     },
-    "default": {
-      "path": "/docs",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/docs",
-          "mainDocId": "InstallingMods",
-          "docs": [
-            {
-              "id": "InstallingMods",
-              "path": "/docs/",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "MainDesign",
-              "path": "/docs/MainDesign"
-            },
-            {
-              "id": "ModList",
-              "path": "/docs/ModList",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "StyleGuide",
-              "path": "/docs/StyleGuide"
-            }
-          ]
-        }
-      ]
-    },
     "coding": {
       "path": "/coding",
       "versions": [
@@ -61,6 +57,11 @@
           "path": "/coding",
           "mainDocId": "Master",
           "docs": [
+            {
+              "id": "fullGuide/Introduction",
+              "path": "/coding/fullGuide/Introduction",
+              "sidebar": "codingSidebar"
+            },
             {
               "id": "Master",
               "path": "/coding/",

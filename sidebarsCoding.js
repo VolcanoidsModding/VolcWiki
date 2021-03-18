@@ -6,13 +6,28 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Getting Started",
-      items: [],
-    },
-    {
-      type: "category",
-      label: "Full Guide",
-      items: []
+      label: "Guides",
+      items: [
+          {
+              type: 'doc',
+              id: 'fullGuide/Introduction'
+          },
+          {
+              type: "category",
+              label: "Getting Started",
+              items: [],
+          },
+          {
+              type: "category",
+              label: "Simple Modding",
+              items: []
+          },
+          {
+              type: "category",
+              label: "Advanced Modding",
+              items: []
+          }
+      ]
     },
     {
       type: "category",

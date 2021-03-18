@@ -44,42 +44,42 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','ee4'),
+  component: ComponentCreator('/blog','362'),
   exact: true,
 },
 {
   path: '/blog/creationguide',
-  component: ComponentCreator('/blog/creationguide','dc9'),
+  component: ComponentCreator('/blog/creationguide','8fb'),
   exact: true,
 },
 {
   path: '/blog/styleguide',
-  component: ComponentCreator('/blog/styleguide','1b0'),
+  component: ComponentCreator('/blog/styleguide','82f'),
   exact: true,
 },
 {
   path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','964'),
+  component: ComponentCreator('/blog/tags','293'),
   exact: true,
 },
 {
   path: '/blog/tags/creationguide',
-  component: ComponentCreator('/blog/tags/creationguide','a9a'),
+  component: ComponentCreator('/blog/tags/creationguide','217'),
   exact: true,
 },
 {
   path: '/blog/tags/gearbox',
-  component: ComponentCreator('/blog/tags/gearbox','c86'),
+  component: ComponentCreator('/blog/tags/gearbox','805'),
   exact: true,
 },
 {
   path: '/blog/tags/modding',
-  component: ComponentCreator('/blog/tags/modding','a2a'),
+  component: ComponentCreator('/blog/tags/modding','118'),
   exact: true,
 },
 {
   path: '/blog/tags/styleguide',
-  component: ComponentCreator('/blog/tags/styleguide','843'),
+  component: ComponentCreator('/blog/tags/styleguide','8cd'),
   exact: true,
 },
 {
@@ -89,12 +89,17 @@ export default [
 },
 {
   path: '/coding',
-  component: ComponentCreator('/coding','1eb'),
+  component: ComponentCreator('/coding','99b'),
   
   routes: [
 {
   path: '/coding/',
   component: ComponentCreator('/coding/','7de'),
+  exact: true,
+},
+{
+  path: '/coding/fullGuide/Introduction',
+  component: ComponentCreator('/coding/fullGuide/Introduction','90b'),
   exact: true,
 },
 {
@@ -213,17 +218,12 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','67f'),
+  component: ComponentCreator('/docs','396'),
   
   routes: [
 {
   path: '/docs/',
   component: ComponentCreator('/docs/','70f'),
-  exact: true,
-},
-{
-  path: '/docs/MainDesign',
-  component: ComponentCreator('/docs/MainDesign','cde'),
   exact: true,
 },
 {

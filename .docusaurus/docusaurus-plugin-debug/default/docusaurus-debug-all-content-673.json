@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebars.js",
-          "docsDirPath": "D:\\Coding\\VolcWiki\\docs",
-          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "/workspace/VolcWiki/sidebars.js",
+          "docsDirPath": "/workspace/VolcWiki/docs",
+          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "InstallingMods",
           "sidebars": {
             "mainSidebar": [
@@ -48,19 +48,6 @@
                 "title": "Mod List",
                 "permalink": "/docs/ModList"
               }
-            },
-            {
-              "unversionedId": "MainDesign",
-              "id": "MainDesign",
-              "isDocsHomePage": false,
-              "title": "Artistic Design in Modding",
-              "description": "RedDolphin was kind enough to put together a few resources for building and designing models. The links are below. Enjoy.",
-              "source": "@site/docs/MainDesign.md",
-              "slug": "/MainDesign",
-              "permalink": "/docs/MainDesign",
-              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs/MainDesign.md",
-              "version": "current",
-              "sidebar_label": "Artistic Design in Modding"
             },
             {
               "unversionedId": "ModList",
@@ -107,9 +94,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-coding/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsCoding.js",
-          "docsDirPath": "D:\\Coding\\VolcWiki\\coding",
-          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-coding\\current",
+          "sidebarFilePath": "/workspace/VolcWiki/sidebarsCoding.js",
+          "docsDirPath": "/workspace/VolcWiki/coding",
+          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-coding/current",
           "mainDocId": "Master",
           "sidebars": {
             "codingSidebar": [
@@ -120,14 +107,31 @@
               {
                 "collapsed": true,
                 "type": "category",
-                "label": "Getting Started",
-                "items": []
-              },
-              {
-                "collapsed": true,
-                "type": "category",
-                "label": "Full Guide",
-                "items": []
+                "label": "Guides",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "fullGuide/Introduction"
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Getting Started",
+                    "items": []
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Simple Modding",
+                    "items": []
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Advanced Modding",
+                    "items": []
+                  }
+                ]
               },
               {
                 "collapsed": true,
@@ -242,6 +246,7 @@
             ]
           },
           "permalinkToSidebar": {
+            "/coding/fullGuide/Introduction": "codingSidebar",
             "/coding/": "codingSidebar",
             "/coding/officialGuide/BuildRun": "officialGuide",
             "/coding/officialGuide/Debugging": "officialGuide",
@@ -265,6 +270,28 @@
           },
           "docs": [
             {
+              "unversionedId": "fullGuide/Introduction",
+              "id": "fullGuide/Introduction",
+              "isDocsHomePage": false,
+              "title": "Introduction to Modding",
+              "description": "Coming Soon! Stay Tuned!",
+              "source": "@site/coding/fullGuide/Introduction.md",
+              "slug": "/fullGuide/Introduction",
+              "permalink": "/coding/fullGuide/Introduction",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/fullGuide/Introduction.md",
+              "version": "current",
+              "sidebar_label": "Introduction to Modding",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Coding Master Page",
+                "permalink": "/coding/"
+              },
+              "next": {
+                "title": "Editing/Creating Quests",
+                "permalink": "/coding/snippits/EditingQuests"
+              }
+            },
+            {
               "unversionedId": "Master",
               "id": "Master",
               "isDocsHomePage": false,
@@ -278,8 +305,8 @@
               "sidebar_label": "Coding Master Page",
               "sidebar": "codingSidebar",
               "next": {
-                "title": "Editing/Creating Quests",
-                "permalink": "/coding/snippits/EditingQuests"
+                "title": "Introduction to Modding",
+                "permalink": "/coding/fullGuide/Introduction"
               }
             },
             {
@@ -675,8 +702,8 @@
               "sidebar_label": "Editing/Creating Quests",
               "sidebar": "codingSidebar",
               "previous": {
-                "title": "Coding Master Page",
-                "permalink": "/coding/"
+                "title": "Introduction to Modding",
+                "permalink": "/coding/fullGuide/Introduction"
               },
               "next": {
                 "title": "Changing Station UI Text",
@@ -719,9 +746,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-designing/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
-          "docsDirPath": "D:\\Coding\\VolcWiki\\designing",
-          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-designing\\current",
+          "sidebarFilePath": "/workspace/VolcWiki/sidebarsDesigning.js",
+          "docsDirPath": "/workspace/VolcWiki/designing",
+          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-designing/current",
           "mainDocId": "Master",
           "sidebars": {
             "codingSidebar": [
@@ -770,7 +797,7 @@
             "source": "@site/blog/2021-03-15-creationGuide.md",
             "description": "Table of Contents are Auto Generated with any field that has at least one # and no more than 3.",
             "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 14, 2021",
+            "formattedDate": "March 15, 2021",
             "tags": [
               {
                 "label": "modding",
@@ -801,7 +828,7 @@
             "source": "@site/blog/2021-03-15-styleGuide.md",
             "description": "You can write content using GitHub-flavored Markdown syntax.",
             "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 14, 2021",
+            "formattedDate": "March 15, 2021",
             "tags": [
               {
                 "label": "modding",
