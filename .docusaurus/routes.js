@@ -44,42 +44,42 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','ee4'),
+  component: ComponentCreator('/blog','362'),
   exact: true,
 },
 {
   path: '/blog/creationguide',
-  component: ComponentCreator('/blog/creationguide','dc9'),
+  component: ComponentCreator('/blog/creationguide','8fb'),
   exact: true,
 },
 {
   path: '/blog/styleguide',
-  component: ComponentCreator('/blog/styleguide','1b0'),
+  component: ComponentCreator('/blog/styleguide','82f'),
   exact: true,
 },
 {
   path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','964'),
+  component: ComponentCreator('/blog/tags','293'),
   exact: true,
 },
 {
   path: '/blog/tags/creationguide',
-  component: ComponentCreator('/blog/tags/creationguide','a9a'),
+  component: ComponentCreator('/blog/tags/creationguide','217'),
   exact: true,
 },
 {
   path: '/blog/tags/gearbox',
-  component: ComponentCreator('/blog/tags/gearbox','c86'),
+  component: ComponentCreator('/blog/tags/gearbox','805'),
   exact: true,
 },
 {
   path: '/blog/tags/modding',
-  component: ComponentCreator('/blog/tags/modding','a2a'),
+  component: ComponentCreator('/blog/tags/modding','118'),
   exact: true,
 },
 {
   path: '/blog/tags/styleguide',
-  component: ComponentCreator('/blog/tags/styleguide','843'),
+  component: ComponentCreator('/blog/tags/styleguide','8cd'),
   exact: true,
 },
 {
@@ -88,118 +88,118 @@ export default [
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0',
-  component: ComponentCreator('/coding/coding-1.0.0','573'),
+  path: '/coding/modding-1.24.471.0',
+  component: ComponentCreator('/coding/modding-1.24.471.0','629'),
   
   routes: [
 {
-  path: '/coding/coding-1.0.0/',
-  component: ComponentCreator('/coding/coding-1.0.0/','bff'),
+  path: '/coding/modding-1.24.471.0/',
+  component: ComponentCreator('/coding/modding-1.24.471.0/','0a5'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/fullGuide/Introduction',
-  component: ComponentCreator('/coding/coding-1.0.0/fullGuide/Introduction','d24'),
+  path: '/coding/modding-1.24.471.0/fullGuide/Introduction',
+  component: ComponentCreator('/coding/modding-1.24.471.0/fullGuide/Introduction','43f'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/officialGuide/BuildRun',
-  component: ComponentCreator('/coding/coding-1.0.0/officialGuide/BuildRun','4aa'),
+  path: '/coding/modding-1.24.471.0/officialGuide/BuildRun',
+  component: ComponentCreator('/coding/modding-1.24.471.0/officialGuide/BuildRun','c94'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/officialGuide/Debugging',
-  component: ComponentCreator('/coding/coding-1.0.0/officialGuide/Debugging','5c0'),
+  path: '/coding/modding-1.24.471.0/officialGuide/Debugging',
+  component: ComponentCreator('/coding/modding-1.24.471.0/officialGuide/Debugging','ba4'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/officialGuide/FinalWords',
-  component: ComponentCreator('/coding/coding-1.0.0/officialGuide/FinalWords','cac'),
+  path: '/coding/modding-1.24.471.0/officialGuide/FinalWords',
+  component: ComponentCreator('/coding/modding-1.24.471.0/officialGuide/FinalWords','237'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/officialGuide/FirstMod',
-  component: ComponentCreator('/coding/coding-1.0.0/officialGuide/FirstMod','e35'),
+  path: '/coding/modding-1.24.471.0/officialGuide/FirstMod',
+  component: ComponentCreator('/coding/modding-1.24.471.0/officialGuide/FirstMod','628'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/officialGuide/GameModding',
-  component: ComponentCreator('/coding/coding-1.0.0/officialGuide/GameModding','7a3'),
+  path: '/coding/modding-1.24.471.0/officialGuide/GameModding',
+  component: ComponentCreator('/coding/modding-1.24.471.0/officialGuide/GameModding','956'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/officialGuide/Info',
-  component: ComponentCreator('/coding/coding-1.0.0/officialGuide/Info','ea0'),
+  path: '/coding/modding-1.24.471.0/officialGuide/Info',
+  component: ComponentCreator('/coding/modding-1.24.471.0/officialGuide/Info','584'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/officialGuide/ProjectSetup',
-  component: ComponentCreator('/coding/coding-1.0.0/officialGuide/ProjectSetup','de3'),
+  path: '/coding/modding-1.24.471.0/officialGuide/ProjectSetup',
+  component: ComponentCreator('/coding/modding-1.24.471.0/officialGuide/ProjectSetup','5e7'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/officialGuide/RequiredTools',
-  component: ComponentCreator('/coding/coding-1.0.0/officialGuide/RequiredTools','4ef'),
+  path: '/coding/modding-1.24.471.0/officialGuide/RequiredTools',
+  component: ComponentCreator('/coding/modding-1.24.471.0/officialGuide/RequiredTools','523'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/reference/GUID/ItemGUIDs',
-  component: ComponentCreator('/coding/coding-1.0.0/reference/GUID/ItemGUIDs','b35'),
+  path: '/coding/modding-1.24.471.0/reference/GUID/ItemGUIDs',
+  component: ComponentCreator('/coding/modding-1.24.471.0/reference/GUID/ItemGUIDs','2ab'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/reference/GUID/ModuleGUIDs',
-  component: ComponentCreator('/coding/coding-1.0.0/reference/GUID/ModuleGUIDs','475'),
+  path: '/coding/modding-1.24.471.0/reference/GUID/ModuleGUIDs',
+  component: ComponentCreator('/coding/modding-1.24.471.0/reference/GUID/ModuleGUIDs','a7f'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/reference/GUID/RecipeGUIDs',
-  component: ComponentCreator('/coding/coding-1.0.0/reference/GUID/RecipeGUIDs','7b8'),
+  path: '/coding/modding-1.24.471.0/reference/GUID/RecipeGUIDs',
+  component: ComponentCreator('/coding/modding-1.24.471.0/reference/GUID/RecipeGUIDs','97a'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/reference/GUIDFields',
-  component: ComponentCreator('/coding/coding-1.0.0/reference/GUIDFields','bd9'),
+  path: '/coding/modding-1.24.471.0/reference/GUIDFields',
+  component: ComponentCreator('/coding/modding-1.24.471.0/reference/GUIDFields','3be'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/reference/ItemIDs',
-  component: ComponentCreator('/coding/coding-1.0.0/reference/ItemIDs','743'),
+  path: '/coding/modding-1.24.471.0/reference/ItemIDs',
+  component: ComponentCreator('/coding/modding-1.24.471.0/reference/ItemIDs','7af'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/reference/ItemStacks',
-  component: ComponentCreator('/coding/coding-1.0.0/reference/ItemStacks','a18'),
+  path: '/coding/modding-1.24.471.0/reference/ItemStacks',
+  component: ComponentCreator('/coding/modding-1.24.471.0/reference/ItemStacks','45f'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/reference/ModuleIDs',
-  component: ComponentCreator('/coding/coding-1.0.0/reference/ModuleIDs','3ef'),
+  path: '/coding/modding-1.24.471.0/reference/ModuleIDs',
+  component: ComponentCreator('/coding/modding-1.24.471.0/reference/ModuleIDs','e25'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/reference/QuestOrder',
-  component: ComponentCreator('/coding/coding-1.0.0/reference/QuestOrder','058'),
+  path: '/coding/modding-1.24.471.0/reference/QuestOrder',
+  component: ComponentCreator('/coding/modding-1.24.471.0/reference/QuestOrder','dc3'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/reference/RecipeIDs',
-  component: ComponentCreator('/coding/coding-1.0.0/reference/RecipeIDs','152'),
+  path: '/coding/modding-1.24.471.0/reference/RecipeIDs',
+  component: ComponentCreator('/coding/modding-1.24.471.0/reference/RecipeIDs','e72'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/reference/RecipeTimes',
-  component: ComponentCreator('/coding/coding-1.0.0/reference/RecipeTimes','b70'),
+  path: '/coding/modding-1.24.471.0/reference/RecipeTimes',
+  component: ComponentCreator('/coding/modding-1.24.471.0/reference/RecipeTimes','e32'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/snippits/EditingQuests',
-  component: ComponentCreator('/coding/coding-1.0.0/snippits/EditingQuests','fa1'),
+  path: '/coding/modding-1.24.471.0/snippits/EditingQuests',
+  component: ComponentCreator('/coding/modding-1.24.471.0/snippits/EditingQuests','9a4'),
   exact: true,
 },
 {
-  path: '/coding/coding-1.0.0/snippits/StationUIText',
-  component: ComponentCreator('/coding/coding-1.0.0/snippits/StationUIText','1f6'),
+  path: '/coding/modding-1.24.471.0/snippits/StationUIText',
+  component: ComponentCreator('/coding/modding-1.24.471.0/snippits/StationUIText','4cf'),
   exact: true,
 },
 ]
@@ -217,13 +217,40 @@ export default [
 ]
 },
 {
+  path: '/docs/next',
+  component: ComponentCreator('/docs/next','4f1'),
+  
+  routes: [
+{
+  path: '/docs/next/',
+  component: ComponentCreator('/docs/next/','37d'),
+  exact: true,
+},
+{
+  path: '/docs/next/ModList',
+  component: ComponentCreator('/docs/next/ModList','d3b'),
+  exact: true,
+},
+{
+  path: '/docs/next/StyleGuide',
+  component: ComponentCreator('/docs/next/StyleGuide','e2b'),
+  exact: true,
+},
+]
+},
+{
   path: '/coding',
-  component: ComponentCreator('/coding','99b'),
+  component: ComponentCreator('/coding','9b1'),
   
   routes: [
 {
   path: '/coding/',
   component: ComponentCreator('/coding/','7de'),
+  exact: true,
+},
+{
+  path: '/coding/fullGuide/gettingStarted/TheBeginning',
+  component: ComponentCreator('/coding/fullGuide/gettingStarted/TheBeginning','ab4'),
   exact: true,
 },
 {
@@ -335,34 +362,34 @@ export default [
 },
 {
   path: '/designing',
-  component: ComponentCreator('/designing','aa8'),
+  component: ComponentCreator('/designing','a18'),
   
   routes: [
 {
   path: '/designing/',
-  component: ComponentCreator('/designing/','101'),
+  component: ComponentCreator('/designing/','639'),
   exact: true,
 },
 ]
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','396'),
+  component: ComponentCreator('/docs','9fa'),
   
   routes: [
 {
   path: '/docs/',
-  component: ComponentCreator('/docs/','70f'),
+  component: ComponentCreator('/docs/','898'),
   exact: true,
 },
 {
   path: '/docs/ModList',
-  component: ComponentCreator('/docs/ModList','d95'),
+  component: ComponentCreator('/docs/ModList','321'),
   exact: true,
 },
 {
   path: '/docs/StyleGuide',
-  component: ComponentCreator('/docs/StyleGuide','db2'),
+  component: ComponentCreator('/docs/StyleGuide','86e'),
   exact: true,
 },
 ]

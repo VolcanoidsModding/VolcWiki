@@ -36,22 +36,22 @@ module.exports = {
           position: "left",
         },
         //{ to: "blog", label: "Blog", position: "left" },
+          {
+              type: "docsVersionDropdown",
+
+              //// Optional
+              position: "right",
+              // Add additional dropdown items at the beginning/end of the dropdown.
+              dropdownItemsBefore: [],
+              dropdownItemsAfter: [],
+              // Do not add the link active class when browsing docs.
+              dropdownActiveClassDisabled: true,
+              docsPluginId: "coding",
+          },
         {
           href: "https://github.com/VolcanoidsModding",
           label: "GitHub",
           position: "right",
-        },
-        {
-          type: "docsVersionDropdown",
-
-          //// Optional
-          position: "right",
-          // Add additional dropdown items at the beginning/end of the dropdown.
-          dropdownItemsBefore: [],
-          dropdownItemsAfter: [],
-          // Do not add the link active class when browsing docs.
-          dropdownActiveClassDisabled: true,
-          docsPluginId: "coding",
         },
       ],
     },
@@ -142,12 +142,12 @@ module.exports = {
         lastVersion: "current",
         versions: {
           current: {
-            label: "1.24.471.0",
+            label: "1.24.515.0",
             path: "",
           },
-          "1.0.0": {
-            label: "1.0.0",
-            path: "coding-1.0.0",
+          "1.24.471.0": {
+            label: "1.24.471.0",
+              path: "modding-1.24.471.0",
           },
         },
         // ... other options

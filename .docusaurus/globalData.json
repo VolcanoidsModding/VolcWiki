@@ -6,6 +6,29 @@
         {
           "name": "current",
           "label": "Next",
+          "isLast": false,
+          "path": "/docs/next",
+          "mainDocId": "InstallingMods",
+          "docs": [
+            {
+              "id": "InstallingMods",
+              "path": "/docs/next/",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "ModList",
+              "path": "/docs/next/ModList",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "StyleGuide",
+              "path": "/docs/next/StyleGuide"
+            }
+          ]
+        },
+        {
+          "name": "1.24.471.0",
+          "label": "1.24.471.0",
           "isLast": true,
           "path": "/docs",
           "mainDocId": "InstallingMods",
@@ -13,12 +36,12 @@
             {
               "id": "InstallingMods",
               "path": "/docs/",
-              "sidebar": "mainSidebar"
+              "sidebar": "version-1.24.471.0/mainSidebar"
             },
             {
               "id": "ModList",
               "path": "/docs/ModList",
-              "sidebar": "mainSidebar"
+              "sidebar": "version-1.24.471.0/mainSidebar"
             },
             {
               "id": "StyleGuide",
@@ -46,8 +69,8 @@
           ]
         },
         {
-          "name": "1.0.0",
-          "label": "1.0.0",
+          "name": "1.24.471.0",
+          "label": "1.24.471.0",
           "isLast": true,
           "path": "/designing",
           "mainDocId": "Master",
@@ -55,7 +78,7 @@
             {
               "id": "Master",
               "path": "/designing/",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "sidebar": "version-1.24.471.0/codingSidebar"
             }
           ]
         }
@@ -66,11 +89,16 @@
       "versions": [
         {
           "name": "current",
-          "label": "1.24.471.0",
+          "label": "1.24.515.0",
           "isLast": true,
           "path": "/coding",
           "mainDocId": "Master",
           "docs": [
+            {
+              "id": "fullGuide/gettingStarted/TheBeginning",
+              "path": "/coding/fullGuide/gettingStarted/TheBeginning",
+              "sidebar": "codingSidebar"
+            },
             {
               "id": "fullGuide/Introduction",
               "path": "/coding/fullGuide/Introduction",
@@ -183,120 +211,120 @@
           ]
         },
         {
-          "name": "1.0.0",
-          "label": "1.0.0",
+          "name": "1.24.471.0",
+          "label": "1.24.471.0",
           "isLast": false,
-          "path": "/coding/coding-1.0.0",
+          "path": "/coding/modding-1.24.471.0",
           "mainDocId": "Master",
           "docs": [
             {
               "id": "fullGuide/Introduction",
-              "path": "/coding/coding-1.0.0/fullGuide/Introduction",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/fullGuide/Introduction",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "Master",
-              "path": "/coding/coding-1.0.0/",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "officialGuide/BuildRun",
-              "path": "/coding/coding-1.0.0/officialGuide/BuildRun",
-              "sidebar": "version-1.0.0/officialGuide"
+              "path": "/coding/modding-1.24.471.0/officialGuide/BuildRun",
+              "sidebar": "version-1.24.471.0/officialGuide"
             },
             {
               "id": "officialGuide/Debugging",
-              "path": "/coding/coding-1.0.0/officialGuide/Debugging",
-              "sidebar": "version-1.0.0/officialGuide"
+              "path": "/coding/modding-1.24.471.0/officialGuide/Debugging",
+              "sidebar": "version-1.24.471.0/officialGuide"
             },
             {
               "id": "officialGuide/FinalWords",
-              "path": "/coding/coding-1.0.0/officialGuide/FinalWords",
-              "sidebar": "version-1.0.0/officialGuide"
+              "path": "/coding/modding-1.24.471.0/officialGuide/FinalWords",
+              "sidebar": "version-1.24.471.0/officialGuide"
             },
             {
               "id": "officialGuide/FirstMod",
-              "path": "/coding/coding-1.0.0/officialGuide/FirstMod",
-              "sidebar": "version-1.0.0/officialGuide"
+              "path": "/coding/modding-1.24.471.0/officialGuide/FirstMod",
+              "sidebar": "version-1.24.471.0/officialGuide"
             },
             {
               "id": "officialGuide/GameModding",
-              "path": "/coding/coding-1.0.0/officialGuide/GameModding",
-              "sidebar": "version-1.0.0/officialGuide"
+              "path": "/coding/modding-1.24.471.0/officialGuide/GameModding",
+              "sidebar": "version-1.24.471.0/officialGuide"
             },
             {
               "id": "officialGuide/Info",
-              "path": "/coding/coding-1.0.0/officialGuide/Info",
-              "sidebar": "version-1.0.0/officialGuide"
+              "path": "/coding/modding-1.24.471.0/officialGuide/Info",
+              "sidebar": "version-1.24.471.0/officialGuide"
             },
             {
               "id": "officialGuide/ProjectSetup",
-              "path": "/coding/coding-1.0.0/officialGuide/ProjectSetup",
-              "sidebar": "version-1.0.0/officialGuide"
+              "path": "/coding/modding-1.24.471.0/officialGuide/ProjectSetup",
+              "sidebar": "version-1.24.471.0/officialGuide"
             },
             {
               "id": "officialGuide/RequiredTools",
-              "path": "/coding/coding-1.0.0/officialGuide/RequiredTools",
-              "sidebar": "version-1.0.0/officialGuide"
+              "path": "/coding/modding-1.24.471.0/officialGuide/RequiredTools",
+              "sidebar": "version-1.24.471.0/officialGuide"
             },
             {
               "id": "reference/GUID/ItemGUIDs",
-              "path": "/coding/coding-1.0.0/reference/GUID/ItemGUIDs",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/reference/GUID/ItemGUIDs",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "reference/GUID/ModuleGUIDs",
-              "path": "/coding/coding-1.0.0/reference/GUID/ModuleGUIDs",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/reference/GUID/ModuleGUIDs",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "reference/GUID/RecipeGUIDs",
-              "path": "/coding/coding-1.0.0/reference/GUID/RecipeGUIDs",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/reference/GUID/RecipeGUIDs",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "reference/GUIDFields",
-              "path": "/coding/coding-1.0.0/reference/GUIDFields"
+              "path": "/coding/modding-1.24.471.0/reference/GUIDFields"
             },
             {
               "id": "reference/ItemIDs",
-              "path": "/coding/coding-1.0.0/reference/ItemIDs",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/reference/ItemIDs",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "reference/ItemStacks",
-              "path": "/coding/coding-1.0.0/reference/ItemStacks",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/reference/ItemStacks",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "reference/ModuleIDs",
-              "path": "/coding/coding-1.0.0/reference/ModuleIDs",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/reference/ModuleIDs",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "reference/QuestOrder",
-              "path": "/coding/coding-1.0.0/reference/QuestOrder",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/reference/QuestOrder",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "reference/RecipeIDs",
-              "path": "/coding/coding-1.0.0/reference/RecipeIDs",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/reference/RecipeIDs",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "reference/RecipeTimes",
-              "path": "/coding/coding-1.0.0/reference/RecipeTimes",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/reference/RecipeTimes",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "snippits/EditingQuests",
-              "path": "/coding/coding-1.0.0/snippits/EditingQuests",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/snippits/EditingQuests",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             },
             {
               "id": "snippits/StationUIText",
-              "path": "/coding/coding-1.0.0/snippits/StationUIText",
-              "sidebar": "version-1.0.0/codingSidebar"
+              "path": "/coding/modding-1.24.471.0/snippits/StationUIText",
+              "sidebar": "version-1.24.471.0/codingSidebar"
             }
           ]
         }

@@ -1,8 +1,8 @@
 {
-  "version-1.0.0/codingSidebar": [
+  "version-1.24.471.0/codingSidebar": [
     {
       "type": "doc",
-      "id": "version-1.0.0/Master"
+      "id": "version-1.24.471.0/Master"
     },
     {
       "collapsed": true,
@@ -11,7 +11,7 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-1.0.0/fullGuide/Introduction"
+          "id": "version-1.24.471.0/fullGuide/Introduction"
         },
         {
           "collapsed": true,
@@ -40,11 +40,11 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-1.0.0/snippits/EditingQuests"
+          "id": "version-1.24.471.0/snippits/EditingQuests"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/snippits/StationUIText"
+          "id": "version-1.24.471.0/snippits/StationUIText"
         }
       ]
     },
@@ -55,27 +55,27 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-1.0.0/reference/ItemIDs"
+          "id": "version-1.24.471.0/reference/ItemIDs"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/reference/ModuleIDs"
+          "id": "version-1.24.471.0/reference/ModuleIDs"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/reference/RecipeIDs"
+          "id": "version-1.24.471.0/reference/RecipeIDs"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/reference/RecipeTimes"
+          "id": "version-1.24.471.0/reference/RecipeTimes"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/reference/ItemStacks"
+          "id": "version-1.24.471.0/reference/ItemStacks"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/reference/QuestOrder"
+          "id": "version-1.24.471.0/reference/QuestOrder"
         },
         {
           "collapsed": true,
@@ -84,25 +84,25 @@
           "items": [
             {
               "type": "doc",
-              "id": "version-1.0.0/reference/GUID/ItemGUIDs"
+              "id": "version-1.24.471.0/reference/GUID/ItemGUIDs"
             },
             {
               "type": "doc",
-              "id": "version-1.0.0/reference/GUID/ModuleGUIDs"
+              "id": "version-1.24.471.0/reference/GUID/ModuleGUIDs"
             },
             {
               "type": "doc",
-              "id": "version-1.0.0/reference/GUID/RecipeGUIDs"
+              "id": "version-1.24.471.0/reference/GUID/RecipeGUIDs"
             }
           ]
         }
       ]
     }
   ],
-  "version-1.0.0/officialGuide": [
+  "version-1.24.471.0/officialGuide": [
     {
       "type": "doc",
-      "id": "version-1.0.0/Master"
+      "id": "version-1.24.471.0/Master"
     },
     {
       "collapsed": true,
@@ -111,35 +111,35 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-1.0.0/officialGuide/Info"
+          "id": "version-1.24.471.0/officialGuide/Info"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/officialGuide/RequiredTools"
+          "id": "version-1.24.471.0/officialGuide/RequiredTools"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/officialGuide/ProjectSetup"
+          "id": "version-1.24.471.0/officialGuide/ProjectSetup"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/officialGuide/BuildRun"
+          "id": "version-1.24.471.0/officialGuide/BuildRun"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/officialGuide/FirstMod"
+          "id": "version-1.24.471.0/officialGuide/FirstMod"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/officialGuide/Debugging"
+          "id": "version-1.24.471.0/officialGuide/Debugging"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/officialGuide/GameModding"
+          "id": "version-1.24.471.0/officialGuide/GameModding"
         },
         {
           "type": "doc",
-          "id": "version-1.0.0/officialGuide/FinalWords"
+          "id": "version-1.24.471.0/officialGuide/FinalWords"
         }
       ]
     }

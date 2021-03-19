@@ -35,17 +35,17 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/VolcanoidsModding",
-          "label": "GitHub",
-          "position": "right"
-        },
-        {
           "type": "docsVersionDropdown",
           "position": "right",
           "dropdownItemsBefore": [],
           "dropdownItemsAfter": [],
           "dropdownActiveClassDisabled": true,
           "docsPluginId": "coding"
+        },
+        {
+          "href": "https://github.com/VolcanoidsModding",
+          "label": "GitHub",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -124,14 +124,14 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "D:\\Coding\\VolcWiki\\sidebars.js",
+          "sidebarPath": "/workspace/VolcWiki/sidebars.js",
           "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "D:\\Coding\\VolcWiki\\src\\css\\custom.css"
+          "customCss": "/workspace/VolcWiki/src/css/custom.css"
         }
       }
     ]
@@ -143,19 +143,19 @@ export default {
         "id": "coding",
         "path": "coding",
         "routeBasePath": "coding",
-        "sidebarPath": "D:\\Coding\\VolcWiki\\sidebarsCoding.js",
+        "sidebarPath": "/workspace/VolcWiki/sidebarsCoding.js",
         "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
         "includeCurrentVersion": true,
         "disableVersioning": false,
         "lastVersion": "current",
         "versions": {
           "current": {
-            "label": "1.24.471.0",
+            "label": "1.24.515.0",
             "path": ""
           },
-          "1.0.0": {
-            "label": "1.0.0",
-            "path": "coding-1.0.0"
+          "1.24.471.0": {
+            "label": "1.24.471.0",
+            "path": "modding-1.24.471.0"
           }
         }
       }
@@ -166,7 +166,7 @@ export default {
         "id": "designing",
         "path": "designing",
         "routeBasePath": "designing",
-        "sidebarPath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
+        "sidebarPath": "/workspace/VolcWiki/sidebarsDesigning.js",
         "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main"
       }
     ]

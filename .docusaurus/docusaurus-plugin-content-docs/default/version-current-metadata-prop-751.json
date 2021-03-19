@@ -2,23 +2,23 @@
   "pluginId": "default",
   "version": "current",
   "label": "Next",
-  "isLast": true,
+  "isLast": false,
   "docsSidebars": {
     "mainSidebar": [
       {
         "type": "link",
         "label": "Installing Mods",
-        "href": "/docs/"
+        "href": "/docs/next/"
       },
       {
         "type": "link",
         "label": "Mod List",
-        "href": "/docs/ModList"
+        "href": "/docs/next/ModList"
       }
     ]
   },
   "permalinkToSidebar": {
-    "/docs/": "mainSidebar",
-    "/docs/ModList": "mainSidebar"
+    "/docs/next/": "mainSidebar",
+    "/docs/next/ModList": "mainSidebar"
   }
 }
