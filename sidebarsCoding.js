@@ -15,7 +15,8 @@ module.exports = {
           {
               type: "category",
               label: "Getting Started",
-              items: ['fullGuide/gettingStarted/TheBeginning'],
+              items: []
+              //items: ['fullGuide/gettingStarted/TheBeginning'],
           },
           {
               type: "category",

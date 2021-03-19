@@ -96,8 +96,7 @@
           "docs": [
             {
               "id": "fullGuide/gettingStarted/TheBeginning",
-              "path": "/coding/fullGuide/gettingStarted/TheBeginning",
-              "sidebar": "codingSidebar"
+              "path": "/coding/fullGuide/gettingStarted/TheBeginning"
             },
             {
               "id": "fullGuide/Introduction",
