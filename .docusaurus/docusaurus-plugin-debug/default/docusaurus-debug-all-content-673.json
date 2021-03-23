@@ -196,7 +196,12 @@
                     "collapsed": true,
                     "type": "category",
                     "label": "Getting Started",
-                    "items": []
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "fullGuide/gettingStarted/TheBeginning"
+                      }
+                    ]
                   },
                   {
                     "collapsed": true,
@@ -325,6 +330,7 @@
             ]
           },
           "permalinkToSidebar": {
+            "/coding/fullGuide/gettingStarted/TheBeginning": "codingSidebar",
             "/coding/fullGuide/Introduction": "codingSidebar",
             "/coding/": "codingSidebar",
             "/coding/officialGuide/BuildRun": "officialGuide",
@@ -353,12 +359,22 @@
               "id": "fullGuide/gettingStarted/TheBeginning",
               "isDocsHomePage": false,
               "title": "Beginning to Mod",
+              "description": "A Note from the Volcanoids Developers",
               "source": "@site/coding/fullGuide/gettingStarted/TheBeginning.md",
               "slug": "/fullGuide/gettingStarted/TheBeginning",
               "permalink": "/coding/fullGuide/gettingStarted/TheBeginning",
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/fullGuide/gettingStarted/TheBeginning.md",
               "version": "current",
-              "sidebar_label": "Beginning to Mod"
+              "sidebar_label": "Beginning to Mod",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Introduction to Modding",
+                "permalink": "/coding/fullGuide/Introduction"
+              },
+              "next": {
+                "title": "Editing/Creating Quests",
+                "permalink": "/coding/snippits/EditingQuests"
+              }
             },
             {
               "unversionedId": "fullGuide/Introduction",
@@ -378,8 +394,8 @@
                 "permalink": "/coding/"
               },
               "next": {
-                "title": "Editing/Creating Quests",
-                "permalink": "/coding/snippits/EditingQuests"
+                "title": "Beginning to Mod",
+                "permalink": "/coding/fullGuide/gettingStarted/TheBeginning"
               }
             },
             {
@@ -793,8 +809,8 @@
               "sidebar_label": "Editing/Creating Quests",
               "sidebar": "codingSidebar",
               "previous": {
-                "title": "Introduction to Modding",
-                "permalink": "/coding/fullGuide/Introduction"
+                "title": "Beginning to Mod",
+                "permalink": "/coding/fullGuide/gettingStarted/TheBeginning"
               },
               "next": {
                 "title": "Changing Station UI Text",
