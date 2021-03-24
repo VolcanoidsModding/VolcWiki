@@ -1,5 +1,5 @@
 module.exports = {
-  codingSidebar: [ 
+  codingSidebar: [
     {
       type: "doc",
       id: "Master",
@@ -8,32 +8,31 @@ module.exports = {
       type: "category",
       label: "Guides",
       items: [
-          {
-              type: 'doc',
-              id: 'fullGuide/Introduction'
-          },
-          {
-              type: "category",
-              label: "Getting Started",
-              items: []
-              //items: ['fullGuide/gettingStarted/TheBeginning'],
-          },
-          {
-              type: "category",
-              label: "Simple Modding",
-              items: []
-          },
-          {
-              type: "category",
-              label: "Advanced Modding",
-              items: []
-          }
-      ]
+        {
+          type: "doc",
+          id: "fullGuide/Introduction",
+        },
+        {
+          type: "category",
+          label: "Getting Started",
+          items: ["fullGuide/gettingStarted/TheBeginning", "fullGuide/gettingStarted/RequiredTools"],
+        },
+        {
+          type: "category",
+          label: "Simple Modding",
+          items: [],
+        },
+        {
+          type: "category",
+          label: "Advanced Modding",
+          items: [],
+        },
+      ],
     },
     {
       type: "category",
       label: "Snippits",
-      items: ['snippits/EditingQuests', 'snippits/StationUIText']
+      items: ["snippits/EditingQuests", "snippits/StationUIText"],
     },
     {
       type: "category",
@@ -66,7 +65,11 @@ module.exports = {
         {
           type: "category",
           label: "GUID Code",
-          items: ["reference/GUID/ItemGUIDs", "reference/GUID/ModuleGUIDs", "reference/GUID/RecipeGUIDs"],
+          items: [
+            "reference/GUID/ItemGUIDs",
+            "reference/GUID/ModuleGUIDs",
+            "reference/GUID/RecipeGUIDs",
+          ],
         },
       ],
     },

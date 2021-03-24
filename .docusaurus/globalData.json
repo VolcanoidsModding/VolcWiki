@@ -95,8 +95,18 @@
           "mainDocId": "Master",
           "docs": [
             {
+              "id": "fullGuide/gettingStarted/GettingStarted",
+              "path": "/coding/fullGuide/gettingStarted/GettingStarted"
+            },
+            {
+              "id": "fullGuide/gettingStarted/RequiredTools",
+              "path": "/coding/fullGuide/gettingStarted/RequiredTools",
+              "sidebar": "codingSidebar"
+            },
+            {
               "id": "fullGuide/gettingStarted/TheBeginning",
-              "path": "/coding/fullGuide/gettingStarted/TheBeginning"
+              "path": "/coding/fullGuide/gettingStarted/TheBeginning",
+              "sidebar": "codingSidebar"
             },
             {
               "id": "fullGuide/Introduction",

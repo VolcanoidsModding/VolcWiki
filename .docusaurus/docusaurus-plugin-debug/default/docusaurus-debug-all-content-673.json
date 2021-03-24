@@ -9,9 +9,9 @@
           "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/docs",
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": false,
-          "sidebarFilePath": "/workspace/VolcWiki/sidebars.js",
-          "docsDirPath": "/workspace/VolcWiki/docs",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebars.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\docs",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "mainDocId": "InstallingMods",
           "sidebars": {
             "mainSidebar": [
@@ -89,9 +89,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs/version-1.24.471.0",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/workspace/VolcWiki/versioned_sidebars/version-1.24.471.0-sidebars.json",
-          "docsDirPath": "/workspace/VolcWiki/versioned_docs/version-1.24.471.0",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs/version-1.24.471.0",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\versioned_sidebars\\version-1.24.471.0-sidebars.json",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\versioned_docs\\version-1.24.471.0",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs\\version-1.24.471.0",
           "mainDocId": "InstallingMods",
           "sidebars": {
             "version-1.24.471.0/mainSidebar": [
@@ -173,9 +173,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-coding/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/workspace/VolcWiki/sidebarsCoding.js",
-          "docsDirPath": "/workspace/VolcWiki/coding",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-coding/current",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsCoding.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\coding",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-coding\\current",
           "mainDocId": "Master",
           "sidebars": {
             "codingSidebar": [
@@ -196,7 +196,16 @@
                     "collapsed": true,
                     "type": "category",
                     "label": "Getting Started",
-                    "items": []
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "fullGuide/gettingStarted/TheBeginning"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "fullGuide/gettingStarted/RequiredTools"
+                      }
+                    ]
                   },
                   {
                     "collapsed": true,
@@ -325,6 +334,8 @@
             ]
           },
           "permalinkToSidebar": {
+            "/coding/fullGuide/gettingStarted/RequiredTools": "codingSidebar",
+            "/coding/fullGuide/gettingStarted/TheBeginning": "codingSidebar",
             "/coding/fullGuide/Introduction": "codingSidebar",
             "/coding/": "codingSidebar",
             "/coding/officialGuide/BuildRun": "officialGuide",
@@ -349,16 +360,61 @@
           },
           "docs": [
             {
+              "unversionedId": "fullGuide/gettingStarted/GettingStarted",
+              "id": "fullGuide/gettingStarted/GettingStarted",
+              "isDocsHomePage": false,
+              "title": "Getting Started",
+              "description": "The Setup",
+              "source": "@site/coding/fullGuide/gettingStarted/GettingStarted.md",
+              "slug": "/fullGuide/gettingStarted/GettingStarted",
+              "permalink": "/coding/fullGuide/gettingStarted/GettingStarted",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/fullGuide/gettingStarted/GettingStarted.md",
+              "version": "current",
+              "sidebar_label": "Getting Started"
+            },
+            {
+              "unversionedId": "fullGuide/gettingStarted/RequiredTools",
+              "id": "fullGuide/gettingStarted/RequiredTools",
+              "isDocsHomePage": false,
+              "title": "Required Tools/Requirements",
+              "description": "From here on, nothing in this guide is official, this is just the only support that Volcanoids can offer for modding at the moment. However in the creation of the mods used and the code explained was in close work with Ondrej. Tomas has also been a huge support for us, without their, and Rich's help, none of this would have been possible.",
+              "source": "@site/coding/fullGuide/gettingStarted/RequiredTools.md",
+              "slug": "/fullGuide/gettingStarted/RequiredTools",
+              "permalink": "/coding/fullGuide/gettingStarted/RequiredTools",
+              "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/fullGuide/gettingStarted/RequiredTools.md",
+              "version": "current",
+              "sidebar_label": "Required Tools/Requirements",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Beginning to Mod",
+                "permalink": "/coding/fullGuide/gettingStarted/TheBeginning"
+              },
+              "next": {
+                "title": "Editing/Creating Quests",
+                "permalink": "/coding/snippits/EditingQuests"
+              }
+            },
+            {
               "unversionedId": "fullGuide/gettingStarted/TheBeginning",
               "id": "fullGuide/gettingStarted/TheBeginning",
               "isDocsHomePage": false,
               "title": "Beginning to Mod",
+              "description": "A Note from the Volcanoids Developers",
               "source": "@site/coding/fullGuide/gettingStarted/TheBeginning.md",
               "slug": "/fullGuide/gettingStarted/TheBeginning",
               "permalink": "/coding/fullGuide/gettingStarted/TheBeginning",
               "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding/fullGuide/gettingStarted/TheBeginning.md",
               "version": "current",
-              "sidebar_label": "Beginning to Mod"
+              "sidebar_label": "Beginning to Mod",
+              "sidebar": "codingSidebar",
+              "previous": {
+                "title": "Introduction to Modding",
+                "permalink": "/coding/fullGuide/Introduction"
+              },
+              "next": {
+                "title": "Required Tools/Requirements",
+                "permalink": "/coding/fullGuide/gettingStarted/RequiredTools"
+              }
             },
             {
               "unversionedId": "fullGuide/Introduction",
@@ -378,8 +434,8 @@
                 "permalink": "/coding/"
               },
               "next": {
-                "title": "Editing/Creating Quests",
-                "permalink": "/coding/snippits/EditingQuests"
+                "title": "Beginning to Mod",
+                "permalink": "/coding/fullGuide/gettingStarted/TheBeginning"
               }
             },
             {
@@ -793,8 +849,8 @@
               "sidebar_label": "Editing/Creating Quests",
               "sidebar": "codingSidebar",
               "previous": {
-                "title": "Introduction to Modding",
-                "permalink": "/coding/fullGuide/Introduction"
+                "title": "Required Tools/Requirements",
+                "permalink": "/coding/fullGuide/gettingStarted/RequiredTools"
               },
               "next": {
                 "title": "Changing Station UI Text",
@@ -832,9 +888,9 @@
           "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/coding_versioned_docs/version-1.24.471.0",
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-coding/version-1.24.471.0",
           "isLast": false,
-          "sidebarFilePath": "/workspace/VolcWiki/coding_versioned_sidebars/version-1.24.471.0-sidebars.json",
-          "docsDirPath": "/workspace/VolcWiki/coding_versioned_docs/version-1.24.471.0",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-coding/version-1.24.471.0",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\coding_versioned_sidebars\\version-1.24.471.0-sidebars.json",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\coding_versioned_docs\\version-1.24.471.0",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-coding\\version-1.24.471.0",
           "mainDocId": "Master",
           "sidebars": {
             "version-1.24.471.0/codingSidebar": [
@@ -1483,9 +1539,9 @@
           "versionEditUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/designing",
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-designing/current",
           "isLast": false,
-          "sidebarFilePath": "/workspace/VolcWiki/sidebarsDesigning.js",
-          "docsDirPath": "/workspace/VolcWiki/designing",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-designing/current",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\designing",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-designing\\current",
           "mainDocId": "Master",
           "sidebars": {
             "codingSidebar": [
@@ -1529,9 +1585,9 @@
           "versionEditUrlLocalized": "https://github.com/VolcanoidsModding/VolcWiki/blob/main/i18n/en/docusaurus-plugin-content-docs-designing/version-1.24.471.0",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/workspace/VolcWiki/designing_versioned_sidebars/version-1.24.471.0-sidebars.json",
-          "docsDirPath": "/workspace/VolcWiki/designing_versioned_docs/version-1.24.471.0",
-          "docsDirPathLocalized": "/workspace/VolcWiki/i18n/en/docusaurus-plugin-content-docs-designing/version-1.24.471.0",
+          "sidebarFilePath": "D:\\Coding\\VolcWiki\\designing_versioned_sidebars\\version-1.24.471.0-sidebars.json",
+          "docsDirPath": "D:\\Coding\\VolcWiki\\designing_versioned_docs\\version-1.24.471.0",
+          "docsDirPathLocalized": "D:\\Coding\\VolcWiki\\i18n\\en\\docusaurus-plugin-content-docs-designing\\version-1.24.471.0",
           "mainDocId": "Master",
           "sidebars": {
             "version-1.24.471.0/codingSidebar": [
@@ -1574,44 +1630,13 @@
     "default": {
       "blogPosts": [
         {
-          "id": "creationguide",
-          "metadata": {
-            "permalink": "/blog/creationguide",
-            "source": "@site/blog/2021-03-15-creationGuide.md",
-            "description": "Table of Contents are Auto Generated with any field that has at least one # and no more than 3.",
-            "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 15, 2021",
-            "tags": [
-              {
-                "label": "modding",
-                "permalink": "/blog/tags/modding"
-              },
-              {
-                "label": "creationguide",
-                "permalink": "/blog/tags/creationguide"
-              },
-              {
-                "label": "gearbox",
-                "permalink": "/blog/tags/gearbox"
-              }
-            ],
-            "title": "Creation Guide",
-            "readingTime": 0.775,
-            "truncated": false,
-            "nextItem": {
-              "title": "Style Guide",
-              "permalink": "/blog/styleguide"
-            }
-          }
-        },
-        {
           "id": "styleguide",
           "metadata": {
             "permalink": "/blog/styleguide",
             "source": "@site/blog/2021-03-15-styleGuide.md",
             "description": "You can write content using GitHub-flavored Markdown syntax.",
             "date": "2021-03-15T00:00:00.000Z",
-            "formattedDate": "March 15, 2021",
+            "formattedDate": "March 14, 2021",
             "tags": [
               {
                 "label": "modding",
@@ -1629,9 +1654,40 @@
             "title": "Style Guide",
             "readingTime": 3.1,
             "truncated": false,
-            "prevItem": {
+            "nextItem": {
               "title": "Creation Guide",
               "permalink": "/blog/creationguide"
+            }
+          }
+        },
+        {
+          "id": "creationguide",
+          "metadata": {
+            "permalink": "/blog/creationguide",
+            "source": "@site/blog/2021-03-15-creationGuide.md",
+            "description": "Table of Contents are Auto Generated with any field that has at least one # and no more than 3.",
+            "date": "2021-03-15T00:00:00.000Z",
+            "formattedDate": "March 14, 2021",
+            "tags": [
+              {
+                "label": "modding",
+                "permalink": "/blog/tags/modding"
+              },
+              {
+                "label": "creationguide",
+                "permalink": "/blog/tags/creationguide"
+              },
+              {
+                "label": "gearbox",
+                "permalink": "/blog/tags/gearbox"
+              }
+            ],
+            "title": "Creation Guide",
+            "readingTime": 0.775,
+            "truncated": false,
+            "prevItem": {
+              "title": "Style Guide",
+              "permalink": "/blog/styleguide"
             }
           }
         }
@@ -1650,8 +1706,8 @@
             "blogTitle": "Blog"
           },
           "items": [
-            "creationguide",
-            "styleguide"
+            "styleguide",
+            "creationguide"
           ]
         }
       ],
@@ -1659,25 +1715,10 @@
         "modding": {
           "name": "modding",
           "items": [
-            "creationguide",
-            "styleguide"
-          ],
-          "permalink": "/blog/tags/modding"
-        },
-        "creationguide": {
-          "name": "creationguide",
-          "items": [
+            "styleguide",
             "creationguide"
           ],
-          "permalink": "/blog/tags/creationguide"
-        },
-        "gearbox": {
-          "name": "gearbox",
-          "items": [
-            "creationguide",
-            "styleguide"
-          ],
-          "permalink": "/blog/tags/gearbox"
+          "permalink": "/blog/tags/modding"
         },
         "styleguide": {
           "name": "styleguide",
@@ -1685,6 +1726,21 @@
             "styleguide"
           ],
           "permalink": "/blog/tags/styleguide"
+        },
+        "gearbox": {
+          "name": "gearbox",
+          "items": [
+            "styleguide",
+            "creationguide"
+          ],
+          "permalink": "/blog/tags/gearbox"
+        },
+        "creationguide": {
+          "name": "creationguide",
+          "items": [
+            "creationguide"
+          ],
+          "permalink": "/blog/tags/creationguide"
         }
       },
       "blogTagsListPath": "/blog/tags"
