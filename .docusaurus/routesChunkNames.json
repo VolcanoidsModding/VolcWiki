@@ -25,9 +25,9 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-d1b": {
+  "/blog-1f4": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---blog-46-c-a0c",
+    "sidebar": "sidebar---bloga-7-c-ed2",
     "items": [
       {
         "content": "content---blogcd-5-ed1"
@@ -38,24 +38,24 @@
     ],
     "metadata": "metadata---blogb-2-b-df1"
   },
-  "/blog/creationguide-dc9": {
+  "/blog/creationguide-8fb": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-46-c-a0c",
+    "sidebar": "sidebar---bloga-7-c-ed2",
     "content": "content---blog-creationguide-915-cce"
   },
-  "/blog/styleguide-1b0": {
+  "/blog/styleguide-82f": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-46-c-a0c",
+    "sidebar": "sidebar---bloga-7-c-ed2",
     "content": "content---blog-styleguide-9-de-c1d"
   },
-  "/blog/tags-964": {
+  "/blog/tags-293": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "sidebar": "sidebar---blog-46-c-a0c",
+    "sidebar": "sidebar---bloga-7-c-ed2",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/creationguide-a9a": {
+  "/blog/tags/creationguide-217": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-46-c-a0c",
+    "sidebar": "sidebar---bloga-7-c-ed2",
     "items": [
       {
         "content": "content---blog-390-be7"
@@ -63,9 +63,9 @@
     ],
     "metadata": "metadata---blog-tags-creationguideabf-562"
   },
-  "/blog/tags/gearbox-0f3": {
+  "/blog/tags/gearbox-495": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-46-c-a0c",
+    "sidebar": "sidebar---bloga-7-c-ed2",
     "items": [
       {
         "content": "content---blogcd-5-ed1"
@@ -76,9 +76,9 @@
     ],
     "metadata": "metadata---blog-tags-gearboxd-0-d-1a7"
   },
-  "/blog/tags/modding-bd7": {
+  "/blog/tags/modding-331": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-46-c-a0c",
+    "sidebar": "sidebar---bloga-7-c-ed2",
     "items": [
       {
         "content": "content---blogcd-5-ed1"
@@ -89,9 +89,9 @@
     ],
     "metadata": "metadata---blog-tags-moddingc-97-071"
   },
-  "/blog/tags/styleguide-843": {
+  "/blog/tags/styleguide-8cd": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---blog-46-c-a0c",
+    "sidebar": "sidebar---bloga-7-c-ed2",
     "items": [
       {
         "content": "content---blogcd-5-ed1"
