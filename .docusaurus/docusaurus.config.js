@@ -155,7 +155,7 @@ export default {
           },
           "1.24.471.0": {
             "label": "1.24.471.0",
-            "path": "modding-1.24.471.0"
+            "path": "coding-1.24.471.0"
           }
         }
       }
@@ -167,7 +167,17 @@ export default {
         "path": "designing",
         "routeBasePath": "designing",
         "sidebarPath": "/workspace/VolcWiki/sidebarsDesigning.js",
-        "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main"
+        "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
+        "versions": {
+          "current": {
+            "label": "1.24.515.0",
+            "path": ""
+          },
+          "1.24.471.0": {
+            "label": "1.24.471.0",
+            "path": "designing-1.24.471.0"
+          }
+        }
       }
     ]
   ],

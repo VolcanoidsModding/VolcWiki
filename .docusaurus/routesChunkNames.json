@@ -25,15 +25,15 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-1f4": {
+  "/blog-362": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---bloga-7-c-ed2",
     "items": [
       {
-        "content": "content---blogcd-5-ed1"
+        "content": "content---blog-390-be7"
       },
       {
-        "content": "content---blog-390-be7"
+        "content": "content---blogcd-5-ed1"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
@@ -63,28 +63,28 @@
     ],
     "metadata": "metadata---blog-tags-creationguideabf-562"
   },
-  "/blog/tags/gearbox-495": {
+  "/blog/tags/gearbox-805": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---bloga-7-c-ed2",
     "items": [
       {
-        "content": "content---blogcd-5-ed1"
+        "content": "content---blog-390-be7"
       },
       {
-        "content": "content---blog-390-be7"
+        "content": "content---blogcd-5-ed1"
       }
     ],
     "metadata": "metadata---blog-tags-gearboxd-0-d-1a7"
   },
-  "/blog/tags/modding-331": {
+  "/blog/tags/modding-118": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "sidebar": "sidebar---bloga-7-c-ed2",
     "items": [
       {
-        "content": "content---blogcd-5-ed1"
+        "content": "content---blog-390-be7"
       },
       {
-        "content": "content---blog-390-be7"
+        "content": "content---blogcd-5-ed1"
       }
     ],
     "metadata": "metadata---blog-tags-moddingc-97-071"
@@ -103,105 +103,105 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/coding/modding-1.24.471.0-629": {
+  "/coding/coding-1.24.471.0-3a6": {
     "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---coding-modding-1-24-471-07-c-7-6c1"
+    "versionMetadata": "versionMetadata---coding-coding-1-24-471-07-c-7-8d1"
   },
-  "/coding/modding-1.24.471.0/-0a5": {
+  "/coding/coding-1.24.471.0/-997": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-82-a-567"
+    "content": "content---coding-coding-1-24-471-0-82-a-bc5"
   },
-  "/coding/modding-1.24.471.0/fullGuide/Introduction-43f": {
+  "/coding/coding-1.24.471.0/fullGuide/Introduction-0be": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-full-guide-introductionadd-926"
+    "content": "content---coding-coding-1-24-471-0-full-guide-introductionadd-01b"
   },
-  "/coding/modding-1.24.471.0/officialGuide/BuildRun-c94": {
+  "/coding/coding-1.24.471.0/officialGuide/BuildRun-6f7": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-official-guide-build-runb-39-b1f"
+    "content": "content---coding-coding-1-24-471-0-official-guide-build-runb-39-bb8"
   },
-  "/coding/modding-1.24.471.0/officialGuide/Debugging-ba4": {
+  "/coding/coding-1.24.471.0/officialGuide/Debugging-0a9": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-official-guide-debugging-735-201"
+    "content": "content---coding-coding-1-24-471-0-official-guide-debugging-735-1b6"
   },
-  "/coding/modding-1.24.471.0/officialGuide/FinalWords-237": {
+  "/coding/coding-1.24.471.0/officialGuide/FinalWords-995": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-official-guide-final-wordscf-4-d6f"
+    "content": "content---coding-coding-1-24-471-0-official-guide-final-wordscf-4-e48"
   },
-  "/coding/modding-1.24.471.0/officialGuide/FirstMod-628": {
+  "/coding/coding-1.24.471.0/officialGuide/FirstMod-de1": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-official-guide-first-modfb-7-45b"
+    "content": "content---coding-coding-1-24-471-0-official-guide-first-modfb-7-17d"
   },
-  "/coding/modding-1.24.471.0/officialGuide/GameModding-956": {
+  "/coding/coding-1.24.471.0/officialGuide/GameModding-62e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-official-guide-game-moddingb-8-f-a22"
+    "content": "content---coding-coding-1-24-471-0-official-guide-game-moddingb-8-f-591"
   },
-  "/coding/modding-1.24.471.0/officialGuide/Info-584": {
+  "/coding/coding-1.24.471.0/officialGuide/Info-5b1": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-official-guide-infoa-85-9b6"
+    "content": "content---coding-coding-1-24-471-0-official-guide-infoa-85-ef1"
   },
-  "/coding/modding-1.24.471.0/officialGuide/ProjectSetup-5e7": {
+  "/coding/coding-1.24.471.0/officialGuide/ProjectSetup-74d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-official-guide-project-setupc-95-dcc"
+    "content": "content---coding-coding-1-24-471-0-official-guide-project-setupc-95-81c"
   },
-  "/coding/modding-1.24.471.0/officialGuide/RequiredTools-523": {
+  "/coding/coding-1.24.471.0/officialGuide/RequiredTools-8dc": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-official-guide-required-tools-913-a61"
+    "content": "content---coding-coding-1-24-471-0-official-guide-required-tools-913-f99"
   },
-  "/coding/modding-1.24.471.0/reference/GUID/ItemGUIDs-2ab": {
+  "/coding/coding-1.24.471.0/reference/GUID/ItemGUIDs-d7d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-reference-guid-item-gui-ds-0-ef-226"
+    "content": "content---coding-coding-1-24-471-0-reference-guid-item-gui-ds-0-ef-8d4"
   },
-  "/coding/modding-1.24.471.0/reference/GUID/ModuleGUIDs-a7f": {
+  "/coding/coding-1.24.471.0/reference/GUID/ModuleGUIDs-89f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-reference-guid-module-gui-ds-23-a-972"
+    "content": "content---coding-coding-1-24-471-0-reference-guid-module-gui-ds-23-a-33f"
   },
-  "/coding/modding-1.24.471.0/reference/GUID/RecipeGUIDs-97a": {
+  "/coding/coding-1.24.471.0/reference/GUID/RecipeGUIDs-c48": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-reference-guid-recipe-gui-ds-642-190"
+    "content": "content---coding-coding-1-24-471-0-reference-guid-recipe-gui-ds-642-44b"
   },
-  "/coding/modding-1.24.471.0/reference/GUIDFields-3be": {
+  "/coding/coding-1.24.471.0/reference/GUIDFields-386": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-reference-guid-fieldsfe-0-6f8"
+    "content": "content---coding-coding-1-24-471-0-reference-guid-fieldsfe-0-b43"
   },
-  "/coding/modding-1.24.471.0/reference/ItemIDs-7af": {
+  "/coding/coding-1.24.471.0/reference/ItemIDs-8da": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-reference-item-i-ds-16-d-05a"
+    "content": "content---coding-coding-1-24-471-0-reference-item-i-ds-16-d-e94"
   },
-  "/coding/modding-1.24.471.0/reference/ItemStacks-45f": {
+  "/coding/coding-1.24.471.0/reference/ItemStacks-e6d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-reference-item-stacksaad-465"
+    "content": "content---coding-coding-1-24-471-0-reference-item-stacksaad-ccf"
   },
-  "/coding/modding-1.24.471.0/reference/ModuleIDs-e25": {
+  "/coding/coding-1.24.471.0/reference/ModuleIDs-b51": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-reference-module-i-ds-99-c-64a"
+    "content": "content---coding-coding-1-24-471-0-reference-module-i-ds-99-c-b6e"
   },
-  "/coding/modding-1.24.471.0/reference/QuestOrder-dc3": {
+  "/coding/coding-1.24.471.0/reference/QuestOrder-b64": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-reference-quest-order-8-ff-97c"
+    "content": "content---coding-coding-1-24-471-0-reference-quest-order-8-ff-2fb"
   },
-  "/coding/modding-1.24.471.0/reference/RecipeIDs-e72": {
+  "/coding/coding-1.24.471.0/reference/RecipeIDs-72d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-reference-recipe-i-ds-22-c-8fe"
+    "content": "content---coding-coding-1-24-471-0-reference-recipe-i-ds-22-c-9aa"
   },
-  "/coding/modding-1.24.471.0/reference/RecipeTimes-e32": {
+  "/coding/coding-1.24.471.0/reference/RecipeTimes-f74": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-reference-recipe-times-0-a-4-311"
+    "content": "content---coding-coding-1-24-471-0-reference-recipe-times-0-a-4-2b8"
   },
-  "/coding/modding-1.24.471.0/snippits/EditingQuests-9a4": {
+  "/coding/coding-1.24.471.0/snippits/EditingQuests-30e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-snippits-editing-quests-3-c-2-b57"
+    "content": "content---coding-coding-1-24-471-0-snippits-editing-quests-3-c-2-9bb"
   },
-  "/coding/modding-1.24.471.0/snippits/StationUIText-4cf": {
+  "/coding/coding-1.24.471.0/snippits/StationUIText-1f7": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---coding-modding-1-24-471-0-snippits-station-ui-textfe-9-b48"
+    "content": "content---coding-coding-1-24-471-0-snippits-station-ui-textfe-9-4d6"
   },
-  "/designing/next-ed3": {
+  "/designing/designing-1.24.471.0-6ce": {
     "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---designing-next-334-a23"
+    "versionMetadata": "versionMetadata---designing-designing-1-24-471-0463-121"
   },
-  "/designing/next/-9f6": {
+  "/designing/designing-1.24.471.0/-254": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---designing-next-7-de-6a4"
+    "content": "content---designing-designing-1-24-471-0-bee-329"
   },
   "/docs/next-4f1": {
     "component": "component---theme-doc-page-1-be-9be",
@@ -323,13 +323,13 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---coding-snippits-station-ui-text-490-6bf"
   },
-  "/designing-a18": {
+  "/designing-6b5": {
     "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---designing-463-905"
+    "versionMetadata": "versionMetadata---designing-334-4a2"
   },
-  "/designing/-639": {
+  "/designing/-bfb": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---designing-bee-ac5"
+    "content": "content---designing-7-de-e40"
   },
   "/docs-9fa": {
     "component": "component---theme-doc-page-1-be-9be",
