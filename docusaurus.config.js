@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/ModdingCOG.ico",
   organizationName: "VolcanoidsModding", // Usually your GitHub org/user name.
   projectName: "VolcWiki", // Usually your repo name.
   themeConfig: {
@@ -143,7 +143,7 @@ module.exports = {
         id: "coding",
         path: "coding",
         routeBasePath: "coding",
-        sidebarPath: require.resolve("./sidebarsCoding.js"),
+        sidebarPath: require.resolve("./sidebarsDevelopment.js"),
         editUrl: "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
         includeCurrentVersion: true,
         disableVersioning: false,

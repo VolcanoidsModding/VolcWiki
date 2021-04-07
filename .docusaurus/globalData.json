@@ -1,89 +1,5 @@
 {
   "docusaurus-plugin-content-docs": {
-    "default": {
-      "path": "/docs",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": false,
-          "path": "/docs/next",
-          "mainDocId": "InstallingMods",
-          "docs": [
-            {
-              "id": "InstallingMods",
-              "path": "/docs/next/",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "ModList",
-              "path": "/docs/next/ModList",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "StyleGuide",
-              "path": "/docs/next/StyleGuide"
-            }
-          ]
-        },
-        {
-          "name": "1.24.471.0",
-          "label": "1.24.471.0",
-          "isLast": true,
-          "path": "/docs",
-          "mainDocId": "InstallingMods",
-          "docs": [
-            {
-              "id": "InstallingMods",
-              "path": "/docs/",
-              "sidebar": "version-1.24.471.0/mainSidebar"
-            },
-            {
-              "id": "ModList",
-              "path": "/docs/ModList",
-              "sidebar": "version-1.24.471.0/mainSidebar"
-            },
-            {
-              "id": "StyleGuide",
-              "path": "/docs/StyleGuide"
-            }
-          ]
-        }
-      ]
-    },
-    "designing": {
-      "path": "/designing",
-      "versions": [
-        {
-          "name": "current",
-          "label": "1.24.515.0",
-          "isLast": false,
-          "path": "/designing",
-          "mainDocId": "Master",
-          "docs": [
-            {
-              "id": "Master",
-              "path": "/designing/",
-              "sidebar": "codingSidebar"
-            }
-          ]
-        },
-        {
-          "name": "1.24.471.0",
-          "label": "1.24.471.0",
-          "isLast": true,
-          "path": "/designing/designing-1.24.471.0",
-          "mainDocId": "Master",
-          "docs": [
-            {
-              "id": "Master",
-              "path": "/designing/designing-1.24.471.0/",
-              "sidebar": "version-1.24.471.0/codingSidebar"
-            }
-          ]
-        }
-      ]
-    },
     "coding": {
       "path": "/coding",
       "versions": [
@@ -96,7 +12,8 @@
           "docs": [
             {
               "id": "fullGuide/gettingStarted/GettingStarted",
-              "path": "/coding/fullGuide/gettingStarted/GettingStarted"
+              "path": "/coding/fullGuide/gettingStarted/GettingStarted",
+              "sidebar": "codingSidebar"
             },
             {
               "id": "fullGuide/gettingStarted/RequiredTools",
@@ -333,6 +250,90 @@
             {
               "id": "snippits/StationUIText",
               "path": "/coding/coding-1.24.471.0/snippits/StationUIText",
+              "sidebar": "version-1.24.471.0/codingSidebar"
+            }
+          ]
+        }
+      ]
+    },
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": false,
+          "path": "/docs/next",
+          "mainDocId": "InstallingMods",
+          "docs": [
+            {
+              "id": "InstallingMods",
+              "path": "/docs/next/",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "ModList",
+              "path": "/docs/next/ModList",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "StyleGuide",
+              "path": "/docs/next/StyleGuide"
+            }
+          ]
+        },
+        {
+          "name": "1.24.471.0",
+          "label": "1.24.471.0",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "InstallingMods",
+          "docs": [
+            {
+              "id": "InstallingMods",
+              "path": "/docs/",
+              "sidebar": "version-1.24.471.0/mainSidebar"
+            },
+            {
+              "id": "ModList",
+              "path": "/docs/ModList",
+              "sidebar": "version-1.24.471.0/mainSidebar"
+            },
+            {
+              "id": "StyleGuide",
+              "path": "/docs/StyleGuide"
+            }
+          ]
+        }
+      ]
+    },
+    "designing": {
+      "path": "/designing",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.24.515.0",
+          "isLast": false,
+          "path": "/designing",
+          "mainDocId": "Master",
+          "docs": [
+            {
+              "id": "Master",
+              "path": "/designing/",
+              "sidebar": "codingSidebar"
+            }
+          ]
+        },
+        {
+          "name": "1.24.471.0",
+          "label": "1.24.471.0",
+          "isLast": true,
+          "path": "/designing/designing-1.24.471.0",
+          "mainDocId": "Master",
+          "docs": [
+            {
+              "id": "Master",
+              "path": "/designing/designing-1.24.471.0/",
               "sidebar": "version-1.24.471.0/codingSidebar"
             }
           ]

@@ -44,42 +44,42 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','362'),
+  component: ComponentCreator('/blog','ee4'),
   exact: true,
 },
 {
   path: '/blog/creationguide',
-  component: ComponentCreator('/blog/creationguide','8fb'),
+  component: ComponentCreator('/blog/creationguide','dc9'),
   exact: true,
 },
 {
   path: '/blog/styleguide',
-  component: ComponentCreator('/blog/styleguide','82f'),
+  component: ComponentCreator('/blog/styleguide','1b0'),
   exact: true,
 },
 {
   path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','293'),
+  component: ComponentCreator('/blog/tags','964'),
   exact: true,
 },
 {
   path: '/blog/tags/creationguide',
-  component: ComponentCreator('/blog/tags/creationguide','217'),
+  component: ComponentCreator('/blog/tags/creationguide','a9a'),
   exact: true,
 },
 {
   path: '/blog/tags/gearbox',
-  component: ComponentCreator('/blog/tags/gearbox','805'),
+  component: ComponentCreator('/blog/tags/gearbox','c86'),
   exact: true,
 },
 {
   path: '/blog/tags/modding',
-  component: ComponentCreator('/blog/tags/modding','118'),
+  component: ComponentCreator('/blog/tags/modding','a2a'),
   exact: true,
 },
 {
   path: '/blog/tags/styleguide',
-  component: ComponentCreator('/blog/tags/styleguide','8cd'),
+  component: ComponentCreator('/blog/tags/styleguide','843'),
   exact: true,
 },
 {
