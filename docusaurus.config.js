@@ -22,7 +22,7 @@ module.exports = {
       title: "Volcanoids Modding Wiki",
       logo: {
         alt: "Wiki Logo",
-        src: "img/logo.svg",
+        src: "img/ModdingCOG.ico",
       },
       items: [
         {
