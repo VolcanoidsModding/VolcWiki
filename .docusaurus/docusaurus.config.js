@@ -5,7 +5,7 @@ export default {
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/ModdingCOG.ico",
   "organizationName": "VolcanoidsModding",
   "projectName": "VolcWiki",
   "themeConfig": {
@@ -13,7 +13,7 @@ export default {
       "title": "Volcanoids Modding Wiki",
       "logo": {
         "alt": "Wiki Logo",
-        "src": "img/logo.svg"
+        "src": "img/ModdingCOG.ico"
       },
       "items": [
         {
@@ -124,14 +124,14 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "D:\\Coding\\VolcWiki\\sidebars.js",
+          "sidebarPath": "/workspace/VolcWiki/sidebars.js",
           "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main"
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "D:\\Coding\\VolcWiki\\src\\css\\custom.css"
+          "customCss": "/workspace/VolcWiki/src/css/custom.css"
         }
       }
     ]
@@ -143,7 +143,7 @@ export default {
         "id": "coding",
         "path": "coding",
         "routeBasePath": "coding",
-        "sidebarPath": "D:\\Coding\\VolcWiki\\sidebarsDevelopment.js",
+        "sidebarPath": "/workspace/VolcWiki/sidebarsDevelopment.js",
         "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
         "includeCurrentVersion": true,
         "disableVersioning": false,
@@ -166,7 +166,7 @@ export default {
         "id": "designing",
         "path": "designing",
         "routeBasePath": "designing",
-        "sidebarPath": "D:\\Coding\\VolcWiki\\sidebarsDesigning.js",
+        "sidebarPath": "/workspace/VolcWiki/sidebarsDesigning.js",
         "editUrl": "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
         "versions": {
           "current": {

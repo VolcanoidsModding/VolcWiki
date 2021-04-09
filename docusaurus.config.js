@@ -143,7 +143,7 @@ module.exports = {
         id: "coding",
         path: "coding",
         routeBasePath: "coding",
-        sidebarPath: require.resolve("./sidebarsDevelopment.js"),
+        sidebarPath: require.resolve("./sidebarsCoding.js"),
         editUrl: "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
         includeCurrentVersion: true,
         disableVersioning: false,

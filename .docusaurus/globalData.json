@@ -1,5 +1,56 @@
 {
   "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": false,
+          "path": "/docs/next",
+          "mainDocId": "InstallingMods",
+          "docs": [
+            {
+              "id": "InstallingMods",
+              "path": "/docs/next/",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "ModList",
+              "path": "/docs/next/ModList",
+              "sidebar": "mainSidebar"
+            },
+            {
+              "id": "StyleGuide",
+              "path": "/docs/next/StyleGuide"
+            }
+          ]
+        },
+        {
+          "name": "1.24.471.0",
+          "label": "1.24.471.0",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "InstallingMods",
+          "docs": [
+            {
+              "id": "InstallingMods",
+              "path": "/docs/",
+              "sidebar": "version-1.24.471.0/mainSidebar"
+            },
+            {
+              "id": "ModList",
+              "path": "/docs/ModList",
+              "sidebar": "version-1.24.471.0/mainSidebar"
+            },
+            {
+              "id": "StyleGuide",
+              "path": "/docs/StyleGuide"
+            }
+          ]
+        }
+      ]
+    },
     "coding": {
       "path": "/coding",
       "versions": [
@@ -251,57 +302,6 @@
               "id": "snippits/StationUIText",
               "path": "/coding/coding-1.24.471.0/snippits/StationUIText",
               "sidebar": "version-1.24.471.0/codingSidebar"
-            }
-          ]
-        }
-      ]
-    },
-    "default": {
-      "path": "/docs",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": false,
-          "path": "/docs/next",
-          "mainDocId": "InstallingMods",
-          "docs": [
-            {
-              "id": "InstallingMods",
-              "path": "/docs/next/",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "ModList",
-              "path": "/docs/next/ModList",
-              "sidebar": "mainSidebar"
-            },
-            {
-              "id": "StyleGuide",
-              "path": "/docs/next/StyleGuide"
-            }
-          ]
-        },
-        {
-          "name": "1.24.471.0",
-          "label": "1.24.471.0",
-          "isLast": true,
-          "path": "/docs",
-          "mainDocId": "InstallingMods",
-          "docs": [
-            {
-              "id": "InstallingMods",
-              "path": "/docs/",
-              "sidebar": "version-1.24.471.0/mainSidebar"
-            },
-            {
-              "id": "ModList",
-              "path": "/docs/ModList",
-              "sidebar": "version-1.24.471.0/mainSidebar"
-            },
-            {
-              "id": "StyleGuide",
-              "path": "/docs/StyleGuide"
             }
           ]
         }

@@ -23,8 +23,12 @@ I feel like this ones a given, however to ensure it's done correctly, the Volcan
 ## Unity
 Well this one is very very optional. Really you only need this if you are a designer for now. However I'll save that for the designer guide, For now you do not need it for modding Volcanoids along these guides.
 
+:::tip
+I will put a warning on any guides that might need Unity right at the top. So if you see it and don't want to get Unity, skip that guide :)
+:::
+
 ## Global Requirements
-Look, I'm gonna get this out of the way now, I am not here to teach you C#, as such I will not be teaching C# syntax, however I might explain how some certain things such as C# reflection work when we use them. Other than that you need to have at least a basic understanding of C#. <br/>
+Look, I'm gonna get this out of the way now, I am not here to teach you C#, as such I will not be teaching C# syntax, however I might explain how some certain things such as C# reflection work when we use them. Other than that you need to have at least a basic understanding of C#. However there will be a GitHub with code examples so if your really just want to change values... Well copy that. <br/>
 Next up you need to understand Volcanoids. If you don't know what Volcanoids does or how it functions then I can't help you mod. I'm not here to be mean I'm just being honest. If you don't know your stuff, you can't mod a game, unfortunatly that's just how it works. 
 
 Now that all of that is out of the way, It's time for the basic structure before we get into full on guides.
