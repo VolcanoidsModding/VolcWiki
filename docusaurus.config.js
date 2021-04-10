@@ -18,6 +18,9 @@ module.exports = {
     //       textColor: '#091E42', // Defaults to `#000`.
     //       isCloseable: false, // Defaults to `true`.
     //   },
+    prism: {
+      additionalLanguages: ["csharp", "bash"],
+    },
     navbar: {
       title: "Volcanoids Modding Wiki",
       logo: {
@@ -44,18 +47,18 @@ module.exports = {
           position: "left",
         },
         //{ to: "blog", label: "Blog", position: "left" },
-          {
-              type: "docsVersionDropdown",
+        {
+          type: "docsVersionDropdown",
 
-              //// Optional
-              position: "right",
-              // Add additional dropdown items at the beginning/end of the dropdown.
-              dropdownItemsBefore: [],
-              dropdownItemsAfter: [],
-              // Do not add the link active class when browsing docs.
-              dropdownActiveClassDisabled: true,
-              docsPluginId: "coding",
-          },
+          //// Optional
+          position: "right",
+          // Add additional dropdown items at the beginning/end of the dropdown.
+          dropdownItemsBefore: [],
+          dropdownItemsAfter: [],
+          // Do not add the link active class when browsing docs.
+          dropdownActiveClassDisabled: true,
+          docsPluginId: "coding",
+        },
         {
           href: "https://github.com/VolcanoidsModding",
           label: "GitHub",
@@ -155,7 +158,7 @@ module.exports = {
           },
           "1.24.471.0": {
             label: "1.24.471.0",
-              path: "coding-1.24.471.0",
+            path: "coding-1.24.471.0",
           },
         },
         // ... other options
@@ -169,16 +172,16 @@ module.exports = {
         routeBasePath: "designing",
         sidebarPath: require.resolve("./sidebarsDesigning.js"),
         editUrl: "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
-          versions: {
-              current: {
-                  label: "1.24.515.0",
-                  path: "",
-              },
-              "1.24.471.0": {
-                  label: "1.24.471.0",
-                  path: "designing-1.24.471.0",
-              },
+        versions: {
+          current: {
+            label: "1.24.515.0",
+            path: "",
           },
+          "1.24.471.0": {
+            label: "1.24.471.0",
+            path: "designing-1.24.471.0",
+          },
+        },
       },
     ],
   ],

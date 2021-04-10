@@ -15,7 +15,13 @@ module.exports = {
         {
           type: "category",
           label: "Getting Started",
-          items: ["fullGuide/gettingStarted/TheBeginning", "fullGuide/gettingStarted/RequiredTools"],
+          items: [
+            "fullGuide/gettingStarted/TheBeginning",
+            "fullGuide/gettingStarted/RequiredTools",
+            "fullGuide/gettingStarted/GettingStarted",
+            "fullGuide/gettingStarted/ProjectSetup",
+            "fullGuide/gettingStarted/BasicMod",
+          ],
         },
         {
           type: "category",
