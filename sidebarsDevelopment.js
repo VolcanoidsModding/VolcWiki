@@ -15,17 +15,59 @@ module.exports = {
         {
           type: "category",
           label: "Getting Started",
-          items: ["fullGuide/gettingStarted/TheBeginning", "fullGuide/gettingStarted/RequiredTools", "fullGuide/gettingStarted/GettingStarted", "fullGuide/gettingStarted/ProjectSetup", "fullGuide/gettingStarted/BasicMod"],
+          items: [
+            "fullGuide/gettingStarted/TheBeginning",
+            "fullGuide/gettingStarted/RequiredTools",
+            "fullGuide/gettingStarted/GettingStarted",
+            "fullGuide/gettingStarted/ProjectSetup",
+            "fullGuide/gettingStarted/BasicMod",
+          ],
         },
         {
           type: "category",
-          label: "Simple Modding",
-          items: [],
-        },
-        {
-          type: "category",
-          label: "Advanced Modding",
-          items: [],
+          label: "Guide Types",
+          items: [
+            {
+              type: "category",
+              label: "SDK",
+              items: [
+                {
+                  type: "doc",
+                  id: "sdk/SDKOnboarding",
+                },
+                {
+                  type: "category",
+                  label: "Simple Modding",
+                  items: [],
+                },
+                {
+                  type: "category",
+                  label: "Advanced Modding",
+                  items: [],
+                },
+              ],
+            },
+            {
+              type: "category",
+              label: "Non-SDK",
+              items: [
+                {
+                  type: "doc",
+                  id: "nonSdk/Onboarding",
+                },
+                {
+                  type: "category",
+                  label: "Simple Modding",
+                  items: [],
+                },
+                {
+                  type: "category",
+                  label: "Advanced Modding",
+                  items: [],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
