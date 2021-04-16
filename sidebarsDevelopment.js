@@ -38,20 +38,7 @@ module.exports = {
               type: "category",
               label: "Non-SDK",
               items: [
-                {
-                  type: "doc",
-                  id: "nonSdk/Onboarding",
-                },
-                {
-                  type: "category",
-                  label: "Simple Modding",
-                  items: [],
-                },
-                {
-                  type: "category",
-                  label: "Advanced Modding",
-                  items: [],
-                },
+                "nonSdk/Onboarding"
               ],
             },
           ],
