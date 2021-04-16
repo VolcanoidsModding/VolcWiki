@@ -94,7 +94,7 @@ Or just prevent the whole event from running more than once by unsubscribing to 
         }
 ```
 
-Usually the latter is enough for most mods, but If not, just remember to check if the thing you're doing has already me done.
+Usually the latter is enough for most mods, but If not, just remember to check if the thing you're doing has already been done.
 
 ### Logging
 Now this is an interesting topic. Thanks to the hard work of Greg we will make an improved logging event later on in the guides but for now we will use UnityEngine's built in Debug.Log function. In the load event add in these fancy lines:
