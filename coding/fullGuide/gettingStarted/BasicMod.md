@@ -72,7 +72,7 @@ SceneManager.sceneLoaded += OnSceneLoaded;
 ```
 
 #### WARNING: Run Data Changes Only Once!
-When you subscribe to the `sceneLoaded` even as above, this event fires **for every game that is loaded**.<br>
+When you subscribe to the `sceneLoaded` even as above, this event fires **for every game that is loaded**.<br/>
 This means if you, say, add an items during that event, then reload a save, it will try to add the same item again, throw an exception, cause the load game to fail, and dump players into a 'new' game instead of the one they're trying to load.
 
 To get around this, you must either check to make sure the data change you want to make hasn't been made before:
