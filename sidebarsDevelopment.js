@@ -31,20 +31,7 @@ module.exports = {
               type: "category",
               label: "SDK",
               items: [
-                {
-                  type: "doc",
-                  id: "sdk/SDKOnboarding",
-                },
-                {
-                  type: "category",
-                  label: "Simple Modding",
-                  items: ['sdk/SDKItems'],
-                },
-                {
-                  type: "category",
-                  label: "Advanced Modding",
-                  items: [],
-                },
+                "sdk/SDKOnboarding", "sdk/SDKItems"
               ],
             },
             {

@@ -4,9 +4,6 @@ title: Module IDs
 sidebar_label: Module IDs
 ---
 
-For Volcanoids v1.24.471.0
----
-
 Name | AssetId (GUID)
 --- | ---
 BannerLarge | 147bae0548753c047a4848555601fe5f

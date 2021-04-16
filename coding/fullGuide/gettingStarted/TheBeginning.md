@@ -2,6 +2,7 @@
 id: TheBeginning
 title: Beginning to Mod
 sidebar_label: Beginning to Mod
+slug: /guides/gettingStarted
 ---
 
 ## A Note from the Volcanoids Developers

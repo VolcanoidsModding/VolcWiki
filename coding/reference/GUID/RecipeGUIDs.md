@@ -1,7 +1,8 @@
 ---
 id: RecipeGUIDs
-title: RecipeGUIDs | Version 1.24.471
+title: RecipeGUIDs
 sidebar_label: RecipeGUIDs
+slug: /reference/GUIDs/RecipeGUIDs
 ---
 
 ```

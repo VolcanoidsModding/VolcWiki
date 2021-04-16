@@ -4,9 +4,6 @@ title: Recipe Production Times
 sidebar_label: Recipe Production Times
 ---
 
-For Volcanoids v1.24.471.0
----
-
 Name | Production Time (s)
 --- | ---
 AdvancedExplosivesSchematicRecipe | 15

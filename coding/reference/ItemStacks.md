@@ -4,9 +4,6 @@ title: Item Stack Sizes
 sidebar_label: Item Stack Sizes
 ---
 
-For Volcanoids v1.24.471.0
----
-
 Name | Stack Size
 --- | ---
 AdvancedExplosivesSchematic | 20

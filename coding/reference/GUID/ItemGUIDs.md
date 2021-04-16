@@ -1,7 +1,8 @@
 ---
 id: ItemGUIDs
-title: ItemGUIDs | Version 1.24.471
+title: ItemGUIDs
 sidebar_label: ItemGUIDs
+slug: /reference/GUIDs/ItemGUIDs
 ---
 
 ```

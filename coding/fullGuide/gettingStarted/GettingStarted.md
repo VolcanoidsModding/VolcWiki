@@ -2,6 +2,7 @@
 id: GettingStarted
 title: Getting Started
 sidebar_label: Getting Started
+slug: /guides/gettingStarted/GettingStarted
 ---
 
 ## The Setup
