@@ -4,7 +4,7 @@ title: Recipe Production Times
 sidebar_label: Recipe Production Times
 ---
 
-For Volcanoids v1.24.471.0
+For Volcanoids v1.25.175.0
 ---
 
 Name | Production Time (s)
@@ -16,6 +16,7 @@ AlloyT3Recipe | 2
 ArmorKitCopperRecipe | 5
 ArmorKitIronRecipe | 5
 ArmorKitTitaniumRecipe | 5
+ArmorRepairStationRecipe | 5
 BannerLargeRecipe | 5
 BannerLargeScrapRecipe | 2
 BannerSmallRecipe | 5
@@ -35,6 +36,7 @@ CargoModule3Recipe | 160
 ChestRecipe | 5
 ChestScrapRecipe | 2
 ChestWorktableRecipe | 5
+CircularSawWeaponRecipe | 15
 CoalPowerModule1Recipe | 10
 CoalPowerModule2Recipe | 80
 CoalPowerModule3Recipe | 160
@@ -71,6 +73,7 @@ CogHead_ResearchT2_IntelRecipe | 40
 CogHead_ResearchT3_IntelRecipe | 80
 CogHead_ResearchT3_Scientist_BasicMat_RecipeScrap | 2
 CogHead_ResearchT3_Scientist_RecipeScrap | 2
+CogPickaxeToolRecipe | 15
 ControllerCustomRecipe | 20
 ControllerCustomScrapRecipe | 2
 ControllerLargeFactoryRecipe | 1
@@ -163,6 +166,7 @@ DetonatorRecipe | 1
 DetonatorRecipeScrap | 2
 DialsRecipe | 2
 DiamondIngotRecipe | 20
+DispenserRecipe | 5
 DoorRecipe | 10
 DoorScrapRecipe | 2
 DoorWorktableRecipe | 10
@@ -178,12 +182,13 @@ ExplosiveRecipeScrap | 2
 GatlingAmmoRecipe | 20
 GatlingTurretAmmoRecipe | 2
 GatlingTurretAmmoScrapRecipe | 2
-GatlingTurretModuleRecipe | 55
+GatlingTurretModuleRecipe | 160
 GatlingWeaponRecipe | 45
 GrenadeRecipe | 5
 GrenadeScrapRecipe | 2
 HackingToolRecipe | 20
 HackingToolRecipeScrap | 2
+HealingRecipe | 5
 HealthPackRecipe | 5
 HubProductionRecipe | 15
 HubProductionScrapRecipe | 2
@@ -234,7 +239,7 @@ MortarGrenadeHERecipe | 20
 MortarGrenadeRecipe | 6
 MortarTurretAmmoRecipe | 2
 MortarTurretAmmoScrapRecipe | 2
-MortarTurretModuleRecipe | 25
+MortarTurretModuleRecipe | 80
 MortarWeaponRecipe | 15
 Parts_DrillT2_Hardened_RecipeScrap | 2
 Parts_DrillT3_Corundum_RecipeScrap | 2
@@ -350,7 +355,7 @@ ShotgunSlugsRecipe | 6
 ShotgunSlugsScrapRecipe | 2
 ShotgunTurretAmmoRecipe | 2
 ShotgunTurretAmmoScrapRecipe | 2
-ShotgunTurretModuleRecipe | 85
+ShotgunTurretModuleRecipe | 15
 ShotgunWeaponRecipe | 5
 SimpleExplosivesSchematicRecipe | 15
 SMGAmmoRecipe | 2
@@ -358,15 +363,16 @@ SMGAmmoRecipeT2 | 2
 SMGT2AmmoScrapRecipe | 2
 SMGTurretAmmoRecipe | 2
 SMGTurretAmmoScrapRecipe | 2
-SMGTurretModuleRecipe | 25
+SMGTurretModuleRecipe | 80
 SMGWeaponRecipe | 15
 SniperAmmoRecipe | 2
 SniperAmmoRecipeT2 | 2
 SniperT2AmmoScrapRecipe | 2
 SniperTurretAmmoRecipe | 2
 SniperTurretAmmoScrapRecipe | 2
-SniperTurretModuleRecipe | 55
+SniperTurretModuleRecipe | 160
 SniperWeaponRecipe | 45
+SprayToolRecipe | 5
 StarterStructuresSchematicRecipe | 60
 StatsPanelLargeRecipe | 45
 StatsPanelLargeRecipeScrap | 2
@@ -406,6 +412,7 @@ TracksUpgrade3Recipe | 600
 TracksUpgrade4Recipe | 800
 TurretAmmoRecipe | 2
 TurretAmmoScrapRecipe | 2
+TurretControllerRecipe | 5
 TurretGatlingModuleScrapRecipe | 2
 TurretMortarModuleScrapRecipe | 2
 TurretPistolModuleScrapRecipe | 2

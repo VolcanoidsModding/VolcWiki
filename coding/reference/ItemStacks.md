@@ -4,7 +4,7 @@ title: Item Stack Sizes
 sidebar_label: Item Stack Sizes
 ---
 
-For Volcanoids v1.24.471.0
+For Volcanoids v1.25.175.0
 ---
 
 Name | Stack Size
@@ -16,24 +16,26 @@ AlloyT3Ingot | 20
 ArmorkitCopper | 5
 ArmorkitIron | 5
 ArmorkitTitanium | 5
+ArmorRepairDevice | 5
 BannerLarge | 5
 BannerSmall | 5
 Bed | 5
 BlackPowder | 20
-BoardingDrone | 5
 BreachReplacement | 5
 CargoModuleT1 | 5
 CargoModuleT2 | 5
 CargoModuleT3 | 5
 Chest | 5
+CircularSaw | 1
+CircularSawAmmo | 10
 CoalOre | 20
 CoalPowerModuleT1 | 5
 CoalPowerModuleT2 | 5
 CoalPowerModuleT3 | 5
 CogGatling | 1
 CogGatlingAmmoT3 | 10
-CogGrenade | 10
 CogGrenade | 5
+CogGrenadeAmmo | 10
 CogGunAmmo | 10
 CogHead_MilitaryT1_Sentry | 20
 CogHead_MilitaryT2_Protector | 20
@@ -51,6 +53,7 @@ CogMortarGrenadeT2 | 10
 CogMortarGrenadeT3 | 10
 CogMortarT2 | 1
 CogMortarT3 | 1
+CogPickaxe | 1
 CogRevolverAmmoT1 | 50
 CogRevolverAmmoT2 | 50
 CogRevolverAmmoT3 | 50
@@ -116,6 +119,7 @@ Detonator | 5
 Dials | 50
 DiamondIngot | 20
 DiamondOre | 10
+Dispenser | 5
 DoorModule | 5
 DrillshipBoiler | 1
 DrillT1_Copper | 1
@@ -127,10 +131,11 @@ EngineUpgrade2 | 1
 EngineUpgrade3 | 1
 Explosive | 5
 Gatling | 1
-GatlingAmmo | 1000
+GatlingAmmo | 500
 GatlingTurretAmmo | 2400
 Grenade | 5
 HackingTool | 1
+HealingDevice | 5
 HubProduction | 5
 HubRefinery | 5
 HubResearch | 5
@@ -172,6 +177,7 @@ Mortar | 1
 MortarGrenade | 20
 MortarGrenadeHE | 20
 MortarTurretAmmo | 100
+PaintTool | 1
 Parts_DrillT2_Hardened | 5
 Parts_DrillT3_Corundum | 5
 Parts_DrillT4_Diamond | 5
@@ -209,27 +215,27 @@ ResearchT2_Sensors | 10
 ResearchT3_Analyzer | 10
 ReviveTool | 5
 Revolver | 1
-RevolverAmmo | 200
-RevolverExplosiveAmmo | 200
-RevolverHighPowerAmmo | 200
+RevolverAmmo | 60
+RevolverExplosiveAmmo | 60
+RevolverHighPowerAmmo | 60
 ScrapStation | 5
 SegmentUpgrade | 1
 ShipCoreUpgrade1 | 1
 ShipCoreUpgrade2 | 1
 ShipCoreUpgrade3 | 1
 Shotgun | 1
-ShotgunApSlugs | 200
-ShotgunBuckshot | 200
-ShotgunSlugs | 200
+ShotgunApSlugs | 60
+ShotgunBuckshot | 60
+ShotgunSlugs | 60
 ShotgunTurretAmmo | 400
 SimpleExplosivesSchematic | 20
 SMG | 1
-SMGAmmo | 600
-SMGAmmoT2 | 600
+SMGAmmo | 200
+SMGAmmoT2 | 200
 SMGTurretAmmo | 1200
 Sniper | 1
-SniperAmmo | 100
-SniperAmmoT2 | 100
+SniperAmmo | 30
+SniperAmmoT2 | 30
 SniperTurretAmmo | 200
 SpawnTube | 5
 StarterStructuresSchematic | 20
@@ -255,6 +261,8 @@ TracksT2_Modified | 1
 TracksT3_Improved | 1
 TracksT4_Advanced | 1
 TurretAmmo | 500
+TurretAmmoStrong | 500
+TurretController | 5
 TurretModuleGatling | 5
 TurretModuleMortar | 5
 TurretModulePistol | 5
