@@ -10,9 +10,9 @@ For Volcanoids v1.25.175.0
 Table of Contents
 ---
 
-- [Item Id Fields](#Item-Id-Fields)
-- [Module Id Fields](#Module-Id-Fields)
-- [Recipe Id Fields](#Recipe-Id-Fields)
+- [Item Id Fields](#item-id-fields)
+- [Module Id Fields](#module-id-fields)
+- [Recipe Id Fields](#recipe-id-fields)
 
 Item Id Fields:
 ---
