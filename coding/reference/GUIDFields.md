@@ -4,8 +4,15 @@ title: GUID Fields (C#)
 sidebar_label: GUID Fields (C#)
 ---
 
-For Volcanoids v1.24.471.0
+For Volcanoids v1.25.175.0
 ---
+
+Table of Contents
+---
+
+- [Item Id Fields](#Item-Id-Fields)
+- [Module Id Fields](#Module-Id-Fields)
+- [Recipe Id Fields](#Recipe-Id-Fields)
 
 Item Id Fields:
 ---
@@ -18,24 +25,26 @@ private static readonly GUID AlloyT3Ingot = GUID.Parse("13fbc577a43e7f34e914b3d8
 private static readonly GUID ArmorkitCopper = GUID.Parse("e7111feccf1d6e649963eac87fddf20d");
 private static readonly GUID ArmorkitIron = GUID.Parse("13eb8795a0adb4e499377fcf8102894c");
 private static readonly GUID ArmorkitTitanium = GUID.Parse("02bd8b0bf0c7cf840a61f910289c882c");
+private static readonly GUID ArmorRepairDevice = GUID.Parse("1fc2fb4280dbefd47a9e8c328feaca7c");
 private static readonly GUID BannerLarge = GUID.Parse("147bae0548753c047a4848555601fe5f");
 private static readonly GUID BannerSmall = GUID.Parse("aa91b28ceaa9e5646b5b4fa451835124");
 private static readonly GUID Bed = GUID.Parse("81f42329261e3d948851ae235793ad10");
 private static readonly GUID BlackPowder = GUID.Parse("d328101fb2c64b44fbb0e2748a64a037");
-private static readonly GUID BoardingDrone = GUID.Parse("8c69b13a42d9f124f942a31138983e2a");
 private static readonly GUID BreachReplacement = GUID.Parse("2f88af3168900fd47aca22d25bdf3db6");
 private static readonly GUID CargoModuleT1 = GUID.Parse("38d294f9c4a553d4d947958321966f91");
 private static readonly GUID CargoModuleT2 = GUID.Parse("b0517105257182f49afcbe23088845de");
 private static readonly GUID CargoModuleT3 = GUID.Parse("86d7151630e909944991dbedc1998497");
 private static readonly GUID Chest = GUID.Parse("d273efccf8a1b3b46b35e781da1d7b1e");
+private static readonly GUID CircularSaw = GUID.Parse("6511d384b377b4042bf25610c296e813");
+private static readonly GUID CircularSawAmmo = GUID.Parse("06025477c83f9684192cfa8a14656894");
 private static readonly GUID CoalOre = GUID.Parse("e89c0cdbf40a07f4ebb20d2865717a52");
 private static readonly GUID CoalPowerModuleT1 = GUID.Parse("7155d1834822b064a812b57eedb4fcac");
 private static readonly GUID CoalPowerModuleT2 = GUID.Parse("da53182cfeaac444db3c587904eb292f");
 private static readonly GUID CoalPowerModuleT3 = GUID.Parse("25c8f53e03229144f930b125870ef18e");
 private static readonly GUID CogGatling = GUID.Parse("9b7fbb3df7a14744b8f9b1ca34838ab7");
 private static readonly GUID CogGatlingAmmoT3 = GUID.Parse("a8a3a155b51d62a438b0e112e6ce2a07");
-private static readonly GUID CogGrenade = GUID.Parse("edee8feab373bdf469aad42dab9f9f01");
 private static readonly GUID CogGrenade = GUID.Parse("5d2a98524c1162046a84dda7d2b91872");
+private static readonly GUID CogGrenadeAmmo = GUID.Parse("edee8feab373bdf469aad42dab9f9f01");
 private static readonly GUID CogGunAmmo = GUID.Parse("e07badf36c8900f438b1b911b74a5c66");
 private static readonly GUID CogHead_MilitaryT1_Sentry = GUID.Parse("88c0c18c067ec0549b2b0455981c0fb8");
 private static readonly GUID CogHead_MilitaryT2_Protector = GUID.Parse("fc32ac63ea09a074b8d622fad8792cdb");
@@ -53,6 +62,7 @@ private static readonly GUID CogMortarGrenadeT2 = GUID.Parse("e7f38747705172d419
 private static readonly GUID CogMortarGrenadeT3 = GUID.Parse("50799f65c2c356243b7a511c75b06a01");
 private static readonly GUID CogMortarT2 = GUID.Parse("a0536f437f1ff3247bbccfc7f2091ec7");
 private static readonly GUID CogMortarT3 = GUID.Parse("e3ad31282765a9143a3162bd4ef357ba");
+private static readonly GUID CogPickaxe = GUID.Parse("06949b6bb6015ef4ea677324c635ddc1");
 private static readonly GUID CogRevolverAmmoT1 = GUID.Parse("8e0aa01cf2dc179449f41ffcf96f18c1");
 private static readonly GUID CogRevolverAmmoT2 = GUID.Parse("42a43d195caa9eb4bb4af5545139d511");
 private static readonly GUID CogRevolverAmmoT3 = GUID.Parse("84fa884123e07374391c95231c7d9c36");
@@ -118,6 +128,7 @@ private static readonly GUID Detonator = GUID.Parse("a2e86f35475b1294191575f6987
 private static readonly GUID Dials = GUID.Parse("f4f1eb1effb618444ab53653636ef479");
 private static readonly GUID DiamondIngot = GUID.Parse("7ba2d6c7d6bf2eb41b9732aa1b8f2396");
 private static readonly GUID DiamondOre = GUID.Parse("98244c77b188a0740a2ba3df0dfab2fe");
+private static readonly GUID Dispenser = GUID.Parse("f1a5a5d0b8fcdbb4b9b24b9630258a67");
 private static readonly GUID DoorModule = GUID.Parse("6edc5f9c55fb25c48a63ad047bd38b32");
 private static readonly GUID DrillshipBoiler = GUID.Parse("8df115194252dbc49a608f89fb3be85e");
 private static readonly GUID DrillT1_Copper = GUID.Parse("61b06bed930be134297aa6802358b638");
@@ -133,6 +144,7 @@ private static readonly GUID GatlingAmmo = GUID.Parse("0c215781eafd06a4ead9810f8
 private static readonly GUID GatlingTurretAmmo = GUID.Parse("68125db51cd1b714d8cd8f1dd1e1d374");
 private static readonly GUID Grenade = GUID.Parse("850bf93472186b54d8ebfd87223989db");
 private static readonly GUID HackingTool = GUID.Parse("a8be95e4cba7ba844821734d0780d719");
+private static readonly GUID HealingDevice = GUID.Parse("0a3be365ab582fc498495fb3b1e5e460");
 private static readonly GUID HubProduction = GUID.Parse("ca0964a43824b38468eed492d2385ec4");
 private static readonly GUID HubRefinery = GUID.Parse("d4446b96f5a46494e8bed91cc40c06b7");
 private static readonly GUID HubResearch = GUID.Parse("00175574f3d8b8c41b2da96cd19cfc40");
@@ -174,6 +186,7 @@ private static readonly GUID Mortar = GUID.Parse("da137d36a12c54e46b3a132180b98b
 private static readonly GUID MortarGrenade = GUID.Parse("721881fe35216b3468df695b3d23acda");
 private static readonly GUID MortarGrenadeHE = GUID.Parse("57337a97eb81c7f4ab9f355ddc0d8fdc");
 private static readonly GUID MortarTurretAmmo = GUID.Parse("6af41273ef98e88499f8a7d4e71430c6");
+private static readonly GUID PaintTool = GUID.Parse("bf164bd2a1500024cb1daf85b4118531");
 private static readonly GUID Parts_DrillT2_Hardened = GUID.Parse("cf1c0539d62990044a9b67688e898abf");
 private static readonly GUID Parts_DrillT3_Corundum = GUID.Parse("0032bca7659e9e9459a465c50d3b6fbb");
 private static readonly GUID Parts_DrillT4_Diamond = GUID.Parse("d0b18a9fc5574b74c9b6df4e93d8eb20");
@@ -257,6 +270,8 @@ private static readonly GUID TracksT2_Modified = GUID.Parse("e1b4ffe7c3b0fe44db9
 private static readonly GUID TracksT3_Improved = GUID.Parse("3d937f4e86280e1428510afd3dd70104");
 private static readonly GUID TracksT4_Advanced = GUID.Parse("c83d9a64b6f93f24b90578a3161f8df6");
 private static readonly GUID TurretAmmo = GUID.Parse("f46cdfb659dd5f3428f5a1c9c1fe7d32");
+private static readonly GUID TurretAmmoStrong = GUID.Parse("994d626901a3f0a4fb307ae97a937f9b");
+private static readonly GUID TurretController = GUID.Parse("7f0eb007c3d86054dabe16a19fa0583d");
 private static readonly GUID TurretModuleGatling = GUID.Parse("4b17c7bc9d6c2ee46b7807292f26b432");
 private static readonly GUID TurretModuleMortar = GUID.Parse("a2a0d7a9fab7dee4f8b2f7a6d0912b5a");
 private static readonly GUID TurretModulePistol = GUID.Parse("3bf96763d5dfb564aad936a087cb614e");
@@ -282,10 +297,10 @@ Module Id Fields:
 ---
 
 ```
+private static readonly GUID ArmorRepairDevice = GUID.Parse("1fc2fb4280dbefd47a9e8c328feaca7c");
 private static readonly GUID BannerLarge = GUID.Parse("147bae0548753c047a4848555601fe5f");
 private static readonly GUID BannerSmall = GUID.Parse("aa91b28ceaa9e5646b5b4fa451835124");
 private static readonly GUID Bed = GUID.Parse("81f42329261e3d948851ae235793ad10");
-private static readonly GUID BoardingDrone = GUID.Parse("8c69b13a42d9f124f942a31138983e2a");
 private static readonly GUID CargoModuleT1 = GUID.Parse("38d294f9c4a553d4d947958321966f91");
 private static readonly GUID CargoModuleT2 = GUID.Parse("b0517105257182f49afcbe23088845de");
 private static readonly GUID CargoModuleT3 = GUID.Parse("86d7151630e909944991dbedc1998497");
@@ -301,7 +316,9 @@ private static readonly GUID ControllerSmallFactory = GUID.Parse("d1ef00215f1d81
 private static readonly GUID ControllerSmallSystem = GUID.Parse("fd74b5cfbeca4f54caba56609b4585cd");
 private static readonly GUID DestroyedModuleSide = GUID.Parse("deb94fa0b8b8ff64bb99357b27a47ffd");
 private static readonly GUID DestroyedModuleTop = GUID.Parse("9426c2f5e7a55be46b1bbba237050e20");
+private static readonly GUID Dispenser = GUID.Parse("f1a5a5d0b8fcdbb4b9b24b9630258a67");
 private static readonly GUID DoorModule = GUID.Parse("6edc5f9c55fb25c48a63ad047bd38b32");
+private static readonly GUID HealingDevice = GUID.Parse("0a3be365ab582fc498495fb3b1e5e460");
 private static readonly GUID HubProduction = GUID.Parse("ca0964a43824b38468eed492d2385ec4");
 private static readonly GUID HubRefinery = GUID.Parse("d4446b96f5a46494e8bed91cc40c06b7");
 private static readonly GUID HubResearch = GUID.Parse("00175574f3d8b8c41b2da96cd19cfc40");
@@ -336,6 +353,7 @@ private static readonly GUID StatsPanelMediumSystem = GUID.Parse("48d0935f095568
 private static readonly GUID StatsPanelSmallCore = GUID.Parse("160a4eb9bedfae841a3df84aaff9ec29");
 private static readonly GUID StatsPanelSmallFactory = GUID.Parse("cb7f84ebdc80e834dbbedb38851af64a");
 private static readonly GUID StatsPanelSmallSystem = GUID.Parse("550c35b99061b8b4aaf7bccae8f50cf2");
+private static readonly GUID TurretController = GUID.Parse("7f0eb007c3d86054dabe16a19fa0583d");
 private static readonly GUID TurretModuleGatling = GUID.Parse("4b17c7bc9d6c2ee46b7807292f26b432");
 private static readonly GUID TurretModuleMortar = GUID.Parse("a2a0d7a9fab7dee4f8b2f7a6d0912b5a");
 private static readonly GUID TurretModulePistol = GUID.Parse("3bf96763d5dfb564aad936a087cb614e");
@@ -358,6 +376,7 @@ private static readonly GUID AlloyT3Recipe = GUID.Parse("ae753dbb75885b649be7f35
 private static readonly GUID ArmorKitCopperRecipe = GUID.Parse("99b993886834ad749b89e48aecff9b8e");
 private static readonly GUID ArmorKitIronRecipe = GUID.Parse("c526126e1a44dd64188f5d78164ff106");
 private static readonly GUID ArmorKitTitaniumRecipe = GUID.Parse("0889aa03dc47361479c8a0b1e7780701");
+private static readonly GUID ArmorRepairStationRecipe = GUID.Parse("adccede9e2231604e867e443554f5105");
 private static readonly GUID BannerLargeRecipe = GUID.Parse("323a0710c2ca0a545a1b0618545ffa60");
 private static readonly GUID BannerLargeScrapRecipe = GUID.Parse("6d37874d8485eaa418d520ac7d4d79d9");
 private static readonly GUID BannerSmallRecipe = GUID.Parse("2f6575fd8098e5d4282aa376fb04aa00");
@@ -377,6 +396,7 @@ private static readonly GUID CargoModule3Recipe = GUID.Parse("ee0da1c4321f3944aa
 private static readonly GUID ChestRecipe = GUID.Parse("3c32b24538ff57c419cef803e2e5c76e");
 private static readonly GUID ChestScrapRecipe = GUID.Parse("04012d465c5e67449b4122d67ff34ab9");
 private static readonly GUID ChestWorktableRecipe = GUID.Parse("6190464911b9166449d461f6409b2b95");
+private static readonly GUID CircularSawWeaponRecipe = GUID.Parse("03c968d4185cc8349bcbc7e16e7a744d");
 private static readonly GUID CoalPowerModule1Recipe = GUID.Parse("13bb22e9244a9ca42abc6498274b30b8");
 private static readonly GUID CoalPowerModule2Recipe = GUID.Parse("5c428e7d26231354db06671e53a8a927");
 private static readonly GUID CoalPowerModule3Recipe = GUID.Parse("bb19669ea5be14546a4b785a89e96701");
@@ -413,6 +433,7 @@ private static readonly GUID CogHead_ResearchT2_IntelRecipe = GUID.Parse("100f49
 private static readonly GUID CogHead_ResearchT3_IntelRecipe = GUID.Parse("e5c7e9442109c394a90dd9562cf6c6d8");
 private static readonly GUID CogHead_ResearchT3_Scientist_BasicMat_RecipeScrap = GUID.Parse("80c5db4fb316d3241a57ffda7bd8e506");
 private static readonly GUID CogHead_ResearchT3_Scientist_RecipeScrap = GUID.Parse("2228b410191b3f9458ba1a26c8145c9c");
+private static readonly GUID CogPickaxeToolRecipe = GUID.Parse("bf50d16e7d5d0ec40b410841c2b7d137");
 private static readonly GUID ControllerCustomRecipe = GUID.Parse("35b1e5fdd653eb549bfaa9a29ec64376");
 private static readonly GUID ControllerCustomScrapRecipe = GUID.Parse("275b7123c3a68234284100cdc577151b");
 private static readonly GUID ControllerLargeFactoryRecipe = GUID.Parse("ee139ac128b81054e8cf98ae4cd92a62");
@@ -505,6 +526,7 @@ private static readonly GUID DetonatorRecipe = GUID.Parse("e9d9ce3b44a261b408595
 private static readonly GUID DetonatorRecipeScrap = GUID.Parse("93aba92a26110f744a43977aacdcb491");
 private static readonly GUID DialsRecipe = GUID.Parse("d6c40fe05ab9d484c812344fd3e7ab3d");
 private static readonly GUID DiamondIngotRecipe = GUID.Parse("8fcac92f1e82ca946a39427f634084c7");
+private static readonly GUID DispenserRecipe = GUID.Parse("66b7deb45f57e34488960394f1bc2819");
 private static readonly GUID DoorRecipe = GUID.Parse("cdf29caa10bd18540b7348b9006da6f0");
 private static readonly GUID DoorScrapRecipe = GUID.Parse("15e9dfad4572338459309e784e197785");
 private static readonly GUID DoorWorktableRecipe = GUID.Parse("c6d50ce62e626074ab270fff2f31e904");
@@ -526,6 +548,7 @@ private static readonly GUID GrenadeRecipe = GUID.Parse("6adf7db7ac681c64c849f7b
 private static readonly GUID GrenadeScrapRecipe = GUID.Parse("240b162f892f2e34e8fd5c33309169a8");
 private static readonly GUID HackingToolRecipe = GUID.Parse("1058e33111836f748a5a9317470b1998");
 private static readonly GUID HackingToolRecipeScrap = GUID.Parse("f8133ab319acf2947b88dd031c8e8b55");
+private static readonly GUID HealingRecipe = GUID.Parse("66f722213f0b5e0428294cde8d20bd7b");
 private static readonly GUID HealthPackRecipe = GUID.Parse("2d0b019486806ad44a0033801d1344c6");
 private static readonly GUID HubProductionRecipe = GUID.Parse("fd48546a6deb18a4f96e3d45eb42da7f");
 private static readonly GUID HubProductionScrapRecipe = GUID.Parse("36035f3d0e5056a45b1933a8d87f0f7b");
@@ -709,6 +732,7 @@ private static readonly GUID SniperTurretAmmoRecipe = GUID.Parse("b3933c0870c4f9
 private static readonly GUID SniperTurretAmmoScrapRecipe = GUID.Parse("edc12a53d5e661b44bfbed9160d8b79e");
 private static readonly GUID SniperTurretModuleRecipe = GUID.Parse("1c92153aa0ec76945834a7e4c68ee636");
 private static readonly GUID SniperWeaponRecipe = GUID.Parse("9105c1e1c1562364c919a9c94bcbe1b9");
+private static readonly GUID SprayToolRecipe = GUID.Parse("8525384fddae9824e8e47afdc918eaba");
 private static readonly GUID StarterStructuresSchematicRecipe = GUID.Parse("2cc5607fa7024f0409970c39ae102f9e");
 private static readonly GUID StatsPanelLargeRecipe = GUID.Parse("d0ccc1d59ec1c3945856385d94b0e705");
 private static readonly GUID StatsPanelLargeRecipeScrap = GUID.Parse("298793996c657994c92c08f6ac421004");
@@ -748,6 +772,7 @@ private static readonly GUID TracksUpgrade3Recipe = GUID.Parse("3a8e433519c52cf4
 private static readonly GUID TracksUpgrade4Recipe = GUID.Parse("2779094281c1501418b5b55c80fcf93a");
 private static readonly GUID TurretAmmoRecipe = GUID.Parse("38597476d9c76a34180870072a583d34");
 private static readonly GUID TurretAmmoScrapRecipe = GUID.Parse("c174e895ef0efaf48a6fdb59b8f67b46");
+private static readonly GUID TurretControllerRecipe = GUID.Parse("8964e3e7d30115748a0bf06acee168ae");
 private static readonly GUID TurretGatlingModuleScrapRecipe = GUID.Parse("a9e71876c6f9d6343809ab9e9ac7ae76");
 private static readonly GUID TurretMortarModuleScrapRecipe = GUID.Parse("3a6c329515aaca5439468347ec5ec0d0");
 private static readonly GUID TurretPistolModuleScrapRecipe = GUID.Parse("f75b376d24697b44e9e2fef810409cf5");
