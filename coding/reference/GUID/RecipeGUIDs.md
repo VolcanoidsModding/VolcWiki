@@ -1,6 +1,6 @@
 ---
 id: RecipeGUIDs
-title: RecipeGUIDs | Version 1.24.471
+title: RecipeGUIDs | Version 1.25.175.0.
 sidebar_label: RecipeGUIDs
 ---
 
@@ -12,6 +12,7 @@ private static readonly GUID AlloyT3Recipe = GUID.Parse("ae753dbb75885b649be7f35
 private static readonly GUID ArmorKitCopperRecipe = GUID.Parse("99b993886834ad749b89e48aecff9b8e");
 private static readonly GUID ArmorKitIronRecipe = GUID.Parse("c526126e1a44dd64188f5d78164ff106");
 private static readonly GUID ArmorKitTitaniumRecipe = GUID.Parse("0889aa03dc47361479c8a0b1e7780701");
+private static readonly GUID ArmorRepairStationRecipe = GUID.Parse("adccede9e2231604e867e443554f5105");
 private static readonly GUID BannerLargeRecipe = GUID.Parse("323a0710c2ca0a545a1b0618545ffa60");
 private static readonly GUID BannerLargeScrapRecipe = GUID.Parse("6d37874d8485eaa418d520ac7d4d79d9");
 private static readonly GUID BannerSmallRecipe = GUID.Parse("2f6575fd8098e5d4282aa376fb04aa00");
@@ -31,6 +32,7 @@ private static readonly GUID CargoModule3Recipe = GUID.Parse("ee0da1c4321f3944aa
 private static readonly GUID ChestRecipe = GUID.Parse("3c32b24538ff57c419cef803e2e5c76e");
 private static readonly GUID ChestScrapRecipe = GUID.Parse("04012d465c5e67449b4122d67ff34ab9");
 private static readonly GUID ChestWorktableRecipe = GUID.Parse("6190464911b9166449d461f6409b2b95");
+private static readonly GUID CircularSawWeaponRecipe = GUID.Parse("03c968d4185cc8349bcbc7e16e7a744d");
 private static readonly GUID CoalPowerModule1Recipe = GUID.Parse("13bb22e9244a9ca42abc6498274b30b8");
 private static readonly GUID CoalPowerModule2Recipe = GUID.Parse("5c428e7d26231354db06671e53a8a927");
 private static readonly GUID CoalPowerModule3Recipe = GUID.Parse("bb19669ea5be14546a4b785a89e96701");
@@ -67,6 +69,7 @@ private static readonly GUID CogHead_ResearchT2_IntelRecipe = GUID.Parse("100f49
 private static readonly GUID CogHead_ResearchT3_IntelRecipe = GUID.Parse("e5c7e9442109c394a90dd9562cf6c6d8");
 private static readonly GUID CogHead_ResearchT3_Scientist_BasicMat_RecipeScrap = GUID.Parse("80c5db4fb316d3241a57ffda7bd8e506");
 private static readonly GUID CogHead_ResearchT3_Scientist_RecipeScrap = GUID.Parse("2228b410191b3f9458ba1a26c8145c9c");
+private static readonly GUID CogPickaxeToolRecipe = GUID.Parse("bf50d16e7d5d0ec40b410841c2b7d137");
 private static readonly GUID ControllerCustomRecipe = GUID.Parse("35b1e5fdd653eb549bfaa9a29ec64376");
 private static readonly GUID ControllerCustomScrapRecipe = GUID.Parse("275b7123c3a68234284100cdc577151b");
 private static readonly GUID ControllerLargeFactoryRecipe = GUID.Parse("ee139ac128b81054e8cf98ae4cd92a62");
@@ -159,6 +162,7 @@ private static readonly GUID DetonatorRecipe = GUID.Parse("e9d9ce3b44a261b408595
 private static readonly GUID DetonatorRecipeScrap = GUID.Parse("93aba92a26110f744a43977aacdcb491");
 private static readonly GUID DialsRecipe = GUID.Parse("d6c40fe05ab9d484c812344fd3e7ab3d");
 private static readonly GUID DiamondIngotRecipe = GUID.Parse("8fcac92f1e82ca946a39427f634084c7");
+private static readonly GUID DispenserRecipe = GUID.Parse("66b7deb45f57e34488960394f1bc2819");
 private static readonly GUID DoorRecipe = GUID.Parse("cdf29caa10bd18540b7348b9006da6f0");
 private static readonly GUID DoorScrapRecipe = GUID.Parse("15e9dfad4572338459309e784e197785");
 private static readonly GUID DoorWorktableRecipe = GUID.Parse("c6d50ce62e626074ab270fff2f31e904");
@@ -180,6 +184,7 @@ private static readonly GUID GrenadeRecipe = GUID.Parse("6adf7db7ac681c64c849f7b
 private static readonly GUID GrenadeScrapRecipe = GUID.Parse("240b162f892f2e34e8fd5c33309169a8");
 private static readonly GUID HackingToolRecipe = GUID.Parse("1058e33111836f748a5a9317470b1998");
 private static readonly GUID HackingToolRecipeScrap = GUID.Parse("f8133ab319acf2947b88dd031c8e8b55");
+private static readonly GUID HealingRecipe = GUID.Parse("66f722213f0b5e0428294cde8d20bd7b");
 private static readonly GUID HealthPackRecipe = GUID.Parse("2d0b019486806ad44a0033801d1344c6");
 private static readonly GUID HubProductionRecipe = GUID.Parse("fd48546a6deb18a4f96e3d45eb42da7f");
 private static readonly GUID HubProductionScrapRecipe = GUID.Parse("36035f3d0e5056a45b1933a8d87f0f7b");
@@ -363,6 +368,7 @@ private static readonly GUID SniperTurretAmmoRecipe = GUID.Parse("b3933c0870c4f9
 private static readonly GUID SniperTurretAmmoScrapRecipe = GUID.Parse("edc12a53d5e661b44bfbed9160d8b79e");
 private static readonly GUID SniperTurretModuleRecipe = GUID.Parse("1c92153aa0ec76945834a7e4c68ee636");
 private static readonly GUID SniperWeaponRecipe = GUID.Parse("9105c1e1c1562364c919a9c94bcbe1b9");
+private static readonly GUID SprayToolRecipe = GUID.Parse("8525384fddae9824e8e47afdc918eaba");
 private static readonly GUID StarterStructuresSchematicRecipe = GUID.Parse("2cc5607fa7024f0409970c39ae102f9e");
 private static readonly GUID StatsPanelLargeRecipe = GUID.Parse("d0ccc1d59ec1c3945856385d94b0e705");
 private static readonly GUID StatsPanelLargeRecipeScrap = GUID.Parse("298793996c657994c92c08f6ac421004");
@@ -402,6 +408,7 @@ private static readonly GUID TracksUpgrade3Recipe = GUID.Parse("3a8e433519c52cf4
 private static readonly GUID TracksUpgrade4Recipe = GUID.Parse("2779094281c1501418b5b55c80fcf93a");
 private static readonly GUID TurretAmmoRecipe = GUID.Parse("38597476d9c76a34180870072a583d34");
 private static readonly GUID TurretAmmoScrapRecipe = GUID.Parse("c174e895ef0efaf48a6fdb59b8f67b46");
+private static readonly GUID TurretControllerRecipe = GUID.Parse("8964e3e7d30115748a0bf06acee168ae");
 private static readonly GUID TurretGatlingModuleScrapRecipe = GUID.Parse("a9e71876c6f9d6343809ab9e9ac7ae76");
 private static readonly GUID TurretMortarModuleScrapRecipe = GUID.Parse("3a6c329515aaca5439468347ec5ec0d0");
 private static readonly GUID TurretPistolModuleScrapRecipe = GUID.Parse("f75b376d24697b44e9e2fef810409cf5");
