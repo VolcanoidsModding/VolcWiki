@@ -38,7 +38,7 @@ module.exports = {
                                 {
                                     type: "category",
                                     label: "Simple Modding",
-                                    items: ['sdk/SDKInit', 'sdk/SDKItems'],
+                                    items: ['sdk/SDKInit', 'sdk/simpleModding/SDKItems'],
                                 },
                                 {
                                     type: "category",
