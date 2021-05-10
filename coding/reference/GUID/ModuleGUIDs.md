@@ -1,7 +1,8 @@
 ---
 id: ModuleGUIDs
-title: ModuleGUIDs | Version 1.25.175.0.
+title: ModuleGUIDs
 sidebar_label: ModuleGUIDs
+slug: /reference/GUIDs/ModuleGUIDs
 ---
 
 ```

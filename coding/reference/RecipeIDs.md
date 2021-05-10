@@ -4,9 +4,6 @@ title: Recipe IDs
 sidebar_label: Recipe IDs
 ---
 
-For Volcanoids v1.25.175.0
----
-
 Name | Info
 --- | ---
 AdvancedExplosivesSchematicRecipe | <ul><li>AssetId: 65c99bb5fd3a1104ca8f34a7d2dd7e91</li><li>Output Item:<ul><li>Name: AdvancedExplosivesSchematic</li><li>AssetId: 49e4b97fd5b3e7c40b8702fb1a662ed9</li></ul></li><li>Requirements: UpgradeAdvancedProduction, ImprovedExplosivesSchematic</li></ul>

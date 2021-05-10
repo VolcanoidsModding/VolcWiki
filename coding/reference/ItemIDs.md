@@ -4,8 +4,9 @@ title: Item IDs
 sidebar_label: Item IDs
 ---
 
-For Volcanoids v1.25.175.0
----
+:::note
+`ItemDefinition` has both `name` and `Name` fields. The names here are from the `name` field.
+:::
 
 Name | AssetId (GUID) | Type
 --- | --- | ---

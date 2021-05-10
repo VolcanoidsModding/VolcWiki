@@ -4,9 +4,6 @@ title: Module IDs
 sidebar_label: Module IDs
 ---
 
-For Volcanoids v1.25.175.0
----
-
 Name | AssetId (GUID)
 --- | ---
 ArmorRepairDevice | 1fc2fb4280dbefd47a9e8c328feaca7c

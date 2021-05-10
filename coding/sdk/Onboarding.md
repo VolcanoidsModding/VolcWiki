@@ -2,6 +2,7 @@
 id: SDKOnboarding
 title: SDK Onboarding
 sidebar_label: SDK Onboarding
+slug: /sdk
 ---
 
 :::warning

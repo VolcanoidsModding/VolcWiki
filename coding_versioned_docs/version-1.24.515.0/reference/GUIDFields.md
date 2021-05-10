@@ -4,9 +4,6 @@ title: GUID Fields (C#)
 sidebar_label: GUID Fields (C#)
 ---
 
-For Volcanoids v1.24.471.0
----
-
 Item Id Fields:
 ---
 

@@ -4,8 +4,6 @@ title: Quest Order and List
 sidebar_label: Quest Order and List
 ---
 
-For Volcanoids v1.25.175.0
----
 :::warning
 Quick Note, Anything with an E before it such as `E01_TalkToCaptain` is an event, not a quest, **DO NOT TOUCH THESE**
 :::

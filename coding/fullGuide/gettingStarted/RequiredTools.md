@@ -2,6 +2,7 @@
 id: RequiredTools
 title: Required Tools/Requirements
 sidebar_label: Required Tools/Requirements
+slug: /guides/gettingStarted/RequiredTools
 ---
 
 :::warning
