@@ -4,9 +4,10 @@ title: Item IDs
 sidebar_label: Item IDs
 ---
 
-:::note
-`ItemDefinition` has both `name` and `Name` fields. The names here are from the `name` field.
-:::
+For Volcanoids v1.24.471.0
+---
+
+Note: `ItemDefinition` has both `name` and `Name` fields. The names here are from the `name` field.
 
 Name | AssetId (GUID) | Type
 --- | --- | ---
@@ -17,26 +18,24 @@ AlloyT3Ingot | 13fbc577a43e7f34e914b3d8d8832c16 | ItemDefinition
 ArmorkitCopper | e7111feccf1d6e649963eac87fddf20d | ToolItemDefinition
 ArmorkitIron | 13eb8795a0adb4e499377fcf8102894c | ToolItemDefinition
 ArmorkitTitanium | 02bd8b0bf0c7cf840a61f910289c882c | ToolItemDefinition
-ArmorRepairDevice | 1fc2fb4280dbefd47a9e8c328feaca7c | ItemDefinition
 BannerLarge | 147bae0548753c047a4848555601fe5f | ItemDefinition
 BannerSmall | aa91b28ceaa9e5646b5b4fa451835124 | ItemDefinition
 Bed | 81f42329261e3d948851ae235793ad10 | ItemDefinition
 BlackPowder | d328101fb2c64b44fbb0e2748a64a037 | ItemDefinition
+BoardingDrone | 8c69b13a42d9f124f942a31138983e2a | ItemDefinition
 BreachReplacement | 2f88af3168900fd47aca22d25bdf3db6 | BreachReplacementItemDefinition
 CargoModuleT1 | 38d294f9c4a553d4d947958321966f91 | ItemDefinition
 CargoModuleT2 | b0517105257182f49afcbe23088845de | ItemDefinition
 CargoModuleT3 | 86d7151630e909944991dbedc1998497 | ItemDefinition
 Chest | d273efccf8a1b3b46b35e781da1d7b1e | ItemDefinition
-CircularSaw | 6511d384b377b4042bf25610c296e813 | ToolItemDefinition
-CircularSawAmmo | 06025477c83f9684192cfa8a14656894 | AmmoDefinition
 CoalOre | e89c0cdbf40a07f4ebb20d2865717a52 | ItemDefinition
 CoalPowerModuleT1 | 7155d1834822b064a812b57eedb4fcac | ItemDefinition
 CoalPowerModuleT2 | da53182cfeaac444db3c587904eb292f | ItemDefinition
 CoalPowerModuleT3 | 25c8f53e03229144f930b125870ef18e | ItemDefinition
 CogGatling | 9b7fbb3df7a14744b8f9b1ca34838ab7 | ToolItemDefinition
 CogGatlingAmmoT3 | a8a3a155b51d62a438b0e112e6ce2a07 | AmmoDefinition
+CogGrenade | edee8feab373bdf469aad42dab9f9f01 | AmmoDefinition
 CogGrenade | 5d2a98524c1162046a84dda7d2b91872 | ToolItemDefinition
-CogGrenadeAmmo | edee8feab373bdf469aad42dab9f9f01 | AmmoDefinition
 CogGunAmmo | e07badf36c8900f438b1b911b74a5c66 | AmmoDefinition
 CogHead_MilitaryT1_Sentry | 88c0c18c067ec0549b2b0455981c0fb8 | ItemDefinition
 CogHead_MilitaryT2_Protector | fc32ac63ea09a074b8d622fad8792cdb | ItemDefinition
@@ -54,7 +53,6 @@ CogMortarGrenadeT2 | e7f38747705172d4198b2599aa6bbc3c | AmmoDefinition
 CogMortarGrenadeT3 | 50799f65c2c356243b7a511c75b06a01 | AmmoDefinition
 CogMortarT2 | a0536f437f1ff3247bbccfc7f2091ec7 | ToolItemDefinition
 CogMortarT3 | e3ad31282765a9143a3162bd4ef357ba | ToolItemDefinition
-CogPickaxe | 06949b6bb6015ef4ea677324c635ddc1 | ToolItemDefinition
 CogRevolverAmmoT1 | 8e0aa01cf2dc179449f41ffcf96f18c1 | AmmoDefinition
 CogRevolverAmmoT2 | 42a43d195caa9eb4bb4af5545139d511 | AmmoDefinition
 CogRevolverAmmoT3 | 84fa884123e07374391c95231c7d9c36 | AmmoDefinition
@@ -120,7 +118,6 @@ Detonator | a2e86f35475b1294191575f698729f17 | ToolItemDefinition
 Dials | f4f1eb1effb618444ab53653636ef479 | ItemDefinition
 DiamondIngot | 7ba2d6c7d6bf2eb41b9732aa1b8f2396 | ItemDefinition
 DiamondOre | 98244c77b188a0740a2ba3df0dfab2fe | ItemDefinition
-Dispenser | f1a5a5d0b8fcdbb4b9b24b9630258a67 | ItemDefinition
 DoorModule | 6edc5f9c55fb25c48a63ad047bd38b32 | ItemDefinition
 DrillshipBoiler | 8df115194252dbc49a608f89fb3be85e | ItemDefinition
 DrillT1_Copper | 61b06bed930be134297aa6802358b638 | TrainDrillItemDefinition
@@ -136,7 +133,6 @@ GatlingAmmo | 0c215781eafd06a4ead9810f8800e13a | AmmoDefinition
 GatlingTurretAmmo | 68125db51cd1b714d8cd8f1dd1e1d374 | AmmoDefinition
 Grenade | 850bf93472186b54d8ebfd87223989db | ToolItemDefinition
 HackingTool | a8be95e4cba7ba844821734d0780d719 | ToolItemDefinition
-HealingDevice | 0a3be365ab582fc498495fb3b1e5e460 | ItemDefinition
 HubProduction | ca0964a43824b38468eed492d2385ec4 | ItemDefinition
 HubRefinery | d4446b96f5a46494e8bed91cc40c06b7 | ItemDefinition
 HubResearch | 00175574f3d8b8c41b2da96cd19cfc40 | ItemDefinition
@@ -178,7 +174,6 @@ Mortar | da137d36a12c54e46b3a132180b98bb1 | ToolItemDefinition
 MortarGrenade | 721881fe35216b3468df695b3d23acda | AmmoDefinition
 MortarGrenadeHE | 57337a97eb81c7f4ab9f355ddc0d8fdc | AmmoDefinition
 MortarTurretAmmo | 6af41273ef98e88499f8a7d4e71430c6 | AmmoDefinition
-PaintTool | bf164bd2a1500024cb1daf85b4118531 | ToolItemDefinition
 Parts_DrillT2_Hardened | cf1c0539d62990044a9b67688e898abf | ItemDefinition
 Parts_DrillT3_Corundum | 0032bca7659e9e9459a465c50d3b6fbb | ItemDefinition
 Parts_DrillT4_Diamond | d0b18a9fc5574b74c9b6df4e93d8eb20 | ItemDefinition
@@ -262,8 +257,6 @@ TracksT2_Modified | e1b4ffe7c3b0fe44db9d60f68b2a6340 | TrainTracksItemDefinition
 TracksT3_Improved | 3d937f4e86280e1428510afd3dd70104 | TrainTracksItemDefinition
 TracksT4_Advanced | c83d9a64b6f93f24b90578a3161f8df6 | TrainTracksItemDefinition
 TurretAmmo | f46cdfb659dd5f3428f5a1c9c1fe7d32 | AmmoDefinition
-TurretAmmoStrong | 994d626901a3f0a4fb307ae97a937f9b | AmmoDefinition
-TurretController | 7f0eb007c3d86054dabe16a19fa0583d | ItemDefinition
 TurretModuleGatling | 4b17c7bc9d6c2ee46b7807292f26b432 | ItemDefinition
 TurretModuleMortar | a2a0d7a9fab7dee4f8b2f7a6d0912b5a | ItemDefinition
 TurretModulePistol | 3bf96763d5dfb564aad936a087cb614e | ItemDefinition

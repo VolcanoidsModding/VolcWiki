@@ -2,11 +2,10 @@
 id: BasicMod
 title: Your First Mod
 sidebar_label: Your First Mod
-slug: /guides/gettingStarted/BasicMod
 ---
 
 ## The First Mod
-Let's make your first mod! Unfortunately nothing fancy will happen yet, all that we will be doing is logging a message when your mod is loaded and changing the text in the main menu for Volcanoids!
+Let's make your first mod! Unfortunatly nothing fancy will happen yet, all that we will be doing is logging a message when your mod is loaded and changing the text in the main menu for Volcanoids!
 
 ### Extensions
 The first step in this adventure is to extend your first class with the `GameMod` Class. If you don't know how to do this already it is very simple.
@@ -71,31 +70,6 @@ Using 1 simple line we will actually use the function we just made. In the load 
 ```cs
 SceneManager.sceneLoaded += OnSceneLoaded;
 ```
-
-#### WARNING: Run Data Changes Only Once!
-When you subscribe to the `sceneLoaded` even as above, this event fires **for every game that is loaded**.<br/>
-This means if you, say, add an items during that event, then reload a save, it will try to add the same item again, throw an exception, cause the load game to fail, and dump players into a 'new' game instead of the one they're trying to load.
-
-To get around this, you must either check to make sure the data change you want to make hasn't been made before:
-```cs
-if (!GameResources.Instance.Items.Any(i => i.AssetId == myNewItemId)) { /* add my item */ }
-```
-
-Or just prevent the whole event from running more than once by unsubscribing to the event once it fires:
-```cs
-        public override void Load() {
-            SceneManager.sceneLoaded += OnSceneLoaded;
-        }
-
-        private void OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode) {
-            if (scene.name != "Island") return;
-            SceneManager.sceneLoaded -= OnSceneLoaded;
-
-            /* add my item */
-        }
-```
-
-Usually the latter is enough for most mods, but If not, just remember to check if the thing you're doing has already been done.
 
 ### Logging
 Now this is an interesting topic. Thanks to the hard work of Greg we will make an improved logging event later on in the guides but for now we will use UnityEngine's built in Debug.Log function. In the load event add in these fancy lines:

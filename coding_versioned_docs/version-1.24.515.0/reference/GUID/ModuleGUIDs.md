@@ -1,15 +1,14 @@
 ---
 id: ModuleGUIDs
-title: ModuleGUIDs
+title: ModuleGUIDs | Version 1.24.471
 sidebar_label: ModuleGUIDs
-slug: /reference/GUIDs/ModuleGUIDs
 ---
 
 ```
-private static readonly GUID ArmorRepairDevice = GUID.Parse("1fc2fb4280dbefd47a9e8c328feaca7c");
 private static readonly GUID BannerLarge = GUID.Parse("147bae0548753c047a4848555601fe5f");
 private static readonly GUID BannerSmall = GUID.Parse("aa91b28ceaa9e5646b5b4fa451835124");
 private static readonly GUID Bed = GUID.Parse("81f42329261e3d948851ae235793ad10");
+private static readonly GUID BoardingDrone = GUID.Parse("8c69b13a42d9f124f942a31138983e2a");
 private static readonly GUID CargoModuleT1 = GUID.Parse("38d294f9c4a553d4d947958321966f91");
 private static readonly GUID CargoModuleT2 = GUID.Parse("b0517105257182f49afcbe23088845de");
 private static readonly GUID CargoModuleT3 = GUID.Parse("86d7151630e909944991dbedc1998497");
@@ -25,9 +24,7 @@ private static readonly GUID ControllerSmallFactory = GUID.Parse("d1ef00215f1d81
 private static readonly GUID ControllerSmallSystem = GUID.Parse("fd74b5cfbeca4f54caba56609b4585cd");
 private static readonly GUID DestroyedModuleSide = GUID.Parse("deb94fa0b8b8ff64bb99357b27a47ffd");
 private static readonly GUID DestroyedModuleTop = GUID.Parse("9426c2f5e7a55be46b1bbba237050e20");
-private static readonly GUID Dispenser = GUID.Parse("f1a5a5d0b8fcdbb4b9b24b9630258a67");
 private static readonly GUID DoorModule = GUID.Parse("6edc5f9c55fb25c48a63ad047bd38b32");
-private static readonly GUID HealingDevice = GUID.Parse("0a3be365ab582fc498495fb3b1e5e460");
 private static readonly GUID HubProduction = GUID.Parse("ca0964a43824b38468eed492d2385ec4");
 private static readonly GUID HubRefinery = GUID.Parse("d4446b96f5a46494e8bed91cc40c06b7");
 private static readonly GUID HubResearch = GUID.Parse("00175574f3d8b8c41b2da96cd19cfc40");
@@ -62,7 +59,6 @@ private static readonly GUID StatsPanelMediumSystem = GUID.Parse("48d0935f095568
 private static readonly GUID StatsPanelSmallCore = GUID.Parse("160a4eb9bedfae841a3df84aaff9ec29");
 private static readonly GUID StatsPanelSmallFactory = GUID.Parse("cb7f84ebdc80e834dbbedb38851af64a");
 private static readonly GUID StatsPanelSmallSystem = GUID.Parse("550c35b99061b8b4aaf7bccae8f50cf2");
-private static readonly GUID TurretController = GUID.Parse("7f0eb007c3d86054dabe16a19fa0583d");
 private static readonly GUID TurretModuleGatling = GUID.Parse("4b17c7bc9d6c2ee46b7807292f26b432");
 private static readonly GUID TurretModuleMortar = GUID.Parse("a2a0d7a9fab7dee4f8b2f7a6d0912b5a");
 private static readonly GUID TurretModulePistol = GUID.Parse("3bf96763d5dfb564aad936a087cb614e");

@@ -1,0 +1,168 @@
+{
+  "version-1.24.515.0/codingSidebar": [
+    {
+      "type": "doc",
+      "id": "version-1.24.515.0/Master"
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Guides",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/fullGuide/Introduction"
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Getting Started",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-1.24.515.0/fullGuide/gettingStarted/TheBeginning"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.24.515.0/fullGuide/gettingStarted/RequiredTools"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.24.515.0/fullGuide/gettingStarted/GettingStarted"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.24.515.0/fullGuide/gettingStarted/ProjectSetup"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.24.515.0/fullGuide/gettingStarted/BasicMod"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Simple Modding",
+          "items": []
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Advanced Modding",
+          "items": []
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Snippits",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/snippits/EditingQuests"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/snippits/StationUIText"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "References",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/reference/ItemIDs"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/reference/ModuleIDs"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/reference/RecipeIDs"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/reference/RecipeTimes"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/reference/ItemStacks"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/reference/QuestOrder"
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "GUID Code",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-1.24.515.0/reference/GUID/ItemGUIDs"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.24.515.0/reference/GUID/ModuleGUIDs"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.24.515.0/reference/GUID/RecipeGUIDs"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version-1.24.515.0/officialGuide": [
+    {
+      "type": "doc",
+      "id": "version-1.24.515.0/Master"
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Guide",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/officialGuide/Info"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/officialGuide/RequiredTools"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/officialGuide/ProjectSetup"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/officialGuide/BuildRun"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/officialGuide/FirstMod"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/officialGuide/Debugging"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/officialGuide/GameModding"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.24.515.0/officialGuide/FinalWords"
+        }
+      ]
+    }
+  ]
+}
