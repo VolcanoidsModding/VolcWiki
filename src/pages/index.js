@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'For Coders',
-    imageUrl: 'img/CodingCogSmart.svg',
+    imageUrl: 'img/CodingCog.png',
     description: (
       <>
         We have docs of information relating to GUIDs and fields that
@@ -32,7 +32,7 @@ const features = [
   },
   {
     title: 'For Designers',
-    imageUrl: 'img/CogArtistSmart.svg',
+    imageUrl: 'img/CogArtist.png',
     description: (
       <>
         RedDolphin has written some amazing guides for designing that will come soon
