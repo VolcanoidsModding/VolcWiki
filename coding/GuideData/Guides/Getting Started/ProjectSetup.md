@@ -3,6 +3,7 @@ id: ProjectSetup
 title: Project Setup
 sidebar_label: Project Setup
 slug: /guides/gettingStarted/ProjectSetup
+sidebar_position: 4
 ---
 
 ## Project Setup
@@ -13,7 +14,7 @@ Now that you have created your project it's not just take off and run quite yet.
 
 ### Adding your References
 
-From the [Getting Started](./GettingStarted.md) open your Volcanoids Installation Folder. Open `Volcanoids_Data` and then `Managed`. Back in your Project right click the CSProject file and go to `Add -> Project Reference` and select Browse. Go to this Managed folder. Select the following files:
+From the [Getting Started](/coding/guides/gettingStarted/GettingStarted) open your Volcanoids Installation Folder. Open `Volcanoids_Data` and then `Managed`. Back in your Project right click the CSProject file and go to `Add -> Project Reference` and select Browse. Go to this Managed folder. Select the following files:
 
 ```txt
 Assembly-CSharp.dll

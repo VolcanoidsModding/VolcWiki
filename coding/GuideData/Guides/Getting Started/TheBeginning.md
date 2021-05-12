@@ -3,6 +3,7 @@ id: TheBeginning
 title: Beginning to Mod
 sidebar_label: Beginning to Mod
 slug: /guides/gettingStarted
+sidebar_position: 1
 ---
 
 ## A Note from the Volcanoids Developers
@@ -24,4 +25,4 @@ Official Support for this wiki will be given in the [Volcanoids Discord](https:/
 :::
 
 ## Formatting
-As you might have noticed there are 2 more categories in the Guides category. `Simple Modding` and `Advanced Modding`, alongside this section they make up the 3 steps that if followed in order, will give you the knowledge you need to complete the advanced modding guides. Now for those of you who need to see things visually don't worry, I got you covered. I will be making a full video course going through the same guide system that these written ones will. Also note that at the end of every guide there will be a github link that will direct you at that guides code, Video guide formats will be discussed in episode 1 of the series. I will update [The Coding Master Page](../../Master.md) with the link for the playlist of episodes.
+As you might have noticed there are 2 more categories in the Guides category. `Simple Modding` and `Advanced Modding`, alongside this section they make up the 3 steps that if followed in order, will give you the knowledge you need to complete the advanced modding guides. Now for those of you who need to see things visually don't worry, I got you covered. I will be making a full video course going through the same guide system that these written ones will. Also note that at the end of every guide there will be a github link that will direct you at that guides code, Video guide formats will be discussed in episode 1 of the series. I will update [The Coding Master Page](/coding/Master) with the link for the playlist of episodes.

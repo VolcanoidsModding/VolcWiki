@@ -3,10 +3,11 @@ id: SDKOnboarding
 title: SDK Onboarding
 sidebar_label: SDK Onboarding
 slug: /sdk
+sidebar_position: 1
 ---
 
 :::warning
-From now on I will assume you have followed the [Getting Started](../fullGuide/gettingStarted/TheBeginning.md) Guide set and are ready to mod the game using the SDK version of the documentation. If you do not want to use the SDK refer to the [Non-SDK](../nonSdk/Onboarding.md) guide set.
+From now on I will assume you have followed the [Getting Started](/coding/guides/gettingStarted) Guide set and are ready to mod the game using the SDK version of the documentation. If you do not want to use the SDK refer to the [Non-SDK](/coding/nonSdk) guide set.
 :::
 
 :::tip

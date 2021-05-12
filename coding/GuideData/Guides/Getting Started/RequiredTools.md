@@ -3,6 +3,7 @@ id: RequiredTools
 title: Required Tools/Requirements
 sidebar_label: Required Tools/Requirements
 slug: /guides/gettingStarted/RequiredTools
+sidebar_position: 2
 ---
 
 :::warning
@@ -14,7 +15,7 @@ There is one tool that many consider crucial for modding in this such a way. It'
 :::
 
 ## Visual Studio
-Visual Studio is the tool of choice for this project, this is because of it's features for Unity known as Unity Debugging. I promise this will be a huge help for everyone here soon, for now we will be leaving debugging out of the full guide, if you truly want to use debugging you can find it [here](../../officialGuide/Debugging.md). Now as for installing Visual Studio you can find the download link [here](https://visualstudio.microsoft.com/downloads/) as well as the packages in the image below. As of writing this guide the packages are for Visual Studio 2019, I will only update this if a ground breaking change occurs in the next 3-5 versions.
+Visual Studio is the tool of choice for this project, this is because of it's features for Unity known as Unity Debugging. I promise this will be a huge help for everyone here soon, for now we will be leaving debugging out of the full guide, if you truly want to use debugging you can find it [here](/coding/officialGuide/Debugging). Now as for installing Visual Studio you can find the download link [here](https://visualstudio.microsoft.com/downloads/) as well as the packages in the image below. As of writing this guide the packages are for Visual Studio 2019, I will only update this if a ground breaking change occurs in the next 3-5 versions.
 
 ![VS Installing System](someImage.png)
 

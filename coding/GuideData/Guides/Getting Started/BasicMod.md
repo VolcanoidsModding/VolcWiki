@@ -3,6 +3,7 @@ id: BasicMod
 title: Your First Mod
 sidebar_label: Your First Mod
 slug: /guides/gettingStarted/BasicMod
+sidebar_position: 5
 ---
 
 ## The First Mod
