@@ -153,16 +153,20 @@ module.exports = {
         lastVersion: "current",
         versions: {
           current: {
-            label: "1.25.175.0",
+            label: "1.25.251",
             path: "",
           },
+          "1.25.175": {
+            label: "1.25.175",
+            path: "coding-1.24.175",
+          },
           "1.24.515.0": {
-            label: "1.24.515.0",
-            path: "coding-1.24.515.0",
+            label: "1.24.515",
+            path: "coding-1.24.515",
           },
           "1.24.471.0": {
-            label: "1.24.471.0",
-            path: "coding-1.24.471.0",
+            label: "1.24.471",
+            path: "coding-1.24.471",
           },
         },
         // ... other options
@@ -178,7 +182,7 @@ module.exports = {
         editUrl: "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
         versions: {
           current: {
-            label: "1.25.175.0",
+            label: "1.25.251.0",
             path: "",
           },
           "1.24.471.0": {
