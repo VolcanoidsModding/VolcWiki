@@ -38,4 +38,4 @@ This is here for legacy reasons because the "Workshop" menu isn't public yet.
 This is where `GameMod.PersistentDataDir` (`string`) leads.
 - The folder won't be auto-created, make it if you want it: `Directory.CreateDirectory(PersistentDataDir);`
 - The actual folder you wind up in is either `_YOURMODNAME` or `4657365845` (your workshop id). e.g. `PersistentModData\_MyMod\sonething_you_saved.json`
-- The folder name will be controllable in the future by specifying a unique mod id in the [Manifest](./Manifest).
+- The folder name will be controllable in the future by specifying a unique mod id in the [Manifest](/coding/guides/gettingstarted/manifest/).
