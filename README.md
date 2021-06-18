@@ -1,1 +1,3 @@
-Who needs a Readme?
+npm i
+npm start
+Bam
