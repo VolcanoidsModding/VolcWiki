@@ -100,7 +100,7 @@ Usually the latter is enough for most mods, but If not, just remember to check i
 
 # Shortcut `sceneLoaded` Methods:
 
-All of these are the same as doing `OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode)` and checking the scene name against specific targets.<br>
+All of these are the same as doing `OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode)` and checking the scene name against specific targets.<br/>
 They are easier to use as you don't have to worry about the `sceneLoaded` event.
 
 #### `OnMainMenuLoaded`
