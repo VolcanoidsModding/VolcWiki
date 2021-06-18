@@ -98,6 +98,20 @@ Or just prevent the whole event from running more than once by unsubscribing to 
 
 Usually the latter is enough for most mods, but If not, just remember to check if the thing you're doing has already been done.
 
+# Shortcut `sceneLoaded` Methods:
+
+All of these are the same as doing `OnSceneLoaded(Scene scene, LoadSceneMode loadSceneMode)` and checking the scene name against specific targets.<br>
+They are easier to use as you don't have to worry about the `sceneLoaded` event.
+
+#### `OnMainMenuLoaded`
+Runs when `scene.buildIndex == 0`.
+
+#### `OnGameLoaded`
+Runs when `scene.name == "Island"`.
+
+#### `OnInitData`
+Runs **only once** when `scene.name == "Island"`. You don't need to ensure this alters data only once, it'll do that for you.
+
 ### Logging
 Now this is an interesting topic. Thanks to the hard work of Greg we will make an improved logging event later on in the guides but for now we will use UnityEngine's built in Debug.Log function. In the load event add in these fancy lines:
 
