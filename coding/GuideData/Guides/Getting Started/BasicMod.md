@@ -125,7 +125,7 @@ Debug.Log($"TutorialMod loaded: {version}, build time: {lastWrite.ToShortTimeStr
 Remember to change the `typeof(TutorialMod)` to be `typeof(YOURPROJECTNAME)` or else it will throw an error.
 :::
 
-Let me quickly explain this. The Version Variable is just getting the Project Assembly Version from the Project itself. It's just some over glorified XML reading. The lastWrite however will be a bit more interesting. `File.GetLastWriteTime` get's the last modified time and date from the file itself. The typeof in that function is just grabbing the Assembly Location, again, Fancy XML magic. Debug just takes a string and prints it into the `Player.log` in your Volcanoids AppData folder. With this if you build your mod with F6 and load Volcanoids. You don't need to load a game, if your in the Main Menu it will print out. Just check the top of your Player.log for this string.
+Let me quickly explain this. The Version Variable is just getting the Project Assembly Version from the Project itself. It's just some over glorified XML reading. The lastWrite however will be a bit more interesting. `File.GetLastWriteTime` gets the last modified time and date from the file itself. The typeof in that function is just grabbing the Assembly Location, again, Fancy XML magic. Debug just takes a string and prints it into the `Player.log` in your Volcanoids AppData folder. With this if you build your mod with F6 and load Volcanoids. You don't need to load a game, if your in the Main Menu it will print out. Just check the top of your Player.log for this string.
 
 ### Visual Magic
 To Wrap up here let's do one thing visual so you can say you accomplished something. For now I won't explain the complexities of what this does. However in the future I will give a better explanation of the system in use when we cover children and Text guides. For now just copy this line below and put it above your break statement in the MainMenu case. 
@@ -141,6 +141,6 @@ Rebuilding your mod while Volcanoids is open will cause Visual Studio to throw a
 :::
 
 ### Github
-Thank you all for following the Getting Started Guide. This is the end of the Getting Started Guide Set. Future guides will start appearing in other categories here soon. Some might even already be available, even if they aren't at the time of writing this. By the next Version update I'll change this though. Now what you all are really here for. The code. The Github Link below is a link to the branch of code where you can find all the files and code we used in this guide. Check it out and we will see you in the next guide!
+Thank you all for following the Getting Started Guide. This is the end of the Getting Started Guide Set. Future guides will start appearing in other categories here soon. Some might even already be available, even if they aren't at the time of writing this. By the next Version update I'll change this though. Now what you all are really here for. The code. The GitHub Link below is a link to the branch of code where you can find all the files and code we used in this guide. Check it out and we will see you in the next guide!
 
 [Github](https://github.com/VolcanoidsModding/VolcanoidsGuides/tree/main/GettingStarted)
