@@ -32,7 +32,7 @@ And then any file that has the `Unity` Prefix, or the `UnityEngine` Prefix. This
 
 Right Click on your CSProject File and select Properties. Then select Build Events. In the `Post-build event command line` paste the following code.
 
-```bash
+```batch
 mkdir "%userprofile%\AppData\LocalLow\Volcanoid\Volcanoids\LocalMods\$(TargetName)\"
 copy "$(TargetPath)" "%userprofile%\AppData\LocalLow\Volcanoid\Volcanoids\LocalMods\$(TargetName)\"
 ```
