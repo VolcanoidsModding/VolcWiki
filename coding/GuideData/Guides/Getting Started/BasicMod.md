@@ -19,21 +19,16 @@ public class TutorialMod : GameMod
 With these few characters you now have a functioning GameMod. Visual Studio might throw some errors here so let's fix that.
 
 ### Abstracted Classes
-The Game Mod class has 2 required Abstracted classes. `Load()` and `Unload()`. We will only be making use of the Load() function, so for now let's just put some placeholder error throwing in both classes. We will remove the Load one later.
+The Game Mod class has a few useful Abstracted classes. `Load()` is what we will focus on for now. We will just put some placeholder error throwing in the class. We will remove it later.
 
 :::note
-Unload is currently unused in the code so there is nothing you can do in it that will affect the code.
+All of the classes you can override are listed below, after the OnSceneLoaded work!
 :::
 
-The code for both of these should look something like this. 
+The code for `Load()` should look something like this. 
 
 ```cs
 public override void Load()
-{
-    throw new NotImplementedException();
-}
-
-public override void Unload()
 {
     throw new NotImplementedException();
 }
