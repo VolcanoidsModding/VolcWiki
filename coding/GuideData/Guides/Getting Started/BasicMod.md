@@ -132,6 +132,6 @@ Rebuilding your mod while Volcanoids is open will cause Visual Studio to throw a
 :::
 
 ### Github
-Thank you all for following the Getting Started Guide. This is the end of the Getting Started Guide Set. Future guides will start appearing in other categories here soon. Some might even already be available, even if they aren't at the time of writing this. By the next Version update we'll change this though. Now what you all are really here for. The code. The GitHub Link below is a link to the branch of code where you can find all the files and code we used in this guide. Check it out and we will see you in the next guide!
+Thank you all for following the Getting Started Guide. Future guides will start appearing in other categories here soon. Some might even already be available, even if they aren't at the time of writing this. By the next Version update we'll change this though. Now what you all are really here for. The code. The GitHub Link below is a link to the branch of code where you can find all the files and code we used in this guide. Check it out and we will see you in the next guide!
 
 [Github](https://github.com/VolcanoidsModding/VolcanoidsGuides/tree/main/GettingStarted)
