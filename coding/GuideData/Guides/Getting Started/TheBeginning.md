@@ -19,7 +19,7 @@ ado lets have our modding experts take over and give you all these amazing guide
 Alright everyone! If your following these guides it means your interested in changing or "Mod"ifying the Volcanoids Game,
 To cover this we have divided up the Volcanoids Modding Guides into a few sections. If your here you have probably already
 noticed the split between coding and designing for the wiki. This is for 2 reasons, 1. Coding the game will have some
-different pre-requisites for using the guides, and of course, the coding portion *at least parts of it* are required for
+different prerequisites for using the guides, and of course, the coding portion *at least parts of it* are required for
 the designing side of things. Now to do a speedy explanation of the format as to not bore you all to death.
 
 :::tip

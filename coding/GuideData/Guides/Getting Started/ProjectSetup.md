@@ -40,4 +40,4 @@ copy "$(TargetPath)" "%userprofile%\AppData\LocalLow\Volcanoid\Volcanoids\LocalM
 And with this it will make and copy your mod to the mods folder every time you build your mod!
 
 ### Congratulations
-After 4 Guide Documents you have completed the setup for modding Volcanoids. Now in the final guide for this section we will create the base mod for your game, Unfortunately there will be nothing added to the game yet. We will be covering that in a later guide!
+After 4 Guide Documents you have completed the setup for modding Volcanoids. Now in the final guide for this section we will create the base mod for your game. Unfortunately there will be nothing added to the game yet. We will be covering that in a later guide!
