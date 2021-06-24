@@ -112,7 +112,7 @@ Now this is an interesting topic. Thanks to the hard work of Greg we will make a
 
 ```cs
 var version   = GetType().Assembly.GetName().Version;
-var lastWrite = File.GetLastWriteTime(typeof(TutorialMod).Assembly.Location);
+var lastWrite = File.GetLastWriteTime(GetType().Assembly.Location);
 Debug.Log($"{GetType()} Loaded: {version}, Build Time: {lastWrite.ToShortTimeString()}");
 ```
 
