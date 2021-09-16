@@ -2,7 +2,7 @@
 id: TheBeginning
 title: Beginning to Mod
 sidebar_label: Beginning to Mod
-slug: /guides/gettingStarted
+slug: /coding/guides/gettingStarted
 sidebar_position: 1
 ---
 

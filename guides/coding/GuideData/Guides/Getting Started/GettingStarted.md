@@ -2,7 +2,7 @@
 id: GettingStarted
 title: Getting Started
 sidebar_label: Getting Started
-slug: /guides/gettingStarted/GettingStarted
+slug: /coding/guides/gettingStarted/GettingStarted
 sidebar_position: 3
 ---
 

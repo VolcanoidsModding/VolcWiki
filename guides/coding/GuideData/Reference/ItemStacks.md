@@ -2,6 +2,7 @@
 id: ItemStacks
 title: Item Stack Sizes
 sidebar_label: Item Stack Sizes
+slug: coding/reference/itemstacks
 ---
 
 Name | Stack Size

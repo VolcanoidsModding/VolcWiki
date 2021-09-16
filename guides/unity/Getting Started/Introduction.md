@@ -3,6 +3,7 @@ id: Introduction
 title: Introduction
 sidebar_label: Introduction
 sidebar_position: 1
+slug: /unity/introduction
 ---
 
 ## A Note from the Volcanoids Developers

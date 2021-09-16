@@ -2,7 +2,7 @@
 id: Onboarding
 title: Onboarding
 sidebar_label: Onboarding
-slug: /nonSdk
+slug: /coding/guides/nonsdk/onboarding
 ---
 
 :::warning

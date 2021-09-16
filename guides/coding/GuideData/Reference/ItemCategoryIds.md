@@ -2,6 +2,7 @@
 id: ItemCategoryIDs
 title: Item Category IDs
 sidebar_label: Item Category IDs
+slug: coding/reference/itemcategoryids
 ---
 
 Name | AssetId (GUID)

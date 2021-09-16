@@ -2,7 +2,7 @@
 id: Publishing
 title: Publishing The Mod
 sidebar_label: Publishing The Mod
-slug: /guides/gettingStarted/Publishing
+slug: /coding/guides/gettingStarted/Publishing
 sidebar_position: 7
 ---
 

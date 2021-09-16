@@ -2,6 +2,7 @@
 id: RecipeTimes
 title: Recipe Production Times
 sidebar_label: Recipe Production Times
+slug: coding/reference/recipetimes
 ---
 
 Name | Production Time (s)

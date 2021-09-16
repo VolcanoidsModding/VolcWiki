@@ -2,6 +2,7 @@
 id: ModuleIDs
 title: Module IDs
 sidebar_label: Module IDs
+slug: coding/reference/moduleids
 ---
 
 Name | AssetId (GUID)

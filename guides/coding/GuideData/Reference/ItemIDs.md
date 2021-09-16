@@ -2,6 +2,7 @@
 id: ItemIDs
 title: Item IDs
 sidebar_label: Item IDs
+slug: coding/reference/itemids
 ---
 
 :::note

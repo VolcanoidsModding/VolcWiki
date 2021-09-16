@@ -2,6 +2,7 @@
 id: CategoryCreation
 title: Category Creation Functions
 sidebar_label: Category Creation Functions
+slug: /coding/snippits/categorycreation
 ---
 
 This is just a simple list of category creation functions, They can create Factory, Recipe, Module, and Item Categories.

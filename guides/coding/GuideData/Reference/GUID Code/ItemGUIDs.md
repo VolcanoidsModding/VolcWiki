@@ -2,7 +2,7 @@
 id: ItemGUIDs
 title: ItemGUIDs
 sidebar_label: ItemGUIDs
-slug: /reference/GUIDs/ItemGUIDs
+slug: /coding/reference/GUIDs/ItemGUIDs
 ---
 
 ```

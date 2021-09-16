@@ -2,6 +2,7 @@
 id: SDKItems
 title: Making an Item
 sidebar_label: Making an Item
+slug: /coding/guides/sdk/simple/item
 ---
 
 :::warning

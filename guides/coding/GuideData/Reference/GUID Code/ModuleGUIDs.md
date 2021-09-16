@@ -2,7 +2,7 @@
 id: ModuleGUIDs
 title: ModuleGUIDs
 sidebar_label: ModuleGUIDs
-slug: /reference/GUIDs/ModuleGUIDs
+slug: /coding/reference/GUIDs/ModuleGUIDs
 ---
 
 ```

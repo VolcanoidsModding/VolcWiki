@@ -2,6 +2,7 @@
 id: RecipeCategoryList
 title: Recipe Category List
 sidebar_label: Recipe Category List
+slug: coding/reference/recipecategorylist
 ---
 
  - CraftingRefineryTier1

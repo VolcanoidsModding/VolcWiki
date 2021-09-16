@@ -2,7 +2,7 @@
 id: RecipeGUIDs
 title: RecipeGUIDs
 sidebar_label: RecipeGUIDs
-slug: /reference/GUIDs/RecipeGUIDs
+slug: /coding/reference/GUIDs/RecipeGUIDs
 ---
 
 ```

@@ -153,9 +153,13 @@ module.exports = {
         lastVersion: "current",
         versions: {
           current: {
-            label: "1.26.111",
+            label: "1.26.108",
             path: "",
           },
+          "1.26.98": {
+            label: "1.26.98",
+            path: "gudies-1.26.98"
+          }
         },
         // ... other options
       },

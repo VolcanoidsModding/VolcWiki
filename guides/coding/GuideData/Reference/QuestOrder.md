@@ -2,6 +2,7 @@
 id: QuestOrder
 title: Quest Order and List
 sidebar_label: Quest Order and List
+slug: coding/reference/questorder
 ---
 
 :::warning

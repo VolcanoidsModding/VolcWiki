@@ -2,7 +2,7 @@
 id: ProjectSetup
 title: Project Setup
 sidebar_label: Project Setup
-slug: /guides/gettingStarted/ProjectSetup
+slug: /coding/guides/gettingStarted/ProjectSetup
 sidebar_position: 4
 ---
 

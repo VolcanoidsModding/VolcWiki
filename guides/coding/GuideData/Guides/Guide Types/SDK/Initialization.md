@@ -3,6 +3,7 @@ id: SDKInit
 title: Initializing the SDK
 sidebar_label: Initializing the SDK
 sidebar_position: 2
+slug: /coding/guides/sdk/initialization
 ---
 
 :::warning

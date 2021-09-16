@@ -2,7 +2,7 @@
 id: Manifest
 title: The Mod Manifest
 sidebar_label: The Mod Manifest
-slug: /guides/gettingStarted/Manifest
+slug: /coding/guides/gettingStarted/Manifest
 sidebar_position: 6
 ---
 

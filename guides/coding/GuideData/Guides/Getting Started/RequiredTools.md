@@ -2,12 +2,12 @@
 id: RequiredTools
 title: Required Tools/Requirements
 sidebar_label: Required Tools/Requirements
-slug: /guides/gettingStarted/RequiredTools
+slug: /coding/guides/gettingStarted/RequiredTools
 sidebar_position: 2
 ---
 
 :::warning
-From here on, nothing in this guide is official, this is just the only support that Volcanoids can offer for modding at the moment. However, while creating mods and this guide, the usage and code was explained to us during our close work with Ondrej. Tomas has also been a huge support for us, without their, and Rich's help, none of this would have been possible.
+From here on, nothing in this guide is official, this is the only code based programming currently useable, these guides have been handled primarily by Greg. However, while creating mods and this guide, the usage and code was explained to us during our close work with Ondrej. Tomas has also been a huge support for us, without their, and Rich's help, none of this would have been possible.
 :::
 
 :::note
@@ -26,7 +26,7 @@ I feel like this one's a given, however to ensure it's done correctly, the Volca
 Well this one is very very optional. Really you only need this if you are a designer for now. However I'll save that for the designer guide. For now you do not need it for modding Volcanoids along these guides.
 
 :::tip
-I will put a warning on any guides that might need Unity right at the top. So if you see it and don't want to get Unity, skip that guide :)
+We have a whole section of guides based on Unity, Check that out if Unity is more your style.
 :::
 
 ## Global Requirements

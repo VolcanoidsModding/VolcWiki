@@ -2,6 +2,7 @@
 id: DecalCategories
 title: Decal Categories
 sidebar_label: Decal Categories
+slug: coding/reference/decalcategories
 ---
 
 Name | AssetId (GUID) | Type

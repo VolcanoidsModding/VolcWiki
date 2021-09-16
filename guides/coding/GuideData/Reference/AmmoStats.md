@@ -2,6 +2,7 @@
 id: AmmoStats
 title: Ammo Stats
 sidebar_label: Ammo Stats
+slug: coding/reference/ammostats
 ---
 
 Name | AssetId (GUID) | Damage | Range

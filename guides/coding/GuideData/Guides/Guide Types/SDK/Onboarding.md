@@ -2,7 +2,7 @@
 id: SDKOnboarding
 title: SDK Onboarding
 sidebar_label: SDK Onboarding
-slug: /sdk
+slug: /coding/guides/sdk/onboarding
 sidebar_position: 1
 ---
 

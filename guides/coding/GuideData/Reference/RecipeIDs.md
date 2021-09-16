@@ -2,6 +2,7 @@
 id: RecipeIDs
 title: Recipe IDs
 sidebar_label: Recipe IDs
+slug: coding/reference/recipeids
 ---
 
 Name | Info

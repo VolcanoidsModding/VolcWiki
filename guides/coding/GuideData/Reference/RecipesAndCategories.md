@@ -2,6 +2,7 @@
 id: RecipesAndCategories
 title: Recipes and Categories
 sidebar_label: Recipes and Categories
+slug: coding/reference/recipesandcategories
 ---
 
 Name | Category (s)

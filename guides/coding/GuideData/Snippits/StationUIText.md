@@ -2,6 +2,7 @@
 id: StationUIText
 title: Changing Station UI Text
 sidebar_label: Changing Station UI Text
+slug: /coding/snippits/stationuitext
 ---
 
 This is for changing the station text in the worldview:<br/>

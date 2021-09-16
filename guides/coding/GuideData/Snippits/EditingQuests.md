@@ -2,6 +2,7 @@
 id: EditingQuests
 title: Editing/Creating Quests
 sidebar_label: Editing/Creating Quests
+slug: /coding/snippits/editingquests
 ---
 
 Altering quests means altering `QuestManager.m_quests` which is attached to about 1600 game objects and only two of them actually load the quests.<br/>
