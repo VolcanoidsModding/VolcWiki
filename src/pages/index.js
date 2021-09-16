@@ -8,13 +8,14 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'For Coders',
+    title: 'For Everyone',
     imageUrl: 'img/undraw_source.svg',
     description: (
       <>
-        We have docs of information relating to GUIDs and fields that
-        Volcanoids uses for you to base your code off of. There are also
-        a full set of coding guides coming soon!
+        We have a whole new set of docs built for our
+        new Unity Modding SDK, there is some amazing stuff
+        anyone can do by following these guides, even if you
+        can't program or design, You'll be good to go here!
       </>
     ),
   },

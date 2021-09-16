@@ -8,7 +8,6 @@ module.exports = {
       type: 'doc',
       id: 'ModList'
     }
-
     //Installation: ['InstallingMods', 'ModList'],
     //Coding: ['StationUIText', 'EditingQuests'],
     //Designers: ['MainDesign'],

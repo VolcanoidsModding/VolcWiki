@@ -2,7 +2,7 @@
 module.exports = {
   title: "Volcanoids Modding Wiki",
   tagline: "The Modding Hub for Volcanoids",
-  url: "https://modding.melodicalbuild.me",
+  url: "https://modding.volcanoids.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -35,15 +35,15 @@ module.exports = {
           position: "left",
         },
         {
-          to: "coding/",
-          activeBasePath: "coding",
-          label: "Coding",
+          to: "unity/",
+          activeBasePath: "unity",
+          label: "Unity",
           position: "left",
         },
         {
-          to: "designing/",
-          activeBasePath: "designing",
-          label: "Designing",
+          to: "coding/",
+          activeBasePath: "coding",
+          label: "Coding",
           position: "left",
         },
         //{ to: "blog", label: "Blog", position: "left" },
@@ -57,7 +57,7 @@ module.exports = {
           dropdownItemsAfter: [],
           // Do not add the link active class when browsing docs.
           dropdownActiveClassDisabled: true,
-          docsPluginId: "coding",
+          docsPluginId: "unity",
         },
         {
           href: "https://github.com/VolcanoidsModding",
@@ -77,12 +77,12 @@ module.exports = {
               to: "docs/",
             },
             {
-              label: "Coding",
-              to: "coding/",
+              label: "Unity",
+              to: "unity/",
             },
             {
-              label: "Designing",
-              to: "designing/",
+              label: "Coding",
+              to: "coding/",
             },
           ],
         },
@@ -146,23 +146,31 @@ module.exports = {
         id: "coding",
         path: "coding",
         routeBasePath: "coding",
-        sidebarPath: require.resolve("./sidebarsDevelopment.js"),
+        sidebarPath: require.resolve("./sidebarsCoding.js"),
         editUrl: "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
         includeCurrentVersion: true,
         disableVersioning: false,
         lastVersion: "current",
         versions: {
           current: {
-            label: "1.25.175.0",
+            label: "1.26.111",
             path: "",
           },
+          "1.25.251": {
+            label: "1.25.251",
+            path: "coding-1.24.251",
+          },
+          "1.25.175": {
+            label: "1.25.175",
+            path: "coding-1.24.175",
+          },
           "1.24.515.0": {
-            label: "1.24.515.0",
-            path: "coding-1.24.515.0",
+            label: "1.24.515",
+            path: "coding-1.24.515",
           },
           "1.24.471.0": {
-            label: "1.24.471.0",
-            path: "coding-1.24.471.0",
+            label: "1.24.471",
+            path: "coding-1.24.471",
           },
         },
         // ... other options
@@ -171,19 +179,18 @@ module.exports = {
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "designing",
-        path: "designing",
-        routeBasePath: "designing",
-        sidebarPath: require.resolve("./sidebarsDesigning.js"),
+        id: "unity",
+        path: "unity",
+        routeBasePath: "unity",
+        sidebarPath: require.resolve("./sidebarsDevelopment.js"),
         editUrl: "https://github.com/VolcanoidsModding/VolcWiki/blob/main",
+        includeCurrentVersion: true,
+        disableVersioning: false,
+        lastVersion: "current",
         versions: {
           current: {
-            label: "1.24.515.0",
+            label: "1.26.111.0",
             path: "",
-          },
-          "1.24.471.0": {
-            label: "1.24.471.0",
-            path: "designing-1.24.471.0",
           },
         },
       },
