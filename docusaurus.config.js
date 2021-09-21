@@ -4,7 +4,7 @@ module.exports = {
   tagline: "The Modding Hub for Volcanoids",
   url: "https://modding.volcanoids.com",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/ModdingCOG.ico",
   organizationName: "VolcanoidsModding", // Usually your GitHub org/user name.
@@ -158,8 +158,8 @@ module.exports = {
           },
           "1.26.108": {
             label: "1.26.108",
-            path: "gudies-1.26.108"
-          }
+            path: "gudies-1.26.108",
+          },
         },
         // ... other options
       },
