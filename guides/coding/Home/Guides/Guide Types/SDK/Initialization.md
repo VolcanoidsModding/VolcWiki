@@ -7,7 +7,7 @@ slug: /coding/guides/sdk/initialization
 ---
 
 :::warning
-This Guide may not be inline with the current SDK Version. If you have problems check out the SDK API Docs for the default sdk [here](https://sdk.melodicalbuild.me/VolcanoidsSDK/sdk).
+This Guide may not be inline with the current SDK Version. If you have problems check out the SDK API Docs for the default sdk [here](https://volcsdk.melodicalbuild.com/VolcanoidsSDK/sdk).
 :::
 
 Alright. Let's talk SDK! I'm sure you all have done the Onboarding if you have made it to here so let's do the actual setup stuff for the SDK. As explained by the warning above that link is the SDK docs so if you need a direct link to how the functions work behind the scenes. Setting up the SDK involves 2 classes. Both the default `SDK` class and the `Functions` class. Both of these are on the SDK docs page, but I will be writing up 3 new lines we need. Keep in mind if you haven't initialized a GameMod yet for Volcanoids you need to do that first.
