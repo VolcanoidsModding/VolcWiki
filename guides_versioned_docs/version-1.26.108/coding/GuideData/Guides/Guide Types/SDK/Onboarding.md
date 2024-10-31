@@ -16,5 +16,5 @@ All the data in this section is using the SDK, anything that refers to the Volca
 
 Ok I'm putting this here just because I am laughing really hard at this. I have no idea what I was gonna put in this document so for now here's a link to the SDK documentation. The SDK package website and those 2 things above this. Honestly if you have those 2 done you can ignore this.
 
-[SDK Documentation](https://sdk.melodicalbuild.me) <br/>
+[SDK Documentation](https://volcsdk.melodicalbuild.com/) <br/>
 [SDK Webpage](https://nuget.org/packages/VolcanoidsSDK)

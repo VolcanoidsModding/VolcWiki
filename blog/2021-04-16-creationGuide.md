@@ -1,10 +1,7 @@
 ---
 slug: creationguide
 title: Creation Guide
-author: MelodicAlbuild
-author_title: Engine Designer @ Gearbox
-author_url: https://github.com/MelodicAlbuild
-author_image_url: https://avatars3.githubusercontent.com/u/43552157?v=4
+authors: MelodicAlbuild
 tags: [modding, creationguide, gearbox]
 ---
 
@@ -13,6 +10,8 @@ Table of Contents are Auto Generated with any field that has at least one # and 
 :::
 
 Creating a new Doc is very simple.
+
+<!-- truncate -->
 
 ## File Creation
 

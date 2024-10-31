@@ -1,14 +1,13 @@
 ---
 slug: styleguide
 title: Style Guide
-author: MelodicAlbuild
-author_title: Engine Designer @ Gearbox
-author_url: https://github.com/MelodicAlbuild
-author_image_url: https://avatars3.githubusercontent.com/u/43552157?v=4
+authors: MelodicAlbuild
 tags: [modding, styleguide, gearbox]
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+
+<!-- truncate -->
 
 ## Markdown Syntax
 
