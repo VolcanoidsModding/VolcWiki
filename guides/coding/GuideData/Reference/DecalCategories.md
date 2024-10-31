@@ -17,4 +17,4 @@ DecalCategoryMisc | 447cd4412885bf44d9b1a5ffaddb3c23 | DecalCategory
 DecalCategoryShapes | b4ff67902671fab44a40ac4ae81d1deb | DecalCategory
 DecalCategorySigns | 57944088039c503429dd63dc63fbb6dc | DecalCategory
 DecalCategoryTechnical | 286a86d24c506174da826fbcde9bf8a1 | DecalCategory
-{no name} | 64c1e141f6af4e328dd4d5a3cf15fea2 | DecalCategory
+\{no name\} | 64c1e141f6af4e328dd4d5a3cf15fea2 | DecalCategory
