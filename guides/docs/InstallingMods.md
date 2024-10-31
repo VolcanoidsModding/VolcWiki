@@ -8,7 +8,8 @@ slug: /
 Installation Steps:
 ---
 
-- Go to `%LOCALAPPDATA%Low\Volcanoid\Volcanoids`.
+- Go to `%LOCALAPPDATA%Low\Volcanoid\Volcanoids` on Windows.
+  - Use `$HOME/.config/unity3d/Volcanoid/Volcanoids` if on Linux.
 - Create & open a `Mods` folder at this location.
   - Your path should now end in `\Volcanoid\Volcanoids\Mods`.
 - Extract your mod so the dlls are in sub-directories in the `Mods` folder.
